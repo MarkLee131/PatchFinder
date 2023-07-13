@@ -68,3 +68,20 @@ def manual_efforts(k_list=[1, 5, 10, 20, 30, 50, 100], save_path=os.path.join(DA
         manual_efforts_info_iter.to_csv(save_path, mode='a', header=False, index=False)
 
 recall()
+
+'''
+Top@1 recall: 0.22175819586552517
+Top@1 recall info saved
+Top@5 recall: 0.3476717477552725
+Top@5 recall info saved
+Top@10 recall: 0.39674253497598666
+Top@10 recall info saved
+Top@20 recall: 0.4499895594069743
+Top@20 recall info saved
+Top@30 recall: 0.4821465859260806
+Top@30 recall info saved
+Top@50 recall: 0.5291292545416579
+Top@50 recall info saved
+Top@100 recall: 0.6007517226978493
+Top@100 recall info saved
+'''
