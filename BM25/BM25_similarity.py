@@ -22,6 +22,8 @@ def compute_similarity(args):
     group, cve = args
 
     corpus = [text.lower().split() for text in group['combined'].fillna('').tolist()]  # Ensure no NaN values in corpus, convert to list of tokens
+    # use ATIRE BM25, and the best parameters for ATIRE BM25 are b=0.3 and k1=1.1 
+    # bm25 = BM25Okapi(corpus, k1=1.1, b=0.3)
     bm25 = BM25Okapi(corpus)
 
     query = group['desc_token'].iloc[0]
@@ -47,16 +49,24 @@ if __name__ == '__main__':
     
     # Create and write the header of the CSV file
     empty_df = pd.DataFrame(columns=['cve', 'owner', 'repo', 'commit_id', 'similarity', 'label'])
+    
+    ### if the file exists, rename it to .bak
+    if os.path.exists(os.path.join(DATA_DIR, 'similarity_data_bm25.csv')):
+        os.rename(os.path.join(DATA_DIR, 'similarity_data_bm25.csv'), os.path.join(DATA_DIR, 'similarity_data_bm25.csv.bak'))
+    
     empty_df.to_csv(os.path.join(DATA_DIR, 'similarity_data_bm25.csv'), index=False)
 
     # Load data
     # commit_data = pd.read_csv(os.path.join(DATA_DIR, 'commit_sample.csv')) ### for test
     commit_data = pd.read_csv(os.path.join(DATA_DIR, 'commit_info.csv'))
     reduce_mem_usage(commit_data)
+    print("shape of commit_data: ", commit_data.shape)
     desc_data = pd.read_csv(os.path.join(DATA_DIR, 'cve_desc.csv'))
+    print("shape of desc_data: ", desc_data.shape)
 
     # Merge commit_data and desc_data on 'cve' column
     data = pd.merge(commit_data, desc_data, on='cve', how='left')
+    print("shape of data: ", data.shape)
 
     # Reduce memory usage
     reduce_mem_usage(data)

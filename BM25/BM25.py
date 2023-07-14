@@ -85,3 +85,23 @@ Top@50 recall info saved
 Top@100 recall: 0.6007517226978493
 Top@100 recall info saved
 '''
+
+
+'''
+bm25 = BM25Okapi(corpus, k1=1.1, b=0.3)
+
+Top@1 recall: 0.1252871163082063
+Top@1 recall info saved
+Top@5 recall: 0.21737314679473793
+Top@5 recall info saved
+Top@10 recall: 0.26477343913134266
+Top@10 recall info saved
+Top@20 recall: 0.31885571100438503
+Top@20 recall info saved
+Top@30 recall: 0.36061808310712046
+Top@30 recall info saved
+Top@50 recall: 0.4151179787011902
+Top@50 recall info saved
+Top@100 recall: 0.49885153476717475
+Top@100 recall info saved
+'''
