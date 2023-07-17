@@ -3,6 +3,7 @@ import torch.nn.functional as F
 import torch
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence  
 from sparse_activations import sparsemax
+
 class LSTMwithLSTM11(nn.Module):
     def __init__(self, desc_dim, desc_embedding_dim, desc_hidden_dim, desc_n_layers, 
                  code_dim, code_embedding_dim, code_hidden_dim, code_n_layers,

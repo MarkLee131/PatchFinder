@@ -1,6 +1,6 @@
 import models
 import torch
-import prepare_data_feature1
+import prepare_data_feature
 import train
 import configs
 import torch.optim as optim
@@ -14,14 +14,11 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 
 
-
-
-
 if __name__ == '__main__':
 
     configs.get_singapore_time()
     logging.info('1/4: start to contruct the data iterator.')
-    train_iterator, vaild_iterator, test_iterator = prepare_data_feature1.prepare_data()
+    train_iterator, vaild_iterator, test_iterator = prepare_data_feature.prepare_data()
     
     configs.get_singapore_time()
     logging.info('2/4: start to contruct our model.')
