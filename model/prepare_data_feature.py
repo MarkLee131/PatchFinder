@@ -55,7 +55,7 @@ def prepare_data():
     torch.backends.cudnn.deterministic = True
 
     DIFF = data.Field(tokenize = diff_tokenize,
-                    include_lengths=True,batch_first=True, fixed_length=512) ##### for code, we should truncate the length of the code to 512 or less. len(list)
+                    include_lengths=True,batch_first=True)#, fixed_length=512) ##### for code, we should truncate the length of the code to 512 or less. len(list)
     
     ##### TODO to determine whether we should use fixed_length or not, we should check the codereviewer usage.
     

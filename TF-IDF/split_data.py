@@ -87,3 +87,4 @@ if __name__ == '__main__':
 # Number of unique 'cve' in train_data: 3831
 # Number of unique 'cve' in validate_data: 478
 # Number of unique 'cve' in test_data: 480
+## scp -r ./split_data/ -P xxx kaixuan_cuda11@xxxxxx:/mnt/local/Baselines_Bugs/PatchSleuth/data/
