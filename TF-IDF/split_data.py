@@ -82,3 +82,8 @@ if __name__ == '__main__':
     test_df = data[data['cve'].isin(test_cve)]
     test_df.to_csv(os.path.join(SPLIT_DATA_DIR, 'test_data.csv'), index=False)
     print(f"Number of unique 'cve' in test_data: {test_df['cve'].nunique()}")
+
+# len(cve_list):  4789
+# Number of unique 'cve' in train_data: 3831
+# Number of unique 'cve' in validate_data: 478
+# Number of unique 'cve' in test_data: 480
