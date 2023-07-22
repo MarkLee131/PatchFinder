@@ -21,6 +21,7 @@ if __name__ == '__main__':
     train_iterator, vaild_iterator, test_iterator = prepare_data_feature.prepare_data()
     
     configs.get_singapore_time()
+
     logging.info('2/4: start to contruct our model.')
     model = models.LSTMwithLSTM11(desc_dim=100002, desc_embedding_dim=512, desc_hidden_dim=512, desc_n_layers=1, 
                  code_dim=100002, code_embedding_dim=512, code_hidden_dim=512, code_n_layers=1,

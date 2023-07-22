@@ -2,7 +2,7 @@ TF-IDF/similarity_data_normalized_TFIDF.csv
 TF-IDF/similarity_data_TFIDF.csv
 
 data/
-
+*.pth
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
