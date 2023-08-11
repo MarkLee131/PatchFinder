@@ -1,42 +1,14 @@
-# model
+# Load data implementation
 
-## Environment
+> We need to use the `torchtext` library to load data. The `torchtext` library has been reorganized in the latest version. The following code is based on the latest version of `torchtext` library. 
+reference link: https://github.com/pytorch/text/blob/master/examples/legacy_tutorial/migration_tutorial.ipynb
 
-1. First, make sure your conda environment is updated:
+## Steps
 
-```shell
-conda update --all
-```
+1. Train/validate/test split: generate train/validate/test data set if they are available
+2. Tokenization: break a raw text string sentence into a list of words
+3. Vocab: define a "contract" from tokens to indexes
+4. Numericalize: convert a list of tokens to the corresponding indexes
+5. Batch: generate batches of data samples and add padding if necessary
 
-
-2. Create a new environment with Python 3.9:
-```shell
-conda create -n new_env python=3.9
-```
-
-3. Activate the new environment:
-```shell
-conda activate new_env
-```
-
-4. (Optional, since we have installed wrong versions) 
-Uninstall the current versions of torch, torchvision, and torchtext:
-
-```shell
-pip uninstall torch torchvision torchtext
-```
-
-5. Install the compatible versions of torch, torchvision, and torchtext:
-
-```shell
-pip install torch==1.7.1 torchvision==0.8.2 torchtext==0.8.1
-```
-
-6. Verify the installations:
-```shell
-python -c "import torch, torchvision, torchtext; print(torch.__version__, torchvision.__version__, torchtext.__version__)"
-```
-
-
-## prepare_data_feature1.py
-
+## Data format

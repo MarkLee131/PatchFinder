@@ -1,47 +1,73 @@
 import pandas as pd
 import torch
-from torch.utils.data import DataLoader, Dataset
-# from sklearn.model_selection import train_test_split
+from torch.utils.data import Dataset
 # Load model directly
 from transformers import AutoTokenizer
-import configs
 
-class CSVDataset(Dataset):
-    def __init__(self, desc_tokens, msg_tokens, diff_tokens, labels):
-        self.desc_tokens = desc_tokens
-        self.msg_tokens = msg_tokens
-        self.diff_tokens = diff_tokens
-        self.labels = labels
+
+class CVEDataset(Dataset):
+    def __init__(self, file_name):
+        self.df = pd.read_csv(file_name)
+        self.cve = self.df['cve']
+        self.desc_tokens = self.df['desc_token']
+        self.msg_tokens = self.df['msg_token']
+        self.diff_tokens = self.df['diff_token']
+        self.labels = self.df['label']
+        self.tokenizer = AutoTokenizer.from_pretrained("microsoft/codereviewer")
+        
+    def __getitem__(self, index):
+        desc=self.desc_tokens[index] if isinstance(self.desc_tokens[index],str) else ''
+        desc_encoding = self.tokenizer.encode_plus(
+        desc,
+        add_special_tokens=True,
+        max_length=128,
+        return_token_type_ids=False,
+        padding='max_length',
+        return_attention_mask=True,
+        return_tensors='pt',
+        truncation=True
+        )
+        msg = self.msg_tokens[index] if isinstance(self.msg_tokens[index],str) else ''
+        msg_encoding = self.tokenizer.encode_plus(
+        msg,
+        add_special_tokens=True,
+        max_length=128,
+        return_token_type_ids=False,
+        padding='max_length',
+        return_attention_mask=True,
+        return_tensors='pt',
+        truncation=True
+        )
+        
+        diff = self.diff_tokens[index] if isinstance(self.diff_tokens[index],str) else ''
+        diff_encoding = self.tokenizer.encode_plus(
+        diff,
+        add_special_tokens=True,
+        max_length=128,
+        return_token_type_ids=False,
+        padding='max_length',
+        return_attention_mask=True,
+        return_tensors='pt',
+        truncation=True
+        )        
+
+        return {
+            'input_ids_desc': desc_encoding['input_ids'].flatten(),
+            'attention_mask_desc': desc_encoding['attention_mask'].flatten(),
+            'input_ids_msg': msg_encoding['input_ids'].flatten(),
+            'attention_mask_msg': msg_encoding['attention_mask'].flatten(),
+            'input_ids_diff': diff_encoding['input_ids'].flatten(),
+            'attention_mask_diff': diff_encoding['attention_mask'].flatten(),
+            'label': torch.tensor(self.labels[index], dtype=torch.long),
+            'cve': self.cve[index]
+        }
 
     def __len__(self):
-        return len(self.desc_tokens)
-
-    def __getitem__(self, idx):
-        return self.desc_tokens[idx], self.msg_tokens[idx], self.diff_tokens[idx], self.labels[idx]
-
-def load_data(file):
-    data = pd.read_csv(file)
-
-    code_tokenizer = AutoTokenizer.from_pretrained("microsoft/codereviewer")
-    # model = AutoModelForSeq2SeqLM.from_pretrained("microsoft/codereviewer")
-
-    desc_tokens = data['desc_token'].tolist()
-    msg_tokens = [code_tokenizer.tokenize(msg) for msg in data['msg_token'].tolist()]
-    diff_tokens = [code_tokenizer.tokenize(diff) for diff in data['diff_token'].tolist()]
-    labels = data['label'].tolist()
-
-    dataset = CSVDataset(desc_tokens, msg_tokens, diff_tokens, labels)
-
-    return DataLoader(dataset, batch_size=configs.batch_size, shuffle=True)
-
-if __name__ == '__main__':
-    train_loader = load_data(configs.data_path + "/" + configs.train_file)
-    valid_loader = load_data(configs.data_path + "/" + configs.valid_file)
-    test_loader = load_data(configs.data_path + "/" + configs.test_file)
+        return len(self.df)
 
 
 
-### ChatGPT prompt:
+# ### ChatGPT prompt:
 # You are an AI programmer for software engineering tasks. 
 # now we try to train a model to locate the patch commits for a give CVE description. 
 # We expect to use bi-LSTM and the pretrained model Codereviewer to train a model to solve it.
