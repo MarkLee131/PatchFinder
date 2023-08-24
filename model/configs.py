@@ -5,20 +5,25 @@ gpus = [0,1,2,3]
 data_path='/mnt/local/Baselines_Bugs/PatchSleuth/data'
 os.makedirs(data_path,exist_ok=True)
 
-train_file='train_data.csv'
-valid_file='validate_data.csv'
-test_file='test_data.csv'
+train_filename    = 'train_data_top100.csv'
+validate_filename = 'validate_data_top100.csv'
+test_filename     = 'test_data_top100.csv'
+
+
+train_file=os.path.join(data_path, train_filename)
+valid_file=os.path.join(data_path, validate_filename)
+test_file=os.path.join(data_path, test_filename)
 batch_size=128
 
-save_path='/mnt/local/Baselines_Bugs/PatchSleuth/output' ### the path to save [tokenized datasets] and models
+save_path='/mnt/local/Baselines_Bugs/PatchSleuth/output'
 os.makedirs(save_path,exist_ok=True)
 
 debug=False
 device = torch.device("cuda" if torch.cuda.is_available() and not debug else 'cpu')
 
-save_dataset=True #### whether the tokenized dataset is ready
-alpha=0.05
-gamma = 2
+# save_dataset=True #### whether the tokenized dataset is ready
+# alpha=0.05
+# gamma = 2
 
 
 import pytz

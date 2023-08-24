@@ -10,12 +10,11 @@ import os
 import models
 import train
 import configs
-import evaluate
 from load_data import CVEDataset
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 
-torch.manual_seed(3407)
+# torch.manual_seed(3407)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
@@ -72,21 +71,21 @@ if __name__ == '__main__':
     configs.get_singapore_time()                                  
     logging.info('3/4: start to train.')
     
-    # Assuming the train function from `train.py` expects DataLoader objects
+    # # Assuming the train function from `train.py` expects DataLoader objects
     train.train(
-        model=model, train_iterator=train_data_loader, valid_iterator=valid_data_loader, 
-        optimizer=optimizer, criterion=criterion, scheduler=scheduler, 
+        model=model, train_loader=train_data_loader, valid_loader=valid_data_loader, 
+        optimizer=optimizer, criterion=criterion,
         num_epochs=35, eval_every=1000, save_every=50000, 
-        file_path=configs.save_path, best_valid_loss=float('Inf')
+        best_valid_loss=float('Inf'), reload_from_checkpoint=False, load_path_checkpoint=None,load_path_metrics=None,
+        save_path=configs.save_path
     )
-    
     configs.get_singapore_time()
     logging.info('4/4: start to evaluate')
 
     # Assuming the evaluate function from `evaluate.py` expects DataLoader objects
-    evaluate.evaluate(
-        model=model, test_iterator=test_data_loader, reload_from_checkpoint=True,
-        load_path_checkpoint=os.path.join(configs.save_path,'model_f1.pt'),optimizer=optimizer
+    train.evaluate(
+        model=model, test_loader=test_data_loader, reload_from_checkpoint=True,
+        load_path_checkpoint=os.path.join(configs.save_path,'final.pt'),optimizer=optimizer
     )
     
     configs.get_singapore_time()
