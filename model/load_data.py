@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 
 class CVEDataset(Dataset):
     def __init__(self, file_name):
-        self.df = pd.read_csv(file_name).head(100)
+        self.df = pd.read_csv(file_name)
         self.cve = self.df['cve']
         self.desc_tokens = self.df['desc_token']
         self.msg_tokens = self.df['msg_token']

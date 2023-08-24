@@ -64,7 +64,7 @@ class CVEClassifier(nn.Module):
         
         # Get [CLS] embeddings for msg and diff
         msg_cls_embed = self.codeReviewer(input_ids=input_ids_msg, attention_mask=attention_mask_msg).last_hidden_state[:, 0, :]
-        diff_cls_embed = self.codeReviewer(decoder_input_ids=input_ids_diff, attention_mask=attention_mask_diff).last_hidden_state[:, 0, :]
+        diff_cls_embed = self.codeReviewer(input_ids=input_ids_diff, attention_mask=attention_mask_diff).last_hidden_state[:, 0, :]
         
         # Concatenate max-pooled LSTM output and [CLS] embeddings
         concatenated = torch.cat((max_pooled, msg_cls_embed, diff_cls_embed), dim=1)

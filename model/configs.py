@@ -13,18 +13,13 @@ test_filename     = 'test_data_top100.csv'
 train_file=os.path.join(data_path, train_filename)
 valid_file=os.path.join(data_path, validate_filename)
 test_file=os.path.join(data_path, test_filename)
-batch_size=128
+batch_size=1024
 
 save_path='/mnt/local/Baselines_Bugs/PatchSleuth/output'
 os.makedirs(save_path,exist_ok=True)
 
 debug=False
 device = torch.device("cuda" if torch.cuda.is_available() and not debug else 'cpu')
-
-# save_dataset=True #### whether the tokenized dataset is ready
-# alpha=0.05
-# gamma = 2
-
 
 import pytz
 from datetime import datetime

@@ -80,6 +80,8 @@ def train(model, train_loader, valid_loader, optimizer, criterion, num_epochs, e
     model.train()
 
     for epoch in range(start_epoch, num_epochs):
+        logging.info(f"Starting epoch {epoch + 1}")
+        
         for _, batch in enumerate(train_loader, 0):
             
             # Extract batch data
@@ -105,7 +107,6 @@ def train(model, train_loader, valid_loader, optimizer, criterion, num_epochs, e
 
             if global_step % save_every == 0:
                 model.eval()
-                
                 # Evaluate model
                 avg_recall_at_k, avg_mrr = evaluate(model, valid_loader, criterion, configs.device)
                 
@@ -147,6 +148,8 @@ def evaluate(model, test_loader, k=10, reload_from_checkpoint=False, load_path_c
 
     with torch.no_grad():
         for _, batch in enumerate(test_loader, 0):
+            logging.info(f"Processing batch {_ + 1}")
+            
             input_ids_desc = batch['input_ids_desc'].to(device) 
             attention_mask_desc = batch['attention_mask_desc'].to(device)
             input_ids_msg = batch['input_ids_msg'].to(device)
@@ -168,6 +171,10 @@ def evaluate(model, test_loader, k=10, reload_from_checkpoint=False, load_path_c
     total_mrr = 0
     total_groups = 0
 
+    if not results:
+        logging.error("No results found during evaluation. Check the data loader.")
+        return 0, 0
+    
     for cve_id, data in results.items():
         labels = np.array(data["labels"])
         scores = np.array(data["scores"])

@@ -12,7 +12,7 @@ import train
 import configs
 from load_data import CVEDataset
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 
 # torch.manual_seed(3407)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     train.train(
         model=model, train_loader=train_data_loader, valid_loader=valid_data_loader, 
         optimizer=optimizer, criterion=criterion,
-        num_epochs=35, eval_every=1000, save_every=50000, 
+        num_epochs=35, eval_every=10000, save_every=50000, 
         best_valid_loss=float('Inf'), reload_from_checkpoint=False, load_path_checkpoint=None,load_path_metrics=None,
         save_path=configs.save_path
     )
