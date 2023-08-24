@@ -75,7 +75,7 @@ if __name__ == '__main__':
     train.train(
         model=model, train_loader=train_data_loader, valid_loader=valid_data_loader, 
         optimizer=optimizer, criterion=criterion,
-        num_epochs=35, eval_every=10000, save_every=50000, 
+        num_epochs=20, eval_every=1000, save_every=10000, 
         best_valid_loss=float('Inf'), reload_from_checkpoint=False, load_path_checkpoint=None,load_path_metrics=None,
         save_path=configs.save_path
     )

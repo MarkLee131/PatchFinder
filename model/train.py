@@ -83,7 +83,7 @@ def train(model, train_loader, valid_loader, optimizer, criterion, num_epochs, e
         logging.info(f"Starting epoch {epoch + 1}")
         
         for _, batch in enumerate(train_loader, 0):
-            
+            configs.get_singapore_time()
             # Extract batch data
             input_ids_desc = batch['input_ids_desc'].to(device) 
             attention_mask_desc = batch['attention_mask_desc'].to(device)
@@ -95,6 +95,8 @@ def train(model, train_loader, valid_loader, optimizer, criterion, num_epochs, e
             
             # Forward pass and calculate loss
             predict = model(input_ids_desc, attention_mask_desc, input_ids_msg, attention_mask_msg, input_ids_diff, attention_mask_diff)
+            # ValueError: Target size (torch.Size([512])) must be the same as input size (torch.Size([512, 1]))
+            predict = predict.squeeze(1)
             loss = criterion(predict, label)
             
             # Backpropagation

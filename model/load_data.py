@@ -58,7 +58,7 @@ class CVEDataset(Dataset):
             'attention_mask_msg': msg_encoding['attention_mask'].flatten(),
             'input_ids_diff': diff_encoding['input_ids'].flatten(),
             'attention_mask_diff': diff_encoding['attention_mask'].flatten(),
-            'label': torch.tensor(self.labels[index], dtype=torch.long),
+            'label': torch.tensor(self.labels[index], dtype=torch.float),
             'cve': self.cve[index]
         }
 
