@@ -31,17 +31,17 @@ if __name__ == '__main__':
     train_data_loader = DataLoader(dataset=train_data,
                                       batch_size=configs.batch_size,
                                       shuffle=True,
-                                      num_workers=48,
+                                      num_workers=20,
                                       drop_last=True)
     valid_data_loader = DataLoader(dataset=valid_data,
                                         batch_size=configs.batch_size,
                                         shuffle=True,
-                                        num_workers=48,
+                                        num_workers=10,
                                         drop_last=True)
     test_data_loader = DataLoader(dataset=test_data,
                                         batch_size=configs.batch_size,
                                         shuffle=True,
-                                        num_workers=48,
+                                        num_workers=10,
                                         drop_last=True)
     
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     train.train(
         model=model, train_loader=train_data_loader, valid_loader=valid_data_loader, 
         optimizer=optimizer, criterion=criterion,
-        num_epochs=20, eval_every=1000, save_every=10000, 
+        num_epochs=20, eval_every=5000, save_every=20000, 
         best_valid_loss=float('Inf'), reload_from_checkpoint=False, load_path_checkpoint=None,load_path_metrics=None,
         save_path=configs.save_path
     )
