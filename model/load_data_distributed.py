@@ -16,8 +16,16 @@ from models import build_or_load_gen_model
 from configs import add_args, set_seed, set_dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
-from utils import CommentClsDataset, SimpleClsDataset
+# from utils import CommentClsDataset, SimpleClsDataset
 from sklearn.metrics import f1_score, accuracy_score
+################
+import configs
+from load_data import CVEDataset
+import models
+import torch.optim as optim
+import torch.nn as nn
+from torch.optim.lr_scheduler import ReduceLROnPlateau
+
 
 
 logging.basicConfig(
@@ -33,10 +41,12 @@ def get_loaders(data_files, args, tokenizer, pool, eval=False):
         return features
     global_rank = args.global_rank
     for data_file in data_files:
-        if args.raw_input:
-            dataset = SimpleClsDataset(tokenizer, pool, args, data_file)
-        else:
-            dataset = CommentClsDataset(tokenizer, pool, args, data_file)
+        # if args.raw_input:
+        #     dataset = SimpleClsDataset(tokenizer, pool, args, data_file)
+        # else:
+        #     dataset = CommentClsDataset(tokenizer, pool, args, data_file)
+        dataset = CVEDataset(data_file)
+        
         data_len = len(dataset)
         if global_rank == 0:
             logger.info(f"Data length: {data_len}.")
@@ -44,9 +54,13 @@ def get_loaders(data_files, args, tokenizer, pool, eval=False):
             sampler = SequentialSampler(dataset)
         else:
             sampler = DistributedSampler(dataset)
+
         dataloader = DataLoader(dataset, sampler=sampler, batch_size=args.train_batch_size if not eval else args.eval_batch_size, \
-                                num_workers=args.cpu_count, collate_fn=fn)
+                                # num_workers=args.cpu_count, \
+                                    num_workers=10, \
+                                    collate_fn=fn)
         yield dataset, sampler, dataloader
+
 
 
 def eval_epoch_acc(args, eval_dataloader, model, tokenizer):
@@ -108,11 +122,39 @@ def main(args):
                    torch.distributed.get_world_size(), \
                    args.train_batch_size)
     torch.cuda.set_device(local_rank)
-
+    
+    configs.get_singapore_time()
     # t0 = time.time()
     # set_dist(args)
     set_seed(args)
-    config, model, tokenizer = build_or_load_gen_model(args)
+    
+    # config, model, tokenizer = build_or_load_gen_model(args)
+    
+    #########################################################################
+    # Modify model initialization to match the `CVEClassifier` signature.
+    model = models.CVEClassifier(
+        lstm_hidden_size=256,
+        num_classes=1,   # binary classification
+        lstm_layers=1,
+        dropout=0.1,
+        lstm_input_size=512  # Assuming a 512-sized embedding
+    )
+    
+    optimizer = optim.Adam(model.parameters(), lr=5e-5)
+    scheduler = ReduceLROnPlateau(optimizer,'min',verbose=True,factor=0.1)
+    criterion = nn.BCEWithLogitsLoss()
+
+    if not configs.debug:
+        model.cuda()
+        model = torch.nn.DataParallel(model, device_ids=configs.gpus, output_device=configs.gpus[0])
+
+    model.to(configs.device)
+    
+    #######################################################
+    
+    
+    
+    
     # load last model
     if os.path.exists("{}/checkpoints-last/pytorch_model.bin".format(args.output_dir)):
         model.load_state_dict(
@@ -176,7 +218,9 @@ def main(args):
     logger.warning("Train files: %s", train_files)
     random.seed(args.seed)
     random.shuffle(train_files)
-    train_files = [os.path.join(train_file, file) for file in train_files]
+    ### fix by kaixuan
+    if os.path.isdir(train_file):
+        train_files = [os.path.join(train_file, file) for file in train_files]
     valid_files = [valid_file]
     for epoch in range(1, args.train_epochs + 1):
         # set seed for reproducible data split
@@ -266,6 +310,11 @@ if __name__ == "__main__":
     # remove long tokenization warning. ref: https://github.com/huggingface/transformers/issues/991
     logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)
     logger.info(args)
-    main(args)
+    # main(args)
+    main(train_epochs=20, train_batch_size=configs.batch_size, eval_batch_size=configs.batch_size, gradient_accumulation_steps=1, \
+            learning_rate=5e-5, adam_epsilon=1e-8, warmup_steps=0, weight_decay=0.01, \
+            train_steps=100000, save_steps=1000, log_steps=100, output_dir=configs.save_path, \
+            train_filename=configs.train_file, dev_filename=configs.valid_file, max_seq_length=512, \
+            raw_input=False, gpu_per_node=1, node_index=0, seed=3407)
     logger.info("Training finished.")
     # torch.multiprocessing.spawn(main, args=(args,), nprocs=torch.cuda.device_count())
