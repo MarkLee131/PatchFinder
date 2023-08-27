@@ -31,17 +31,17 @@ if __name__ == '__main__':
     train_data_loader = DataLoader(dataset=train_data,
                                       batch_size=configs.batch_size,
                                       shuffle=True,
-                                      num_workers=20,
+                                      num_workers=5,
                                       drop_last=True)
     valid_data_loader = DataLoader(dataset=valid_data,
                                         batch_size=configs.batch_size,
                                         shuffle=True,
-                                        num_workers=10,
+                                        num_workers=5,
                                         drop_last=True)
     test_data_loader = DataLoader(dataset=test_data,
                                         batch_size=configs.batch_size,
                                         shuffle=True,
-                                        num_workers=10,
+                                        num_workers=5,
                                         drop_last=True)
     
 
@@ -64,6 +64,7 @@ if __name__ == '__main__':
     criterion = nn.BCEWithLogitsLoss()
 
     if not configs.debug:
+        model.cuda()
         model = torch.nn.DataParallel(model, device_ids=configs.gpus, output_device=configs.gpus[0])
 
     model.to(configs.device)
