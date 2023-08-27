@@ -4,12 +4,12 @@ import logging
 import argparse
 import random
 import numpy as np
-from tqdm import tqdm
+# from tqdm import tqdm
 import multiprocessing
 import time
-from itertools import cycle
+# from itertools import cycle
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
-from torch.utils.data import ConcatDataset
+# from torch.utils.data import ConcatDataset
 from torch.utils.data.distributed import DistributedSampler
 from transformers import AdamW, get_linear_schedule_with_warmup
 # from models import build_or_load_gen_model
@@ -17,25 +17,19 @@ from configs_distributed import add_args, set_seed, set_dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
 # from utils import CommentClsDataset, SimpleClsDataset
-from sklearn.metrics import f1_score, accuracy_score
+# from sklearn.metrics import f1_score, accuracy_score
 ################
 import configs
 from load_data import CVEDataset
 import models
-import torch.optim as optim
+# import torch.optim as optim
 import torch.nn as nn
-from torch.optim.lr_scheduler import ReduceLROnPlateau
-from transformers import (
-    RobertaConfig,
-    RobertaModel,
-    RobertaTokenizer,
-    BartConfig,
-    BartForConditionalGeneration,
-    BartTokenizer,
-    T5Config,
-    T5ForConditionalGeneration,
-    T5Tokenizer,
-)
+# from torch.optim.lr_scheduler import ReduceLROnPlateau
+
+
+# os.environ['WORLD_SIZE'] = '4'  # for example, if you have 4 GPUs
+# os.environ['RANK'] = '0'  # this needs to be different for each process
+
 
 
 logging.basicConfig(
@@ -297,13 +291,15 @@ def main(args):
         train_files = [os.path.join(train_file, file) for file in train_files]
     valid_files = [valid_file]
     for epoch in range(1, args.train_epochs + 1):
+        configs.get_singapore_time()
         # set seed for reproducible data split
         save_seed = args.seed
         args.seed += epoch
         set_seed(args)
         args.seed = save_seed
         model.train()
-        nb_tr_examples, nb_tr_steps, tr_loss = 0, 0, 0
+        # nb_tr_examples, nb_tr_steps, tr_loss = 0, 0, 0
+        nb_tr_steps, tr_loss = 0, 0
         for _, _, train_dataloader in get_loaders(train_files, args):        # WARNING: this is an iterator, to save memory
             for step, examples in enumerate(train_dataloader, 1):
                 if step == 1:
@@ -404,19 +400,71 @@ def main(args):
                     time.sleep(5)
 
 
+
+def run():
+    try:
+        parser = argparse.ArgumentParser()
+        args = add_args(parser)
+        args.cpu_count = multiprocessing.cpu_count()
+        # remove long tokenization warning. ref: https://github.com/huggingface/transformers/issues/991
+        logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)
+        
+        args.train_epochs = 20
+        args.train_batch_size = configs.batch_size
+        args.eval_batch_size = configs.batch_size
+        args.gradient_accumulation_steps = 1
+        args.learning_rate = 5e-5
+        args.adam_epsilon = 1e-8
+        args.warmup_steps = 0
+        args.weight_decay = 0.01
+        args.train_steps = 100000
+        args.save_steps = 1000
+        args.log_steps = 100
+        args.output_dir = configs.save_path
+        args.train_filename = configs.train_file
+        args.dev_filename = configs.valid_file
+        args.max_seq_length = 512
+        args.raw_input = False
+        args.gpu_per_node = 1
+        args.node_index = 0
+        args.seed = 3407
+        logger.info(args)
+        main(args)
+        logger.info("Training finished.")
+    except Exception as e:
+        logger.error(e, exc_info=True)
+        raise e
+
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     args = add_args(parser)
     args.cpu_count = multiprocessing.cpu_count()
     # remove long tokenization warning. ref: https://github.com/huggingface/transformers/issues/991
     logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)
+    
+    args.train_epochs = 20
+    args.train_batch_size = configs.batch_size
+    args.eval_batch_size = configs.batch_size
+    args.gradient_accumulation_steps = 1
+    args.learning_rate = 5e-5
+    args.adam_epsilon = 1e-8
+    args.warmup_steps = 0
+    args.weight_decay = 0.01
+    args.train_steps = 100000
+    args.save_steps = 1000
+    args.log_steps = 100
+    args.output_dir = configs.save_path
+    args.train_filename = configs.train_file
+    args.dev_filename = configs.valid_file
+    args.max_seq_length = 512
+    args.raw_input = False
+    args.gpu_per_node = 1
+    args.node_index = 0
+    args.seed = 3407
     logger.info(args)
-    # main(args)
-    main(train_epochs=20, train_batch_size=configs.batch_size, eval_batch_size=configs.batch_size, gradient_accumulation_steps=1, \
-            learning_rate=5e-5, adam_epsilon=1e-8, warmup_steps=0, weight_decay=0.01, \
-            train_steps=100000, save_steps=1000, log_steps=100, output_dir=configs.save_path, \
-            train_filename=configs.train_file, dev_filename=configs.valid_file, max_seq_length=512, \
-            raw_input=False, gpu_per_node=1, node_index=0, seed=3407)
+    main(args)
     logger.info("Training finished.")
     
     

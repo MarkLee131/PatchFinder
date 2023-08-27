@@ -12,7 +12,7 @@ import train
 import configs
 from load_data import CVEDataset
 
-# os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 
 # torch.manual_seed(3407)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -63,9 +63,9 @@ if __name__ == '__main__':
     # scheduler = ReduceLROnPlateau(optimizer,'min',verbose=True,factor=0.1)
     # criterion = nn.BCEWithLogitsLoss()
 
-    # if not configs.debug:
-    #     model.cuda()
-    #     model = torch.nn.DataParallel(model, device_ids=configs.gpus, output_device=configs.gpus[0])
+    if not configs.debug:
+        model.cuda()
+        model = torch.nn.DataParallel(model, device_ids=configs.gpus, output_device=configs.gpus[0])
 
     # model.to(configs.device)
     
