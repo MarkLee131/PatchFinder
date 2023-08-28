@@ -1,6 +1,6 @@
 import multiprocessing
 import os
-import load_data_distributed
+import model.ddp_try.load_data_distributed as load_data_distributed
 # import configs
 import torch.distributed as dist
 def main(rank, world_size):

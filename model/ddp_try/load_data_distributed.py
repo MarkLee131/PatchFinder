@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from torch.utils.data.distributed import DistributedSampler
 from transformers import AdamW, get_linear_schedule_with_warmup
 # from models import build_or_load_gen_model
-from configs_distributed import add_args, set_seed, set_dist
+from model.ddp_try.configs_distributed import add_args, set_seed, set_dist
 from torch.nn.parallel import DistributedDataParallel as DDP
 import torch.distributed as dist
 # from utils import CommentClsDataset, SimpleClsDataset
@@ -25,6 +25,20 @@ import models
 # import torch.optim as optim
 import torch.nn as nn
 # from torch.optim.lr_scheduler import ReduceLROnPlateau
+from transformers import (
+    RobertaConfig,
+    RobertaModel,
+    RobertaTokenizer,
+    BartConfig,
+    BartForConditionalGeneration,
+    BartTokenizer,
+    T5Config,
+    T5ForConditionalGeneration,
+    T5Tokenizer,
+)
+
+
+
 
 
 # os.environ['WORLD_SIZE'] = '4'  # for example, if you have 4 GPUs
