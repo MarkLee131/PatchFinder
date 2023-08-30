@@ -1,3 +1,4 @@
+PatchSleuth/
 wandb/
 model/__pycache__/
 TF-IDF/similarity_data_normalized_TFIDF.csv

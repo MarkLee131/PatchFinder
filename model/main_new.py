@@ -17,9 +17,9 @@ train_data = CVEDataset(configs.train_file)
 valid_data = CVEDataset(configs.valid_file)
 test_data = CVEDataset(configs.test_file)
 
-train_dataloader = DataLoader(dataset=train_data, shuffle=True, batch_size=64, num_workers=4)
-valid_dataloader = DataLoader(dataset=valid_data, batch_size=64, num_workers=4)
-test_dataloader = DataLoader(test_data, batch_size=4, num_workers=4)
+train_dataloader = DataLoader(dataset=train_data, shuffle=True, batch_size=32, num_workers=10)
+valid_dataloader = DataLoader(dataset=valid_data, batch_size=32, num_workers=10)
+test_dataloader = DataLoader(test_data, batch_size=4, num_workers=10)
 
 # batch = next(iter(train_dataloader))
 # print(batch.keys())
@@ -59,9 +59,10 @@ class CVEClassifier(pl.LightningModule):
         self.codeReviewer = AutoModelForSeq2SeqLM.from_pretrained(
             "microsoft/codereviewer").encoder
         
-        # Set requires_grad=True for all parameters of codeReviewer to fine-tune it
-        for param in self.codeReviewer.parameters():
-            param.requires_grad = True
+        ### This is default setting.
+        # # Set requires_grad=True for all parameters of codeReviewer to fine-tune it
+        # for param in self.codeReviewer.parameters():
+        #     param.requires_grad = True
 
         
         self.save_hyperparameters()
@@ -98,7 +99,7 @@ class CVEClassifier(pl.LightningModule):
         desc_embed = self.desc_embedding(input_ids_desc)
         
         # Pass through LSTM and max-pooling
-        lstm_output, _ = self.lstm(desc_embed)
+        lstm_output, _ = self.lstm(desc_embed)#, None)  # Passing None for hidden state and cell state will initialize them with 0s
         max_pooled, _ = torch.max(lstm_output, 1)  # Max pooling
         
         
@@ -119,7 +120,6 @@ class CVEClassifier(pl.LightningModule):
     
     def common_step(self, batch, batch_idx):
         
-        ### @jian: how to call the model?
         predict = self(
             batch['input_ids_desc'],
             batch['attention_mask_desc'],
@@ -138,12 +138,11 @@ class CVEClassifier(pl.LightningModule):
         # logs metrics for each training_step,
         # and the average across the epoch
         self.log("training_loss", loss)
-
         return loss
 
     def validation_step(self, batch, batch_idx):
         loss = self.common_step(batch, batch_idx)
-        self.log("validation_loss", loss, on_epoch=True)
+        self.log("validation_loss", loss, on_epoch=True, prog_bar=True, sync_dist=True)
 
         return loss
 
@@ -198,7 +197,7 @@ model = CVEClassifier(
         dropout=0.1,
         lstm_input_size=512,  # Assuming a 512-sized embedding
         # lr=5e-5, 
-        # num_train_epochs=15, 
+        # num_train_epochs=20, 
         # warmup_steps=1000,
     )
 
@@ -209,11 +208,11 @@ from pytorch_lightning.callbacks import EarlyStopping, LearningRateMonitor
 import os
 
 
-wandb_logger = WandbLogger(name='test', project='PatchSleuth')
+wandb_logger = WandbLogger(name='train', project='PatchSleuth')
 # for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
 early_stop_callback = EarlyStopping(
     monitor='validation_loss',
-    patience=3,
+    patience=20,
     strict=False,
     verbose=False,
     mode='min'
@@ -222,19 +221,31 @@ lr_monitor = LearningRateMonitor(logging_interval='step')
 
 os.makedirs("/mnt/local/Baselines_Bugs/PatchSleuth/model/output/Checkpoints", exist_ok=True)
 
+
+from pytorch_lightning.callbacks import ModelCheckpoint
+
+checkpoint_callback = ModelCheckpoint(
+    monitor='validation_loss',
+    dirpath='/mnt/local/Baselines_Bugs/PatchSleuth/model/output/Checkpoints',
+    filename='best-checkpoint',
+    save_top_k=1,
+    mode='min'
+)
+
+
 trainer = Trainer(
     accelerator='gpu',                    # "cpu", "gpu", "tpu", "ipu", "hpu", "mps", "auto", "ddp"
     num_nodes=1,                          # Using 1 machine/node
-    devices=4,                            # Using 4 GPUs
+    devices=len(gpus),                            # Using 4 GPUs
     default_root_dir="/mnt/local/Baselines_Bugs/PatchSleuth/model/output/Checkpoints",
     logger=wandb_logger,
-    callbacks=[early_stop_callback, lr_monitor],
-    max_epochs=1,                        # Set the maximum number of epochs
+    max_epochs=20,                        # Set the maximum number of epochs
     accumulate_grad_batches=1,           # Gradient accumulation steps
-    max_steps=10000,                     # Set the maximum number of training steps
+    max_steps=100000,                     # Set the maximum number of training steps
     log_every_n_steps=100,               # Log every 100 steps
     precision=32,                        # Using 32-bit precision for training; this is the default and can be omitted if desired
     gradient_clip_val=0.0,               # Assuming you don't want gradient clipping, but adjust if needed
+    callbacks=[early_stop_callback, lr_monitor, checkpoint_callback],
 )
 torch.set_float32_matmul_precision("medium")
 
@@ -242,9 +253,11 @@ trainer.fit(model)
 
 """Once we're done training, we can also save the HuggingFace model as follows:"""
 model_save_path = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output/Checkpoints/final_model.pt"
-torch.save(model.state_dict(), model_save_path)
 
+# torch.save(model.state_dict(), model_save_path)
 
+#### So we do not need to load the model Class when evaluate.
+torch.save(model, model_save_path)
 
 # # """We can load our trained model as follows:"""
 # import numpy as np
