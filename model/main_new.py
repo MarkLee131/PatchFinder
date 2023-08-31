@@ -1,3 +1,13 @@
+'''
+31/08/2023
+
+In this script, we design the model by only using Codereviewer, i.e., we deprecate the use of LSTM for CVE description.
+
+As you can see, them model is based on the pytorch-lightning framework.
+
+'''
+
+
 import configs
 from load_data import CVEDataset
 import logging
