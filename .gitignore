@@ -5,6 +5,7 @@ TF-IDF/similarity_data_normalized_TFIDF.csv
 TF-IDF/similarity_data_TFIDF.csv
 TF-IDF/test_data_TFIDF.csv
 
+model/output_0831
 output/
 data/
 *.pth

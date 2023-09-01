@@ -40,6 +40,22 @@ _wandb:
     - 1: trainer/global_step
       6:
       - 3
+    - 1: learning_rate
+      5: 1
+      6:
+      - 1
+    - 1: training_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: validation_loss
+      5: 1
+      6:
+      - 1
 num_classes:
   desc: null
   value: 1

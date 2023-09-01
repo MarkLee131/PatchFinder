@@ -74,33 +74,33 @@ if __name__ == "__main__":
     cve_set = set(cve_list)
     print('cve set length: {}'.format(len(cve_set)))
 
-    # ### calculate the average rank of patch commit for each cve
-    # ### by using label to determine whether the commit is a patch commit
-    # print("Step 2/3: calculate the average rank of patch commit for each cve")
-    # rank_info = pd.DataFrame(columns=['cve', 'rank'])
-    # rank_info.to_csv(os.path.join(DATA_TMP_DIR, 'rankinfo_TDIDF.csv'), index=False)
+    ### calculate the average rank of patch commit for each cve
+    ### by using label to determine whether the commit is a patch commit
+    print("Step 2/3: calculate the average rank of patch commit for each cve")
+    rank_info = pd.DataFrame(columns=['cve', 'rank'])
+    rank_info.to_csv(os.path.join(DATA_TMP_DIR, 'rankinfo_TDIDF.csv'), index=False)
 
-    # for cve, group in tqdm(tfidf_cve):
-    #     # first sort the rows according to the similarity score
-    #     group = group.sort_values(by='similarity', ascending=False)
-    #     average_rank = 0
-    #     #### maybe there are multiple patch commits for one cve
-    #     patch_rows = group[group['label'] == 1]
-    #     ranks = []
-    #     for _, row in patch_rows.iterrows():
-    #         ### get the rank by using the index of the row
-    #         rank = group.index.get_loc(row.name) + 1
-    #         ranks.append(rank)
-    #     average_rank = sum(ranks) / len(ranks)
-    #     rank_info_iter = pd.DataFrame([[cve, average_rank]], columns=['cve', 'rank'])
-    #     rank_info_iter.to_csv(os.path.join(DATA_TMP_DIR, 'rankinfo_TDIDF.csv'), mode='a', header=False, index=False)
-    #     # print('cve: {}, average rank: {}'.format(cve, average_rank))
-    # print('rank info saved')
+    for cve, group in tqdm(tfidf_cve):
+        # first sort the rows according to the similarity score
+        group = group.sort_values(by='similarity', ascending=False)
+        average_rank = 0
+        #### maybe there are multiple patch commits for one cve
+        patch_rows = group[group['label'] == 1]
+        ranks = []
+        for _, row in patch_rows.iterrows():
+            ### get the rank by using the index of the row
+            rank = group.index.get_loc(row.name) + 1
+            ranks.append(rank)
+        average_rank = sum(ranks) / len(ranks)
+        rank_info_iter = pd.DataFrame([[cve, average_rank]], columns=['cve', 'rank'])
+        rank_info_iter.to_csv(os.path.join(DATA_TMP_DIR, 'rankinfo_TDIDF.csv'), mode='a', header=False, index=False)
+        # print('cve: {}, average rank: {}'.format(cve, average_rank))
+    print('rank info saved')
     
-    # print("Step 3/3: calculate the recall, MRR and manual efforts")
-    # recall()
-    # mrr()
-    # manual_efforts()
+    print("Step 3/3: calculate the recall, MRR and manual efforts")
+    recall()
+    mrr()
+    manual_efforts()
     
     # # Verify the number of cases in each cve
     # print("Verify the number of cases in each cve")
@@ -114,18 +114,18 @@ if __name__ == "__main__":
     # print('number of cases info saved')
     
     
-    # Verify the number of cases within each cve in the test_data_top100.csv
-    test_data_top100 = pd.read_csv('/mnt/local/Baselines_Bugs/PatchSleuth/data/test_data_top100.csv')
+    # # Verify the number of cases within each cve in the test_data_top100.csv
+    # test_data_top100 = pd.read_csv('/mnt/local/Baselines_Bugs/PatchSleuth/data/test_data_top100.csv')
     
-    print("Verify the number of patch commits in each cve in the test_data_top100.csv")
-    test_data_top100_cve = test_data_top100.groupby('cve')
+    # print("Verify the number of patch commits in each cve in the test_data_top100.csv")
+    # test_data_top100_cve = test_data_top100.groupby('cve')
     
-    num_cases_df_top100 = pd.DataFrame(columns=['cve', 'num_cases'])
-    num_cases_df_top100.to_csv(os.path.join(DATA_TMP_DIR, 'num_cases_TFIDF_top100.csv'), index=False)
-    for cve, group in tqdm(test_data_top100_cve):
-        print('cve: {}, number of cases: {}'.format(cve, len(group)))
-        num_cases_iter = pd.DataFrame([[cve, len(group)]], columns=['cve', 'num_cases'])
-        num_cases_iter.to_csv(os.path.join(DATA_TMP_DIR, 'num_cases_TFIDF_top100.csv'), mode='a', header=False, index=False)
+    # num_cases_df_top100 = pd.DataFrame(columns=['cve', 'num_cases'])
+    # num_cases_df_top100.to_csv(os.path.join(DATA_TMP_DIR, 'num_cases_TFIDF_top100.csv'), index=False)
+    # for cve, group in tqdm(test_data_top100_cve):
+    #     print('cve: {}, number of cases: {}'.format(cve, len(group)))
+    #     num_cases_iter = pd.DataFrame([[cve, len(group)]], columns=['cve', 'num_cases'])
+    #     num_cases_iter.to_csv(os.path.join(DATA_TMP_DIR, 'num_cases_TFIDF_top100.csv'), mode='a', header=False, index=False)
     
     
     
