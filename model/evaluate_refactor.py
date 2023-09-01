@@ -127,7 +127,6 @@ def evaluate(model, testing_loader, k_values, data_path):
     # Remove existing data file, since we are appending to it.
     if os.path.exists(data_path):
         os.rename(data_path, data_path + '.bak')
-        os.remove(data_path)
 
     with torch.no_grad():
         for _, batch in tqdm(enumerate(testing_loader, 0), total=len(testing_loader)):

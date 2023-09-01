@@ -158,7 +158,7 @@ def compute_metrics(cve_data, k_values):
     """Compute metrics (recall@k, MRR, Manual Efforts) for the model outputs."""
     recalls = {k: [] for k in k_values}
     mrrs = []
-    manual_efforts = {k: [] for k in k_values}
+    manual_efforts = {k: 0.0 for k in k_values}
 
     for _, data in cve_data.items():
         data.sort(key=lambda x: x[0], reverse=True)
@@ -167,8 +167,11 @@ def compute_metrics(cve_data, k_values):
         for k in k_values:
             top_k_counts = sum(1 for rank in ranks if rank < k)
             recalls[k].append(top_k_counts / len(ranks) if ranks else 0)
+            
             effort_k = sum(min(rank, k) for rank in ranks) / len(ranks) if ranks else 0
-            manual_efforts[k].append(effort_k)
+            
+            effort_k = sum(min(rank, k) for rank in ranks) / len(ranks) if ranks else 0
+            manual_efforts[k] = effort_k
 
         reciprocal_ranks = [1 / (rank + 1) for rank in ranks]
         mrrs.append(sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0)
@@ -185,6 +188,9 @@ def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load
 
     model.eval()
     cve_data = {}
+    
+    if os.path.exists(data_path):
+        os.rename(data_path, data_path + '.bak')
 
     with torch.no_grad():
         for _, batch in tqdm(enumerate(testing_loader, 0), total=len(testing_loader)):
@@ -197,8 +203,7 @@ def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load
 
     for k in k_values:
         logging.info(f'Average Top@{k} recall: {avg_recalls[k]:.4f}')
-        avg_effort_k = sum(manual_efforts[k]) / len(manual_efforts[k]) if manual_efforts[k] else 0
-        logging.info(f'Average Top@{k} manual efforts: {avg_effort_k:.4f}')
+        logging.info(f'Manual Effort@{k}: {manual_efforts[k]:.4f}')
     logging.info(f'Average MRR: {avg_mrr:.4f}')
 
     return avg_recalls, avg_mrr, manual_efforts
@@ -237,5 +242,5 @@ if __name__ == "__main__":
     )
 
     # Save metrics to CSV
-    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/output/metrics_{data_path_flag}.csv'
+    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/metrics_{data_path_flag}.csv'
     save_metrics_to_csv(recalls, avg_mrr, manual_efforts, metrics_save_path)
