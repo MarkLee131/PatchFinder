@@ -127,8 +127,10 @@ def compute_metrics(cve_data, k_values):
             else:
                 manual_efforts[k].append(k)
             '''
-            efforts_k = sum(rank if rank < k else k for rank in ranks)/len(ranks) if ranks else 0
-            manual_efforts[k].append(efforts_k)
+
+            effort_k = sum(min(rank, k) for rank in ranks) / len(ranks) if ranks else 0
+            manual_efforts[k].append(effort_k)
+
 
         reciprocal_ranks = [1 / (rank + 1) for rank in ranks]
         mrrs.append(sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0)
@@ -136,7 +138,7 @@ def compute_metrics(cve_data, k_values):
     avg_recalls = {k: sum(recalls[k]) / len(recalls[k]) if recalls[k] else 0 for k in k_values}
     avg_mrr = sum(mrrs) / len(mrrs) if mrrs else 0
 
-    return avg_recalls, avg_mrr
+    return avg_recalls, avg_mrr, manual_efforts
 
 def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load_path_checkpoint=None, data_path='/mnt/local/Baselines_Bugs/PatchSleuth/output/predict.csv'):
     """Evaluate the model on the given test loader."""
@@ -153,31 +155,47 @@ def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load
                 cve_data.setdefault(cve_i, []).append((output_i.item(), label_i.item()))
                 save_outputs_to_csv(cve_i, output_i.item(), label_i.item(), data_path)
         
-    avg_recalls, avg_mrr = compute_metrics(cve_data, k_values)
+    avg_recalls, avg_mrr, manual_efforts = compute_metrics(cve_data, k_values)
 
     for k in k_values:
         logging.info(f'Average Top@{k} recall: {avg_recalls[k]:.4f}')
-        logging.info(f'Average Top@{k} manual efforts: {sum(avg_recalls[k]*k for k in avg_recalls[k]):.4f}')
+        avg_effort_k = sum(manual_efforts[k]) / len(manual_efforts[k]) if manual_efforts[k] else 0
+        logging.info(f'Average Top@{k} manual efforts: {avg_effort_k:.4f}')
+        
+        
     logging.info(f'Average MRR: {avg_mrr:.4f}')
     
-    return avg_recalls, avg_mrr
+    return avg_recalls, avg_mrr, manual_efforts
+
+
+def save_metrics_to_csv(avg_recalls, avg_mrr, manual_efforts, save_path):
+    """Save recall, MRR, and manual efforts to a CSV file."""
+    data = {
+        'k': list(avg_recalls.keys()),
+        'recall': [avg_recalls[k] for k in avg_recalls],
+        'manual_effort': [sum(manual_efforts[k]) / len(manual_efforts[k]) if manual_efforts[k] else 0 for k in avg_recalls],
+        'MRR': [avg_mrr for _ in avg_recalls]
+    }
+    df = pd.DataFrame(data)
+    df.to_csv(save_path, index=False)
+
+
+
 
 if __name__ == "__main__":
+
     MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/Checkpoints/final_model.pt"  
     test_data = CVEDataset(configs.test_file)
     test_dataloader = DataLoader(test_data, batch_size=8, num_workers=10)
     
-    model = CVEClassifier(
-            num_classes=1,   # binary classification
-            dropout=0.1
-        )
+    model = torch.load(MODEL_PATH)
     k_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 50, 100]
     
     logging.info(f'Evaluating model at {MODEL_PATH}:')
     
     data_path_flag = MODEL_PATH.split('/')[-1].split('.')[0]
     logging.info(f'data_path_flag: {data_path_flag}')
-    recalls, avg_mrr = evaluate(
+    recalls, avg_mrr, manual_efforts = evaluate(
         model, 
         test_dataloader, 
         k_values, 
@@ -185,3 +203,7 @@ if __name__ == "__main__":
         load_path_checkpoint=MODEL_PATH,
         data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/predict_{data_path_flag}.csv'
         )
+
+    # Save metrics
+    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/metrics_{data_path_flag}.csv'
+    save_metrics_to_csv(recalls, avg_mrr, manual_efforts, metrics_save_path)
