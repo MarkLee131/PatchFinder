@@ -143,45 +143,76 @@ def evaluate_single_batch(model, batch):
     return model(*inputs)
 
 # Adding this function from the provided example
-def save_metrics_to_csv(avg_recalls, avg_mrr, manual_efforts, save_path):
+def save_metrics_to_csv(avg_recalls, avg_mrr, avg_manual_efforts, save_path):
     """Save recall, MRR, and manual efforts to a CSV file."""
     data = {
         'k': list(avg_recalls.keys()),
         'recall': [avg_recalls[k] for k in avg_recalls],
-        'manual_effort': [sum(manual_efforts[k]) / len(manual_efforts[k]) if manual_efforts[k] else 0 for k in avg_recalls],
+        'manual_effort': [avg_manual_efforts[k] for k in avg_recalls],
         'MRR': [avg_mrr for _ in avg_recalls]
     }
     df = pd.DataFrame(data)
     df.to_csv(save_path, index=False)
 
-def compute_metrics(cve_data, k_values):
+import pandas as pd
+
+def compute_metrics(cve_data, k_values, rank_output_path):
     """Compute metrics (recall@k, MRR, Manual Efforts) for the model outputs."""
     recalls = {k: [] for k in k_values}
     mrrs = []
-    manual_efforts = {k: 0.0 for k in k_values}
+    manual_efforts = {k: [] for k in k_values}
+    manual_efforts_sum = {k: 0 for k in k_values}
+    manual_efforts_count = {k: 0 for k in k_values}
+    
+    
+    
+    rank_data = []
 
-    for _, data in cve_data.items():
+    for cve, data in cve_data.items():
         data.sort(key=lambda x: x[0], reverse=True)
-        ranks = [i for i, (_, label) in enumerate(data) if label == 1]
+        ranks = [(i + 1, label) for i, (_, label) in enumerate(data)]
+        # Store ranks for later saving to CSV
+        for rank, label in ranks:
+            rank_data.append({'cve': cve, 'label': label, 'rank': rank})
 
+        # Compute metrics using the ranks
+        positive_ranks = [rank for rank, label in ranks if label == 1]
         for k in k_values:
-            top_k_counts = sum(1 for rank in ranks if rank < k)
-            recalls[k].append(top_k_counts / len(ranks) if ranks else 0)
+            top_k_counts = sum(1 for rank in positive_ranks if rank < k)
+            recalls[k].append(top_k_counts / len(positive_ranks) if positive_ranks else 0)
+                
+            if positive_ranks:
+                min_rank_within_k = min([rank for rank in positive_ranks if rank < k], default=k)
+            else:
+                min_rank_within_k = k
+                
+            manual_efforts[k].append(min_rank_within_k)
             
-            effort_k = sum(min(rank, k) for rank in ranks) / len(ranks) if ranks else 0
+            manual_efforts_sum[k] += min_rank_within_k
+            manual_efforts_count[k] += 1
             
-            effort_k = sum(min(rank, k) for rank in ranks) / len(ranks) if ranks else 0
-            manual_efforts[k] = effort_k
-
-        reciprocal_ranks = [1 / (rank + 1) for rank in ranks]
+        reciprocal_ranks = [1 / (rank) for rank in positive_ranks]
         mrrs.append(sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0)
 
     avg_recalls = {k: sum(recalls[k]) / len(recalls[k]) if recalls[k] else 0 for k in k_values}
     avg_mrr = sum(mrrs) / len(mrrs) if mrrs else 0
+    # avg_manual_efforts = {k: manual_efforts_sum[k] / manual_efforts_count[k] if manual_efforts_count[k] else 0 for k in k_values}
+    avg_manual_efforts = {k: sum(manual_efforts[k]) / len(manual_efforts[k]) if manual_efforts[k] else 0 for k in k_values}
+    # avg_manual_efforts[1] = 1.0
+    
+    # Save ranks to CSV using pandas
+    if os.path.exists(rank_output_path):
+        os.rename(rank_output_path, rank_output_path + '.bak')
 
-    return avg_recalls, avg_mrr, manual_efforts
+    df = pd.DataFrame(rank_data)
+    df.to_csv(rank_output_path, index=False)
 
-def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load_path_checkpoint=None, data_path='/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/predict_final_model.csv'):
+    return avg_recalls, avg_mrr, avg_manual_efforts
+
+
+
+
+def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load_path_checkpoint=None, data_path='/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/predict_final_model.csv', rank_info_path='/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/ranks_final_model.csv'):
     """Evaluate the model on the given test loader."""
     # if reload_from_checkpoint:
     #     load_checkpoint(load_path_checkpoint, model)
@@ -199,7 +230,7 @@ def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load
                 cve_data.setdefault(cve_i, []).append((output_i.item(), label_i.item()))
                 save_outputs_to_csv(cve_i, output_i.item(), label_i.item(), data_path)
 
-    avg_recalls, avg_mrr, manual_efforts = compute_metrics(cve_data, k_values)
+    avg_recalls, avg_mrr, manual_efforts = compute_metrics(cve_data, k_values, rank_info_path)
 
     for k in k_values:
         logging.info(f'Average Top@{k} recall: {avg_recalls[k]:.4f}')
@@ -210,6 +241,7 @@ def evaluate(model, testing_loader, k_values, reload_from_checkpoint=False, load
 
 if __name__ == "__main__":
     MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/Checkpoints/final_model.pt"  
+    RANK_OUTPUT_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/ranks_final_model.csv"
     test_data = CVEDataset(configs.test_file)
     test_dataloader = DataLoader(test_data, batch_size=4, num_workers=20)
 
@@ -238,9 +270,13 @@ if __name__ == "__main__":
         k_values, 
         reload_from_checkpoint=True,
         load_path_checkpoint=MODEL_PATH,
-        data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/predict_{data_path_flag}.csv'
+        data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/predict_{data_path_flag}.csv',
+        rank_info_path=RANK_OUTPUT_PATH
     )
 
     # Save metrics to CSV
     metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_LSTM_0830/metrics_{data_path_flag}.csv'
+    if os.path.exists(metrics_save_path):
+        os.rename(metrics_save_path, metrics_save_path + '.bak')
+    
     save_metrics_to_csv(recalls, avg_mrr, manual_efforts, metrics_save_path)
