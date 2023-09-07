@@ -164,8 +164,6 @@ def compute_metrics(cve_data, k_values, rank_output_path):
     manual_efforts_sum = {k: 0 for k in k_values}
     manual_efforts_count = {k: 0 for k in k_values}
     
-    
-    
     rank_data = []
 
     for cve, data in cve_data.items():
