@@ -7,6 +7,8 @@ TF-IDF/similarity_data_normalized_TFIDF.csv
 TF-IDF/similarity_data_TFIDF.csv
 TF-IDF/test_data_TFIDF.csv
 
+BM25/similarity_data_bm25okapi.csv
+BM25/similarity_data_bm25+1.6_0.3_0.7.csv
 *.pt
 *.ckpt
 model/output_0831
