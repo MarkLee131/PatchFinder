@@ -4,7 +4,9 @@ from torch.utils.data import Dataset
 # Load model directly
 from transformers import AutoTokenizer
 
-
+'''
+train model by not concat the msg and diff tokens, tokenized separately
+'''
 class CVEDataset(Dataset):
     def __init__(self, file_name):
         self.df = pd.read_csv(file_name)

@@ -5,10 +5,19 @@ In this script, we design the model by only using Codereviewer, i.e., we depreca
 
 As you can see, them model is based on the pytorch-lightning framework.
 
+04/10/2023
+
+we reuse this script to train the model with the new top100 dataset (colbert).
+
+07/10/2023
+
+we reuse this script to train the model with the new top100 dataset (colbert) with 20 epoch for spliting the dataset.
+
 '''
 
 import configs
-from load_data_new import CVEDataset
+# from load_data_new import CVEDataset
+from load_data_colbert import CVEDataset #### 
 import logging
 from torch.utils.data import DataLoader
 import os
@@ -147,7 +156,7 @@ if __name__ == '__main__':
 
     train_dataloader = DataLoader(dataset=train_data, shuffle=True, batch_size=32, num_workers=15)
     valid_dataloader = DataLoader(dataset=valid_data, batch_size=32, num_workers=15)
-    test_dataloader = DataLoader(test_data, batch_size=8, num_workers=15)
+    test_dataloader = DataLoader(dataset=test_data, batch_size=8, num_workers=15)
 
     batch = next(iter(train_dataloader))
     print(batch.keys())
@@ -175,7 +184,10 @@ if __name__ == '__main__':
     import os
 
 
-    wandb_logger = WandbLogger(name='train_0831', project='PatchSleuth')
+    # wandb_logger = WandbLogger(name='train_0831', project='PatchSleuth')
+    # wandb_logger = WandbLogger(name='train_1004', project='PatchSleuth_ColBERT')
+    # wandb_logger = WandbLogger(name='train_1007_20epoch', project='PatchSleuth_ColBERT_20epoch')
+    wandb_logger = WandbLogger(name='train_1007_512', project='PatchSleuth_ColBERT')
     # for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
     early_stop_callback = EarlyStopping(
         monitor='validation_loss',
@@ -186,7 +198,11 @@ if __name__ == '__main__':
     )
     lr_monitor = LearningRateMonitor(logging_interval='step')
 
-    CHECK_POINTS_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/Checkpoints"
+    # CHECK_POINTS_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/Checkpoints"
+    # CHECK_POINTS_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_1004/Checkpoints"
+    # CHECK_POINTS_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_1007/Checkpoints"
+    
+    CHECK_POINTS_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_1007_512/Checkpoints"
 
     os.makedirs(CHECK_POINTS_PATH, exist_ok=True)
 

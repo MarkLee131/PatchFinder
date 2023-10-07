@@ -11,7 +11,7 @@ class CVEDataset(Dataset):
         self.cve = self.df['cve']
         self.desc_tokens = self.df['desc_token']
         # Combine msg and diff tokens with a space separator
-        self.msg_diff_tokens = self.df['msg_token'] + " " + self.df['diff_token']
+        self.msg_diff_tokens = self.df['commits']
         self.labels = self.df['label']
         self.tokenizer = AutoTokenizer.from_pretrained("microsoft/codereviewer")
         
@@ -32,7 +32,7 @@ class CVEDataset(Dataset):
         msg_diff_encoding = self.tokenizer.encode_plus(
             msg_diff,
             add_special_tokens=True,
-            max_length=256,  # Increased length as we're concatenating msg and diff
+            max_length=512,  # Increased length as we're concatenating msg and diff / 256, but we try to use 512 for colbert
             return_token_type_ids=False,
             padding='max_length',
             return_attention_mask=True,
