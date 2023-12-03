@@ -1,0 +1,399 @@
+cve,rank,label,cwe,cna,cvss2
+CVE-2019-3877,1,1.0,"('CWE-601', ""URL Redirection to Untrusted Site ('Open Redirect')"")","Red Hat, Inc.",4.3
+CVE-2021-29529,1,1.0,"('CWE-131', 'Incorrect Calculation of Buffer Size')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2021-21401,1,1.0,"('CWE-763', 'Release of Invalid Pointer or Reference')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2017-5226,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,7.5
+CVE-2022-23572,1,1.0,"('CWE-754', 'Improper Check for Unusual or Exceptional Conditions')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2021-37681,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2013-4150,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",7.5
+CVE-2020-26243,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2018-9989,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,5.0
+CVE-2015-2042,1,1.0,"('CWE-17', 'DEPRECATED: Code')",MITRE,4.6
+CVE-2021-21378,1,1.0,"('CWE-303', 'Incorrect Implementation of Authentication Algorithm')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2018-12320,1,1.0,"('CWE-416', 'Use After Free')",MITRE,6.8
+CVE-2015-7885,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,2.1
+CVE-2006-5331,1,1.0,"('CWE-19', 'Data Processing Errors')",MITRE,4.9
+CVE-2019-16714,1,1.0,"('CWE-909', 'Missing Initialization of Resource')",MITRE,NVD-CVSS2-Other
+CVE-2019-19058,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2017-6214,1,1.0,"('CWE-835', ""Loop with Unreachable Exit Condition ('Infinite Loop')"")",MITRE,5.0
+CVE-2018-10188,1,1.0,"('CWE-352', 'Cross-Site Request Forgery (CSRF)')",MITRE,6.8
+CVE-2014-6395,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,7.5
+CVE-2018-15572,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,2.1
+CVE-2019-19074,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2014-5353,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,3.5
+CVE-2018-10876,1,1.0,"('CWE-416', 'Use After Free')","Red Hat, Inc.",4.9
+CVE-2020-14401,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,6.4
+CVE-2020-28030,1,1.0,"('CWE-770', 'Allocation of Resources Without Limits or Throttling')",MITRE,NVD-CVSS2-Other
+CVE-2019-19053,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,7.8
+CVE-2018-5332,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,7.2
+CVE-2016-5244,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,5.0
+CVE-2015-7515,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","Red Hat, Inc.",4.9
+CVE-2017-7377,1,1.0,"('CWE-772', 'Missing Release of Resource after Effective Lifetime')",MITRE,2.1
+CVE-2016-3119,1,1.0,"('NVD-CWE-Other', 'Other')",MITRE,3.5
+CVE-2020-9428,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19071,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,7.8
+CVE-2021-3928,1,1.0,"('CWE-457', 'Use of Uninitialized Variable')",huntr.dev,NVD-CVSS2-Other
+CVE-2021-37673,1,1.0,"('CWE-20', 'Improper Input Validation')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2010-4250,1,1.0,"('CWE-399', 'Resource Management Errors')","Red Hat, Inc.",4.9
+CVE-2015-8011,1,1.0,"('CWE-120', ""Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"")",MITRE,6.8
+CVE-2017-13673,1,1.0,"('CWE-617', 'Reachable Assertion')",MITRE,4.0
+CVE-2017-8831,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,6.9
+CVE-2019-19526,1,1.0,"('CWE-416', 'Use After Free')",MITRE,NVD-CVSS2-Other
+CVE-2019-10895,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,5.0
+CVE-2013-4535,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",7.2
+CVE-2017-14171,1,1.0,"('CWE-834', 'Excessive Iteration')",MITRE,7.1
+CVE-2013-3227,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,4.9
+CVE-2017-16643,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,7.2
+CVE-2016-7995,1,1.0,"('CWE-772', 'Missing Release of Resource after Effective Lifetime')","Red Hat, Inc.",2.1
+CVE-2016-6187,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,7.2
+CVE-2019-19646,1,1.0,"('CWE-754', 'Improper Check for Unusual or Exceptional Conditions')",MITRE,7.5
+CVE-2018-15501,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,5.0
+CVE-2011-3359,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",7.8
+CVE-2017-15385,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,6.8
+CVE-2016-10030,1,1.0,"('CWE-284', 'Improper Access Control')",MITRE,7.6
+CVE-2016-4081,1,1.0,"('CWE-284', 'Improper Access Control')",MITRE,4.3
+CVE-2011-2161,1,1.0,"('CWE-399', 'Resource Management Errors')",MITRE,4.3
+CVE-2020-24394,1,1.0,"('CWE-732', 'Incorrect Permission Assignment for Critical Resource')",MITRE,NVD-CVSS2-Other
+CVE-2019-12098,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,5.8
+CVE-2021-37674,1,1.0,"('CWE-20', 'Improper Input Validation')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2020-11647,1,1.0,"('CWE-674', 'Uncontrolled Recursion')",MITRE,NVD-CVSS2-Other
+CVE-2015-3815,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,5.0
+CVE-2015-8852,1,1.0,"('NVD-CWE-Other', 'Other')",MITRE,5.0
+CVE-2012-0807,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",5.1
+CVE-2019-18625,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,5.0
+CVE-2016-4080,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.3
+CVE-2014-8546,1,1.0,"('CWE-189', 'Numeric Errors')",MITRE,7.5
+CVE-2016-2044,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,5.0
+CVE-2021-37672,1,1.0,"('CWE-125', 'Out-of-bounds Read')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2017-2613,1,1.0,"('CWE-770', 'Allocation of Resources Without Limits or Throttling')","Red Hat, Inc.",5.8
+CVE-2019-19044,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2018-13305,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,5.8
+CVE-2016-7540,1,1.0,"('CWE-19', 'Data Processing Errors')",Debian GNU/Linux,4.3
+CVE-2021-3658,1,1.0,"('CWE-863', 'Incorrect Authorization')","Red Hat, Inc.",NVD-CVSS2-Other
+CVE-2015-0213,1,1.0,"('CWE-352', 'Cross-Site Request Forgery (CSRF)')","Red Hat, Inc.",6.8
+CVE-2017-0376,1,1.0,"('CWE-617', 'Reachable Assertion')",Debian GNU/Linux,5.0
+CVE-2012-2786,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",Google Inc.,10.0
+CVE-2018-14043,1,1.0,"('CWE-732', 'Incorrect Permission Assignment for Critical Resource')",MITRE,7.5
+CVE-2021-29605,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2019-19927,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19927,2,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19927,3,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19927,4,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19927,5,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19927,6,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19927,7,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2019-19927,8,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2015-5283,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",4.7
+CVE-2016-9888,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,4.3
+CVE-2016-8646,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","Red Hat, Inc.",4.9
+CVE-2013-3233,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,4.9
+CVE-2019-20054,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,NVD-CVSS2-Other
+CVE-2018-9841,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,6.8
+CVE-2021-37647,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2017-2630,1,1.0,"('CWE-121', 'Stack-based Buffer Overflow')","Red Hat, Inc.",6.5
+CVE-2016-4951,1,1.0,"('NVD-CWE-Other', 'Other')",MITRE,7.2
+CVE-2021-29566,1,1.0,"('CWE-787', 'Out-of-bounds Write')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2020-10804,1,1.0,"('CWE-89', ""Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"")",MITRE,NVD-CVSS2-Other
+CVE-2018-20784,1,1.0,"('CWE-835', ""Loop with Unreachable Exit Condition ('Infinite Loop')"")",MITRE,7.5
+CVE-2013-1957,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",4.7
+CVE-2013-4540,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",7.5
+CVE-2022-35997,1,1.0,"('CWE-617', 'Reachable Assertion')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2013-3223,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,4.9
+CVE-2021-37641,1,1.0,"('CWE-125', 'Out-of-bounds Read')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2019-8460,1,1.0,"('CWE-1049', 'Excessive Data Query Operations in a Large Data Table')",Check Point Software Technologies Ltd.,NVD-CVSS2-Other
+CVE-2016-7157,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,2.1
+CVE-2019-18812,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2021-37637,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2017-11408,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,5.0
+CVE-2016-7798,1,1.0,"('CWE-326', 'Inadequate Encryption Strength')",MITRE,5.0
+CVE-2021-3671,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","Red Hat, Inc.",NVD-CVSS2-Other
+CVE-2020-12284,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2020-12284,2,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2020-12284,3,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2020-12284,4,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2020-12284,5,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2020-12284,6,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2020-12284,7,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2020-12284,8,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2016-2106,1,1.0,"('CWE-189', 'Numeric Errors')","Red Hat, Inc.",5.0
+CVE-2017-11147,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,6.4
+CVE-2019-12981,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,6.8
+CVE-2018-10887,1,1.0,"('CWE-194', 'Unexpected Sign Extension')","Red Hat, Inc.",5.8
+CVE-2017-15102,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","Red Hat, Inc.",6.9
+CVE-2014-5165,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,5.0
+CVE-2021-29603,1,1.0,"('CWE-787', 'Out-of-bounds Write')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2014-0214,1,1.0,"('CWE-287', 'Improper Authentication')","Red Hat, Inc.",6.8
+CVE-2015-0275,1,1.0,"('CWE-17', 'DEPRECATED: Code')","Red Hat, Inc.",4.9
+CVE-2015-8215,1,1.0,"('CWE-20', 'Improper Input Validation')",Canonical Ltd.,5.0
+CVE-2018-18225,1,1.0,"('CWE-682', 'Incorrect Calculation')",MITRE,5.0
+CVE-2013-1819,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",4.6
+CVE-2012-2787,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",Google Inc.,10.0
+CVE-2017-5970,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,5.0
+CVE-2021-29545,1,1.0,"('CWE-131', 'Incorrect Calculation of Buffer Size')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2018-20763,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,6.8
+CVE-2019-20839,1,1.0,"('CWE-120', ""Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"")",MITRE,5.0
+CVE-2016-0701,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')","Red Hat, Inc.",2.6
+CVE-2016-2186,1,1.0,"('NVD-CWE-Other', 'Other')","Red Hat, Inc.",4.9
+CVE-2016-8689,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,5.0
+CVE-2015-0564,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,5.0
+CVE-2019-13298,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,6.8
+CVE-2012-2383,1,1.0,"('CWE-189', 'Numeric Errors')","Red Hat, Inc.",4.9
+CVE-2021-3622,1,1.0,"('CWE-400', 'Uncontrolled Resource Consumption')","Red Hat, Inc.",NVD-CVSS2-Other
+CVE-2015-1334,1,1.0,"('CWE-17', 'DEPRECATED: Code')",Canonical Ltd.,4.6
+CVE-2011-0987,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,6.5
+CVE-2014-4656,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,4.6
+CVE-2013-0853,1,1.0,"('CWE-189', 'Numeric Errors')",Google Inc.,9.3
+CVE-2018-20511,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,2.1
+CVE-2016-6516,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.4
+CVE-2020-1971,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",OpenSSL Software Foundation,NVD-CVSS2-Other
+CVE-2015-4167,1,1.0,"('CWE-189', 'Numeric Errors')","Red Hat, Inc.",4.7
+CVE-2016-5735,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,6.8
+CVE-2016-10158,1,1.0,"('CWE-189', 'Numeric Errors')",MITRE,5.0
+CVE-2015-8723,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,4.3
+CVE-2021-29569,1,1.0,"('CWE-125', 'Out-of-bounds Read')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2017-16534,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,7.2
+CVE-2019-19537,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")",MITRE,NVD-CVSS2-Other
+CVE-2017-16525,1,1.0,"('CWE-416', 'Use After Free')",MITRE,7.2
+CVE-2020-25862,1,1.0,"('CWE-354', 'Improper Validation of Integrity Check Value')",MITRE,NVD-CVSS2-Other
+CVE-2017-0375,1,1.0,"('CWE-617', 'Reachable Assertion')",Debian GNU/Linux,5.0
+CVE-2022-23580,1,1.0,"('CWE-400', 'Uncontrolled Resource Consumption')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2016-4913,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",Debian GNU/Linux,7.2
+CVE-2016-8576,1,1.0,"('CWE-770', 'Allocation of Resources Without Limits or Throttling')","Red Hat, Inc.",2.1
+CVE-2017-12640,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,6.8
+CVE-2019-19061,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2017-5578,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')","Red Hat, Inc.",4.9
+CVE-2016-2329,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,6.8
+CVE-2009-5147,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,7.5
+CVE-2020-12268,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,7.5
+CVE-2019-19072,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,4.9
+CVE-2018-1000041,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,4.3
+CVE-2016-7515,1,1.0,"('CWE-125', 'Out-of-bounds Read')",Debian GNU/Linux,4.3
+CVE-2021-30199,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,NVD-CVSS2-Other
+CVE-2015-8784,1,1.0,"('CWE-787', 'Out-of-bounds Write')",Debian GNU/Linux,4.3
+CVE-2019-20792,1,1.0,"('CWE-415', 'Double Free')",MITRE,4.6
+CVE-2021-29583,1,1.0,"('CWE-125', 'Out-of-bounds Read')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2020-8904,1,1.0,"('CWE-823', 'Use of Out-of-range Pointer Offset')",Google Inc.,NVD-CVSS2-Other
+CVE-2012-2777,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",Google Inc.,10.0
+CVE-2022-35928,1,1.0,"('CWE-120', ""Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"")","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2022-3278,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",huntr.dev,NVD-CVSS2-Other
+CVE-2019-15222,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,4.9
+CVE-2017-6349,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,7.5
+CVE-2016-6506,1,1.0,"('CWE-399', 'Resource Management Errors')",MITRE,4.3
+CVE-2021-31916,1,1.0,"('CWE-787', 'Out-of-bounds Write')","Red Hat, Inc.",NVD-CVSS2-Other
+CVE-2019-20382,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2018-12249,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,5.0
+CVE-2019-5721,1,1.0,"('CWE-416', 'Use After Free')",MITRE,NVD-CVSS2-Other
+CVE-2014-5164,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,5.0
+CVE-2021-37649,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2015-1593,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')",MITRE,5.0
+CVE-2014-5045,1,1.0,"('CWE-59', ""Improper Link Resolution Before File Access ('Link Following')"")",MITRE,6.2
+CVE-2018-0500,1,1.0,"('CWE-787', 'Out-of-bounds Write')",Debian GNU/Linux,7.5
+CVE-2016-6129,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,5.0
+CVE-2019-19060,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,7.8
+CVE-2019-19923,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,5.0
+CVE-2015-7551,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",4.6
+CVE-2019-13135,1,1.0,"('CWE-908', 'Use of Uninitialized Resource')",MITRE,6.8
+CVE-2020-13974,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,NVD-CVSS2-Other
+CVE-2017-7862,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,7.5
+CVE-2018-7751,1,1.0,"('CWE-835', ""Loop with Unreachable Exit Condition ('Infinite Loop')"")",MITRE,4.3
+CVE-2011-3941,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",Google Inc.,7.5
+CVE-2013-4129,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",4.7
+CVE-2021-29619,1,1.0,"('CWE-755', 'Improper Handling of Exceptional Conditions')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2015-0208,1,1.0,"('NVD-CWE-Other', 'Other')","Red Hat, Inc.",4.3
+CVE-2013-4125,1,1.0,"('CWE-399', 'Resource Management Errors')","Red Hat, Inc.",5.4
+CVE-2015-8877,1,1.0,"('CWE-399', 'Resource Management Errors')",MITRE,5.0
+CVE-2013-4299,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",6.0
+CVE-2018-6337,1,1.0,"('CWE-212', 'Improper Removal of Sensitive Information Before Storage or Transfer')","Facebook, Inc.",5.0
+CVE-2018-13300,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2018-13300,2,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2018-13300,3,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2018-13300,4,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2018-13300,5,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2018-13300,6,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2018-13300,7,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2018-13300,8,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2014-9428,1,1.0,"('CWE-399', 'Resource Management Errors')",Debian GNU/Linux,7.8
+CVE-2019-12982,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.3
+CVE-2014-6427,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,5.0
+CVE-2017-6889,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",Flexera Software LLC,7.5
+CVE-2016-9084,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,4.6
+CVE-2017-18079,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,7.2
+CVE-2019-1549,1,1.0,"('CWE-330', 'Use of Insufficiently Random Values')",OpenSSL Software Foundation,5.0
+CVE-2021-3888,1,1.0,"('CWE-823', 'Use of Out-of-range Pointer Offset')",huntr.dev,NVD-CVSS2-Other
+CVE-2016-7520,1,1.0,"('CWE-125', 'Out-of-bounds Read')",Debian GNU/Linux,4.3
+CVE-2015-5685,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,7.5
+CVE-2018-9273,1,1.0,"('CWE-772', 'Missing Release of Resource after Effective Lifetime')",MITRE,5.0
+CVE-2020-12278,1,1.0,"('CWE-706', 'Use of Incorrectly-Resolved Name or Reference')",MITRE,NVD-CVSS2-Other
+CVE-2014-8369,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.6
+CVE-2017-9330,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,1.9
+CVE-2022-23577,1,1.0,"('CWE-476', 'NULL Pointer Dereference')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2022-1620,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",huntr.dev,NVD-CVSS2-Other
+CVE-2018-20177,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,7.5
+CVE-2016-2180,1,1.0,"('CWE-125', 'Out-of-bounds Read')","Red Hat, Inc.",5.0
+CVE-2019-1020014,1,1.0,"('CWE-415', 'Double Free')",DWF,2.1
+CVE-2016-1541,1,1.0,"('CWE-20', 'Improper Input Validation')",CERT/CC,6.8
+CVE-2020-29260,1,1.0,"('CWE-400', 'Uncontrolled Resource Consumption')",MITRE,NVD-CVSS2-Other
+CVE-2016-2858,1,1.0,"('CWE-331', 'Insufficient Entropy')","Red Hat, Inc.",1.9
+CVE-2017-11176,1,1.0,"('CWE-416', 'Use After Free')",MITRE,7.2
+CVE-2019-20918,1,1.0,"('CWE-416', 'Use After Free')",MITRE,NVD-CVSS2-Other
+CVE-2016-10191,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,7.5
+CVE-2015-8873,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,5.0
+CVE-2018-15855,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,2.1
+CVE-2016-8688,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,4.3
+CVE-2022-23587,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2020-27777,1,1.0,"('CWE-862', 'Missing Authorization')","Red Hat, Inc.",NVD-CVSS2-Other
+CVE-2011-2517,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",7.2
+CVE-2020-29368,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")",MITRE,NVD-CVSS2-Other
+CVE-2015-3288,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",7.2
+CVE-2020-12657,1,1.0,"('CWE-416', 'Use After Free')",MITRE,NVD-CVSS2-Other
+CVE-2019-16163,1,1.0,"('CWE-674', 'Uncontrolled Recursion')",MITRE,5.0
+CVE-2017-12665,1,1.0,"('CWE-772', 'Missing Release of Resource after Effective Lifetime')",MITRE,6.8
+CVE-2010-3696,1,1.0,"('CWE-399', 'Resource Management Errors')","Red Hat, Inc.",4.3
+CVE-2016-5352,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,4.3
+CVE-2015-1335,1,1.0,"('CWE-59', ""Improper Link Resolution Before File Access ('Link Following')"")",Canonical Ltd.,7.2
+CVE-2011-2210,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",2.1
+CVE-2019-13227,1,1.0,"('CWE-59', ""Improper Link Resolution Before File Access ('Link Following')"")",MITRE,6.6
+CVE-2014-3547,1,1.0,"('CWE-79', ""Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"")","Red Hat, Inc.",4.3
+CVE-2016-2330,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,6.8
+CVE-2017-6429,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,6.8
+CVE-2020-15214,1,1.0,"('CWE-787', 'Out-of-bounds Write')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2015-3212,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")","Red Hat, Inc.",4.9
+CVE-2019-13224,1,1.0,"('CWE-416', 'Use After Free')",MITRE,7.5
+CVE-2016-4006,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.3
+CVE-2020-8905,1,1.0,"('CWE-120', ""Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"")",Google Inc.,NVD-CVSS2-Other
+CVE-2013-4248,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",4.3
+CVE-2013-4531,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",7.5
+CVE-2017-9142,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,4.3
+CVE-2012-3501,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",5.0
+CVE-2020-15193,1,1.0,"('CWE-908', 'Use of Uninitialized Resource')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2019-17547,1,1.0,"('CWE-416', 'Use After Free')",MITRE,6.8
+CVE-2012-6617,1,1.0,"('NVD-CWE-Other', 'Other')",MITRE,4.3
+CVE-2016-2151,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')","Red Hat, Inc.",4.0
+CVE-2019-18680,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,NVD-CVSS2-Other
+CVE-2018-16150,1,1.0,"('CWE-347', 'Improper Verification of Cryptographic Signature')",MITRE,4.3
+CVE-2015-1351,1,1.0,"('CWE-416', 'Use After Free')",MITRE,7.5
+CVE-2017-9349,1,1.0,"('CWE-835', ""Loop with Unreachable Exit Condition ('Infinite Loop')"")",MITRE,7.8
+CVE-2022-26530,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,NVD-CVSS2-Other
+CVE-2021-33909,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2019-13300,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,6.8
+CVE-2015-1331,1,1.0,"('CWE-59', ""Improper Link Resolution Before File Access ('Link Following')"")",Canonical Ltd.,4.9
+CVE-2017-16528,1,1.0,"('CWE-416', 'Use After Free')",MITRE,7.2
+CVE-2015-8712,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,4.3
+CVE-2019-15292,1,1.0,"('CWE-416', 'Use After Free')",MITRE,10.0
+CVE-2012-0853,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",6.8
+CVE-2022-24301,1,1.0,"('CWE-276', 'Incorrect Default Permissions')",MITRE,NVD-CVSS2-Other
+CVE-2018-15853,1,1.0,"('CWE-400', 'Uncontrolled Resource Consumption')",MITRE,2.1
+CVE-2014-2067,1,1.0,"('CWE-79', ""Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"")",Debian GNU/Linux,3.5
+CVE-2015-8363,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,6.8
+CVE-2017-18270,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,3.6
+CVE-2017-14230,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,6.4
+CVE-2013-2496,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,7.5
+CVE-2016-7527,1,1.0,"('CWE-125', 'Out-of-bounds Read')",Debian GNU/Linux,4.3
+CVE-2011-4127,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",4.6
+CVE-2011-4127,2,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",4.6
+CVE-2011-4127,3,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",4.6
+CVE-2011-4127,4,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",4.6
+CVE-2015-7872,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",2.1
+CVE-2018-7335,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,5.0
+CVE-2016-2842,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,10.0
+CVE-2012-3520,1,1.0,"('CWE-287', 'Improper Authentication')","Red Hat, Inc.",1.9
+CVE-2017-11664,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,4.3
+CVE-2020-28097,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,NVD-CVSS2-Other
+CVE-2022-1769,1,1.0,"('CWE-126', 'Buffer Over-read')",huntr.dev,NVD-CVSS2-Other
+CVE-2015-1573,1,1.0,"('CWE-19', 'Data Processing Errors')",MITRE,4.9
+CVE-2019-13221,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,6.8
+CVE-2022-31620,1,1.0,"('CWE-617', 'Reachable Assertion')",MITRE,NVD-CVSS2-Other
+CVE-2016-6520,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,6.4
+CVE-2014-2064,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",Debian GNU/Linux,5.0
+CVE-2015-8104,1,1.0,"('CWE-399', 'Resource Management Errors')",MITRE,4.7
+CVE-2014-8176,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",7.5
+CVE-2012-2779,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",Google Inc.,10.0
+CVE-2019-13136,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,6.8
+CVE-2018-13785,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,4.3
+CVE-2013-0894,1,1.0,"('CWE-120', ""Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"")",Google Inc.,7.5
+CVE-2016-10172,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,4.3
+CVE-2016-5338,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')","Red Hat, Inc.",4.6
+CVE-2017-14166,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,4.3
+CVE-2014-2066,1,1.0,"('CWE-287', 'Improper Authentication')",Debian GNU/Linux,6.8
+CVE-2017-1000494,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.6
+CVE-2017-6347,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,7.2
+CVE-2019-15900,1,1.0,"('CWE-908', 'Use of Uninitialized Resource')",MITRE,10.0
+CVE-2015-7519,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",4.3
+CVE-2022-1043,1,1.0,"('CWE-416', 'Use After Free')","Red Hat, Inc.",NVD-CVSS2-Other
+CVE-2014-0182,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",7.5
+CVE-2018-14361,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,7.5
+CVE-2020-14404,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,5.5
+CVE-2020-12768,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2015-9016,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")",Android (associated with Google Inc. or Open Handset Alliance),6.9
+CVE-2018-15862,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,2.1
+CVE-2017-6439,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,1.9
+CVE-2018-13301,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,4.3
+CVE-2018-20176,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,5.0
+CVE-2017-8890,1,1.0,"('CWE-415', 'Double Free')",MITRE,7.2
+CVE-2012-2121,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",4.9
+CVE-2011-4579,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')","Red Hat, Inc.",4.3
+CVE-2018-7998,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,5.1
+CVE-2019-18282,1,1.0,"('CWE-330', 'Use of Insufficiently Random Values')",MITRE,NVD-CVSS2-Other
+CVE-2013-2017,1,1.0,"('CWE-399', 'Resource Management Errors')","Red Hat, Inc.",7.8
+CVE-2020-11724,1,1.0,"('CWE-444', ""Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"")",MITRE,NVD-CVSS2-Other
+CVE-2015-4602,1,1.0,"('NVD-CWE-Other', 'Other')","Red Hat, Inc.",10.0
+CVE-2016-9298,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.3
+CVE-2010-4329,1,1.0,"('CWE-79', ""Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"")",MITRE,4.3
+CVE-2020-14400,1,1.0,"('NVD-CWE-Other', 'Other')",MITRE,5.0
+CVE-2019-15916,1,1.0,"('CWE-401', 'Missing Release of Memory after Effective Lifetime')",MITRE,NVD-CVSS2-Other
+CVE-2022-33099,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2016-10271,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,6.8
+CVE-2015-4001,1,1.0,"('CWE-189', 'Numeric Errors')",MITRE,9.0
+CVE-2014-8961,1,1.0,"('CWE-22', ""Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"")",MITRE,4.0
+CVE-2015-4042,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,7.5
+CVE-2022-1735,1,1.0,"('CWE-120', ""Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"")",huntr.dev,NVD-CVSS2-Other
+CVE-2016-5731,1,1.0,"('CWE-79', ""Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"")",MITRE,4.3
+CVE-2014-2739,1,1.0,"('CWE-20', 'Improper Input Validation')","Red Hat, Inc.",4.6
+CVE-2020-20276,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,7.5
+CVE-2022-29213,1,1.0,"('CWE-20', 'Improper Input Validation')","GitHub, Inc.",NVD-CVSS2-Other
+CVE-2014-4348,1,1.0,"('CWE-79', ""Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"")",MITRE,3.5
+CVE-2019-12951,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,7.5
+CVE-2014-7284,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,6.4
+CVE-2016-2045,1,1.0,"('CWE-79', ""Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"")",MITRE,3.5
+CVE-2013-2277,1,1.0,"('NVD-CWE-Other', 'Other')",MITRE,7.5
+CVE-2016-3734,1,1.0,"('CWE-352', 'Cross-Site Request Forgery (CSRF)')","Red Hat, Inc.",6.8
+CVE-2021-45930,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2018-15594,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",MITRE,2.1
+CVE-2016-8633,1,1.0,"('CWE-284', 'Improper Access Control')","Red Hat, Inc.",6.2
+CVE-2015-8966,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')",Android (associated with Google Inc. or Open Handset Alliance),7.2
+CVE-2015-3811,1,1.0,"('CWE-17', 'DEPRECATED: Code')",MITRE,5.0
+CVE-2015-3339,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")",MITRE,6.2
+CVE-2015-6761,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")",Google Inc.,6.8
+CVE-2018-20174,1,1.0,"('CWE-125', 'Out-of-bounds Read')",MITRE,5.0
+CVE-2016-3156,1,1.0,"('CWE-399', 'Resource Management Errors')",MITRE,2.1
+CVE-2018-8798,1,1.0,"('CWE-126', 'Buffer Over-read')",Check Point Software Technologies Ltd.,5.0
+CVE-2013-3301,1,1.0,"('NVD-CWE-Other', 'Other')","Red Hat, Inc.",7.2
+CVE-2018-11594,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.3
+CVE-2021-24028,1,1.0,"('CWE-763', 'Release of Invalid Pointer or Reference')","Facebook, Inc.",NVD-CVSS2-Other
+CVE-2019-15924,1,1.0,"('CWE-476', 'NULL Pointer Dereference')",MITRE,4.9
+CVE-2014-4987,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')",MITRE,4.0
+CVE-2014-9710,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")","Red Hat, Inc.",6.9
+CVE-2018-17568,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,7.5
+CVE-2012-6084,1,1.0,"('NVD-CWE-Other', 'Other')","Red Hat, Inc.",5.0
+CVE-2017-6348,1,1.0,"('NVD-CWE-Other', 'Insufficient Information')",MITRE,4.9
+CVE-2022-28044,1,1.0,"('CWE-787', 'Out-of-bounds Write')",MITRE,NVD-CVSS2-Other
+CVE-2015-8817,1,1.0,"('CWE-125', 'Out-of-bounds Read')","Red Hat, Inc.",2.1
+CVE-2012-2133,1,1.0,"('CWE-399', 'Resource Management Errors')","Red Hat, Inc.",4.0
+CVE-2017-2608,1,1.0,"('CWE-502', 'Deserialization of Untrusted Data')","Red Hat, Inc.",6.5
+CVE-2011-1927,1,1.0,"('NVD-CWE-Other', 'Other')","Red Hat, Inc.",5.0
+CVE-2015-8767,1,1.0,"('CWE-362', ""Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"")",MITRE,4.9
+CVE-2014-3980,1,1.0,"('CWE-264', 'Permissions, Privileges, and Access Controls')","Red Hat, Inc.",4.6
+CVE-2014-9895,1,1.0,"('CWE-200', 'Exposure of Sensitive Information to an Unauthorized Actor')",Android (associated with Google Inc. or Open Handset Alliance),4.3
+CVE-2017-6194,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,6.8
+CVE-2017-8069,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,7.2
+CVE-2017-9201,1,1.0,"('CWE-369', 'Divide By Zero')",MITRE,4.3
+CVE-2017-18255,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",MITRE,4.6
+CVE-2012-6701,1,1.0,"('CWE-190', 'Integer Overflow or Wraparound')",Debian GNU/Linux,7.2
+CVE-2019-14814,1,1.0,"('CWE-122', 'Heap-based Buffer Overflow')","Red Hat, Inc.",7.2
+CVE-2016-7838,1,1.0,"('CWE-426', 'Untrusted Search Path')",JPCERT/CC,6.8
+CVE-2012-5374,1,1.0,"('CWE-310', 'Cryptographic Issues')",MITRE,4.0
+CVE-2021-3764,1,1.0,"('CWE-400', 'Uncontrolled Resource Consumption')","Red Hat, Inc.",NVD-CVSS2-Other
+CVE-2016-5359,1,1.0,"('CWE-119', 'Improper Restriction of Operations within the Bounds of a Memory Buffer')",MITRE,4.3
+CVE-2017-7472,1,1.0,"('CWE-404', 'Improper Resource Shutdown or Release')","Red Hat, Inc.",4.9
+CVE-2013-7267,1,1.0,"('CWE-20', 'Improper Input Validation')",MITRE,4.9
+CVE-2022-34295,3,1.0,"('CWE-330', 'Use of Insufficiently Random Values')",MITRE,NVD-CVSS2-Other

@@ -3,21 +3,20 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 gpus = [0,1,2,3]
 
-data_path='/mnt/local/Baselines_Bugs/ColBERT/data'
-save_dir='/mnt/local/Baselines_Bugs/ColBERT/codellama/retrieval'
-os.makedirs(save_dir, exist_ok=True)
+data_path='/mnt/local/Baselines_Bugs/PatchSleuth/TF-IDF/results/top_100_diff'
+os.makedirs(data_path, exist_ok=True)
 
 
-### 10/07
-train_filename    = 'train_data.csv'
-validate_filename = 'validate_data.csv'
-test_filename     = 'test_data.csv'
+### 10/12
+train_filename    = 'similarity_data_diff_train_top100.csv'
+validate_filename = 'similarity_data_diff_validate_top100.csv'
+test_filename     = 'similarity_data_diff_test_top100.csv'
 
 
 train_file=os.path.join(data_path, train_filename)
 valid_file=os.path.join(data_path, validate_filename)
 test_file=os.path.join(data_path, test_filename)
-# batch_size=128
+batch_size=128
 
 
 debug=False
@@ -31,4 +30,5 @@ def get_singapore_time():
     singaporeTz = pytz.timezone("Asia/Singapore") 
     timeInSingapore = datetime.now(singaporeTz)
     currentTimeInSinapore = timeInSingapore.strftime("%H:%M:%S")
+    # print("Current time in Singapore is: ", currentTimeInSinapore)
     print(currentTimeInSinapore)
