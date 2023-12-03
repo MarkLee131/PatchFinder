@@ -32,7 +32,7 @@ class CVEDataset(Dataset):
         msg_diff_encoding = self.tokenizer.encode_plus(
             msg_diff,
             add_special_tokens=True,
-            max_length=512,  # Increased length as we're concatenating msg and diff / 256, but we try to use 512 for colbert
+            max_length=512,
             return_token_type_ids=False,
             padding='max_length',
             return_attention_mask=True,

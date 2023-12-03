@@ -7,8 +7,8 @@ from torch.utils.data import DataLoader
 import pytorch_lightning as pl
 import torch.nn as nn
 from transformers import AutoModelForSeq2SeqLM
-import configs_ablation_diff as configs
-from load_data_ablation_diff import CVEDataset
+import model.ablation.diff_only.configs_ablation_diff as configs
+from model.ablation.diff_only.load_data_ablation_diff import CVEDataset
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 

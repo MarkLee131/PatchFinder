@@ -33,7 +33,7 @@ class CVEDataset(Dataset):
         # msg_encoding = self.tokenizer.encode_plus(
         # msg,
         # add_special_tokens=True,
-        # max_length=128,
+        # max_length=512,
         # return_token_type_ids=False,
         # padding='max_length',
         # return_attention_mask=True,
@@ -45,7 +45,7 @@ class CVEDataset(Dataset):
         diff_encoding = self.tokenizer.encode_plus(
         diff,
         add_special_tokens=True,
-        max_length=128,
+        max_length=512,
         return_token_type_ids=False,
         padding='max_length',
         return_attention_mask=True,

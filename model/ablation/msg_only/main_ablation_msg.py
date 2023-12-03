@@ -1,16 +1,18 @@
 '''
 12/10/2023
 
-we reuse this script to train the model with the new top100 dataset (diff) with 20 epoch for spliting the dataset.
+we reuse this script to train the model with the new top100 dataset (msg/diff) with 20 epoch for spliting the dataset.
 
 '''
 
-import configs_ablation_diff as configs_ablation
-from load_data_ablation_diff import CVEDataset #### 
+import configs_ablation as configs_ablation
+from load_data_ablation_msg import CVEDataset #### 
 import logging
 from torch.utils.data import DataLoader
 import os
 import wandb
+
+
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 gpus = [0,1,2,3]
@@ -18,6 +20,8 @@ gpus = [0,1,2,3]
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # set `no_deprecation_warning=True` to disable this warning
+
+
 
 
 """## Fine-tune using PyTorch Lightning
@@ -60,14 +64,14 @@ class CVEClassifier(pl.LightningModule):
         # Fully connected layer for output
         self.fc = nn.Linear(2 * self.codeReviewer.config.hidden_size, num_classes)
 
-    def forward(self, input_ids_desc, attention_mask_desc, input_ids_diff, attention_mask_diff):
+    def forward(self, input_ids_desc, attention_mask_desc, input_ids_msg_diff, attention_mask_msg_diff):
         
-        # Get [CLS] embeddings for desc and diff
+        # Get [CLS] embeddings for desc and msg+diff
         desc_cls_embed = self.codeReviewer(input_ids=input_ids_desc, attention_mask=attention_mask_desc).last_hidden_state[:, 0, :]
-        diff_cls_embed = self.codeReviewer(input_ids=input_ids_diff, attention_mask=attention_mask_diff).last_hidden_state[:, 0, :]
+        msg_diff_cls_embed = self.codeReviewer(input_ids=input_ids_msg_diff, attention_mask=attention_mask_msg_diff).last_hidden_state[:, 0, :]
         
         # Concatenate [CLS] embeddings
-        concatenated = torch.cat((desc_cls_embed, diff_cls_embed), dim=1)
+        concatenated = torch.cat((desc_cls_embed, msg_diff_cls_embed), dim=1)
         
         # Apply dropout
         dropped = self.dropout_layer(concatenated)
@@ -81,10 +85,8 @@ class CVEClassifier(pl.LightningModule):
         predict = self(
             batch['input_ids_desc'],
             batch['attention_mask_desc'],
-            # batch['input_ids_msg'],
-            # batch['attention_mask_msg']
-            batch['input_ids_diff'],
-            batch['attention_mask_diff']
+            batch['input_ids_msg'],
+            batch['attention_mask_msg']
         )
         predict = predict.squeeze(1)
         loss = self.criterion(predict, batch['label'])
@@ -172,7 +174,7 @@ if __name__ == '__main__':
 
 
 
-    wandb_logger = WandbLogger(name='train_ablation', project='PatchSleuth_diff')
+    wandb_logger = WandbLogger(name='train_ablation', project='PatchSleuth_msg')
     # for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
     early_stop_callback = EarlyStopping(
         monitor='validation_loss',
@@ -183,7 +185,7 @@ if __name__ == '__main__':
     )
     lr_monitor = LearningRateMonitor(logging_interval='step')
     
-    CHECK_POINTS_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_ablation_diff/Checkpoints"
+    CHECK_POINTS_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_ablation_msg/Checkpoints"
 
     os.makedirs(CHECK_POINTS_PATH, exist_ok=True)
 
