@@ -13,7 +13,6 @@ from load_data_new import CVEDataset
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-
 class CVEClassifier(pl.LightningModule):
     def __init__(self, 
                  num_classes=1,
@@ -184,12 +183,16 @@ def save_metrics_to_csv(avg_recalls, avg_mrr, manual_efforts, save_path):
 
 if __name__ == "__main__":
 
+    ### count time cost for evaluation 1203
+    configs.get_singapore_time()
+
     MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/Checkpoints/final_model.pt"  
     test_data = CVEDataset(configs.test_file)
     test_dataloader = DataLoader(test_data, batch_size=8, num_workers=10)
     
     model = torch.load(MODEL_PATH)
-    k_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 50, 100]
+    # k_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 50, 100]
+    k_values = [10]
     
     logging.info(f'Evaluating model at {MODEL_PATH}:')
     
@@ -201,9 +204,18 @@ if __name__ == "__main__":
         k_values, 
         reload_from_checkpoint=True,
         load_path_checkpoint=MODEL_PATH,
-        data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/predict_{data_path_flag}.csv'
+        
+        # data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/predict_{data_path_flag}.csv'
+        data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/1203predict_{data_path_flag}.csv'
+        
         )
 
     # Save metrics
-    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/metrics_{data_path_flag}.csv'
+    # metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/metrics_{data_path_flag}.csv'
+    
+    ### 1203
+    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/model/output_0831/1203metrics_{data_path_flag}.csv'
+    
     save_metrics_to_csv(recalls, avg_mrr, manual_efforts, metrics_save_path)
+    
+    configs.get_singapore_time()

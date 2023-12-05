@@ -2,19 +2,19 @@ import torch
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 gpus = [0,1,2,3]
-# data_path='/mnt/local/Baselines_Bugs/PatchSleuth/data' 
+data_path='/mnt/local/Baselines_Bugs/PatchSleuth/data' 
 # data_path='/mnt/local/Baselines_Bugs/PatchSleuth/data/top100_split' ### 04/10/2023 we reuse it to train new data (colbert)
-data_path='/mnt/local/Baselines_Bugs/ColBERT/data/cve_split/top100_split'
+# data_path='/mnt/local/Baselines_Bugs/ColBERT/data/cve_split/top100_split'
 os.makedirs(data_path,exist_ok=True)
 
 # train_filename    = 'train_data_top100.csv'
 # validate_filename = 'validate_data_top100.csv'
-# test_filename     = 'test_data_top100.csv'
+test_filename     = 'test_data_top100.csv'
 
 ### 10/07
 train_filename    = 'train_top100.csv'
 validate_filename = 'validate_top100.csv'
-test_filename     = 'test_top100.csv'
+# test_filename     = 'test_top100.csv'
 
 
 train_file=os.path.join(data_path, train_filename)

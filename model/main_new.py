@@ -1,23 +1,21 @@
 '''
 31/08/2023
-
-In this script, we design the model by only using Codereviewer, i.e., we deprecate the use of LSTM for CVE description.
-
-As you can see, them model is based on the pytorch-lightning framework.
+In this script, we design the model by only using Codereviewer. As you can see, 
+the model is based on the pytorch-lightning framework.
 
 04/10/2023
-
 we reuse this script to train the model with the new top100 dataset (colbert).
 
 07/10/2023
-
 we reuse this script to train the model with the new top100 dataset (colbert) with 20 epoch for spliting the dataset.
 
+04/12/2023
+we rerun the model to update the metrics.
 '''
 
 import configs
-# from load_data_new import CVEDataset
-from load_data_colbert import CVEDataset #### 
+from load_data_new import CVEDataset
+# from load_data_colbert import CVEDataset #### 
 import logging
 from torch.utils.data import DataLoader
 import os

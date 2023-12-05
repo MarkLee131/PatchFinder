@@ -3,9 +3,8 @@ import pandas as pd
 import torch
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
-import gc
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 base_model = "codellama/CodeLlama-7b-Instruct-hf"
 tokenizer = AutoTokenizer.from_pretrained(base_model)
 model = AutoModelForCausalLM.from_pretrained(
@@ -16,33 +15,14 @@ model = AutoModelForCausalLM.from_pretrained(
 
 # Load the dataset
 DATA_DIR = '/mnt/local/Baselines_Bugs/PatchSleuth/data'
-SAVE_DIR = '/mnt/local/Baselines_Bugs/PatchSleuth/codellama/retrieval/gpu_2'
+SAVE_DIR = '/mnt/local/Baselines_Bugs/PatchSleuth/codellama/retrieval/gpu_3'
 os.makedirs(SAVE_DIR, exist_ok=True)
 
-test_file = os.path.join(DATA_DIR, 'test_data.csv')
+
 print('Loading data...')
-test_df = pd.read_csv(test_file)
 
-# Sample unique CVEs
-unique_cves = test_df['cve'].dropna().unique()
-sampled_cves = pd.Series(unique_cves).sample(n=20, random_state=42).tolist()
+test_df_sampled = pd.read_csv(os.path.join(DATA_DIR, 'codellama_test_data_sampled_2.csv'))
 
-### split them into two equal parts
-sampled_cves_1 = sampled_cves[:10]
-sampled_cves_2 = sampled_cves[10:]
-
-## save them into two separate files
-test_df_sampled_1 = test_df[test_df['cve'].isin(sampled_cves_1)]
-test_df_sampled_1.reset_index(drop=True, inplace=True)
-test_df_sampled_1.to_csv(os.path.join(DATA_DIR, 'codellama_test_data_sampled_1.csv'), index=False)
-
-test_df_sampled_2 = test_df[test_df['cve'].isin(sampled_cves_2)]
-test_df_sampled_2.reset_index(drop=True, inplace=True)
-test_df_sampled_2.to_csv(os.path.join(DATA_DIR, 'codellama_test_data_sampled_2.csv'), index=False)
-
-
-del test_df_sampled_2
-gc.collect()
 
 print('Data loaded...')
 
@@ -56,10 +36,8 @@ def extract_likelihood_score(output):
 print('Inferencing...')
 results = []
 
-for idx, row in tqdm(test_df_sampled_1.iterrows(), total=test_df_sampled_1.shape[0]):
+for idx, row in tqdm(test_df_sampled.iterrows(), total=test_df_sampled.shape[0]):
     desc_tokens = row['desc_token'] 
-    # msg_tokens = row['msg_token'] if isinstance(row['msg_token'], str) else ' '
-    # diff_tokens = row['diff_token'] if isinstance(row['diff_token'], str) else ' '
     
     if isinstance(row['desc_token'], str):
         msg_tokens = row['msg_token'].split(' ')
@@ -93,9 +71,8 @@ Your answer must only contain the numerical score, with no other text or symbols
     model_input = model_input.to('cuda')
     with torch.no_grad():
         try:
-            
-            output = model.generate(**model_input, num_return_sequences=1, max_new_tokens=1000, pad_token_id=tokenizer.eos_token_id, do_sample=True, temperature=0.8)[0]
-            decoded_output = tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True, max_length=1800, truncation=True)
+            output = model.generate(**model_input, num_return_sequences=1, max_new_tokens=1024, pad_token_id=tokenizer.eos_token_id, do_sample=True, temperature=0.8)[0]
+            decoded_output = tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
             prompt_end_index = decoded_output.find("[/INST]") + len("[/INST]")
             generated_output = decoded_output[prompt_end_index:].strip()
         except Exception as e:
@@ -117,8 +94,8 @@ Your answer must only contain the numerical score, with no other text or symbols
         continue
 
 # Add results to DataFrame and save to CSV
-test_df_sampled_1['likelihood'] = results
-test_df_sampled_1.sort_values(by='likelihood', ascending=False, inplace=True)
-test_df_sampled_1.to_csv(os.path.join(SAVE_DIR, 'inference_results_1.csv'), index=False)
+test_df_sampled['likelihood'] = results
+test_df_sampled.sort_values(by='likelihood', ascending=False, inplace=True)
+test_df_sampled.to_csv(os.path.join(SAVE_DIR, 'inference_results.csv'), index=False)
 
 print('Inference completed and results saved.')
