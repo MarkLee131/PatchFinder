@@ -1,17 +1,16 @@
-# import os
+import os
 import logging
 import torch
 import pandas as pd
-# from collections import OrderedDict
 from tqdm import tqdm
 from torch.utils.data import DataLoader
 import pytorch_lightning as pl
 import torch.nn as nn
 from transformers import AutoModelForSeq2SeqLM
 import configs
-# from load_data_new import CVEDataset
-from load_data_colbert import CVEDataset #### Updated to load_data_colbert
-import os
+from load_data_new import CVEDataset
+# from load_data_colbert import CVEDataset #### Updated to load_data_colbert
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
@@ -219,11 +218,21 @@ def save_metrics_to_csv(avg_recalls, avg_mrr, manual_efforts, save_path):
 
 if __name__ == "__main__":
 
-    # MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_0831/Checkpoints/final_model.pt"
+    MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_0831/Checkpoints/final_model.pt"
     # MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_1004/Checkpoints/final_model.pt"  
     # MODEL_PATH = "//mnt/local/Baselines_Bugs/PatchSleuth/model/output_1004_20epoch/Checkpoints/final_model.pt"
-    MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_1007_20epoch/Checkpoints/final_model.pt"  
-    test_data = CVEDataset(configs.test_file)
+    # MODEL_PATH = "/mnt/local/Baselines_Bugs/PatchSleuth/model/output_1007_20epoch/Checkpoints/final_model.pt" 
+    
+    test_file_fusion = '/mnt/local/Baselines_Bugs/CR_score/evaluate/fusion_unnormalized/top_100_fusion.csv'
+    
+    tmp_df = pd.read_csv(test_file_fusion)
+    print(tmp_df.shape)
+    unique_cve = tmp_df['cve'].unique()
+    print(len(unique_cve))
+    
+    test_data = CVEDataset(test_file_fusion)  
+    
+    # test_data = CVEDataset(configs.test_file)
     test_dataloader = DataLoader(test_data, batch_size=32, num_workers=10)
     
     model = torch.load(MODEL_PATH)
@@ -234,7 +243,8 @@ if __name__ == "__main__":
     data_path_flag = MODEL_PATH.split('/')[-1].split('.')[0]
     logging.info(f'data_path_flag: {data_path_flag}')
     
-    os.makedirs(f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch', exist_ok=True)
+    # os.makedirs(f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch', exist_ok=True)
+    
     recalls, avg_mrr, manual_efforts = evaluate(
         model, 
         test_dataloader, 
@@ -246,16 +256,22 @@ if __name__ == "__main__":
         # data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1004_20epoch/predict_{data_path_flag}.csv',
         # rank_info_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1004_20epoch/rank_info_{data_path_flag}.csv'
         
-        data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch/predict_{data_path_flag}.csv',
-        rank_info_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch/rank_info_{data_path_flag}.csv'
+        # data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch/predict_{data_path_flag}.csv',
+        # rank_info_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch/rank_info_{data_path_flag}.csv'
+        
+        data_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_0831/1210predict_{data_path_flag}.csv',
+        rank_info_path=f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_0831/1210rank_info_{data_path_flag}.csv'
+        
         
         )
 
     # Save metrics
     # metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_0831/metrics_{data_path_flag}.csv'
-    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1004_20epoch/metrics_{data_path_flag}.csv'
+    # metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1004_20epoch/metrics_{data_path_flag}.csv'
     
-    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch/metrics_{data_path_flag}.csv'
+    # metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_1007_20epoch/metrics_{data_path_flag}.csv'
+    
+    metrics_save_path = f'/mnt/local/Baselines_Bugs/PatchSleuth/metrics/CR_0831/1210metrics_{data_path_flag}.csv'
     
     save_metrics_to_csv(recalls, avg_mrr, manual_efforts, metrics_save_path)
 

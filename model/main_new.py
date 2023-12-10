@@ -49,7 +49,6 @@ from transformers import AutoModelForSeq2SeqLM, AdamW, get_linear_schedule_with_
 import pytorch_lightning as pl
 import torch.nn as nn
 import torch
-# import torch.optim.AdamW as AdamW
 
 class CVEClassifier(pl.LightningModule):
     def __init__(self, 

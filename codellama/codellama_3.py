@@ -39,10 +39,10 @@ results = []
 for idx, row in tqdm(test_df_sampled.iterrows(), total=test_df_sampled.shape[0]):
     desc_tokens = row['desc_token'] 
     
-    if isinstance(row['desc_token'], str):
+    if isinstance(row['msg_token'], str):
         msg_tokens = row['msg_token'].split(' ')
-        if len(msg_tokens) > 64:
-            msg_tokens = msg_tokens[:64]
+        if len(msg_tokens) > 128:
+            msg_tokens = msg_tokens[:128]
         
         msg_tokens = ' '.join(msg_tokens)
     else:
@@ -73,8 +73,8 @@ Your answer must only contain the numerical score, with no other text or symbols
         try:
             output = model.generate(**model_input, num_return_sequences=1, max_new_tokens=1024, pad_token_id=tokenizer.eos_token_id, do_sample=True, temperature=0.8)[0]
             decoded_output = tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
-            prompt_end_index = decoded_output.find("[/INST]") + len("[/INST]")
-            generated_output = decoded_output[prompt_end_index:].strip()
+
+
         except Exception as e:
             print(e)
             decoded_output = e

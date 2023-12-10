@@ -3,8 +3,8 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
 gpus = [0,1,2,3]
 
-data_path='/mnt/local/Baselines_Bugs/ColBERT/data'
-save_dir='/mnt/local/Baselines_Bugs/ColBERT/codellama/retrieval'
+data_path='/mnt/local/Baselines_Bugs/PatchSleuth/data'
+save_dir='/mnt/local/Baselines_Bugs/PatchSleuth/codellama/retrieval/'
 os.makedirs(save_dir, exist_ok=True)
 
 
@@ -17,7 +17,6 @@ test_filename     = 'test_data.csv'
 train_file=os.path.join(data_path, train_filename)
 valid_file=os.path.join(data_path, validate_filename)
 test_file=os.path.join(data_path, test_filename)
-# batch_size=128
 
 
 debug=False

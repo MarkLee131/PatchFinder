@@ -4,7 +4,6 @@ from tqdm import tqdm
 
 '''
 Date: 24/08/2023
-Author: Kaixuan Li
 Purpose: Filter the commits by using TF-IDF score.
 we try to filter only top 100 commits for each CVE according to the TF-IDF score.
 '''

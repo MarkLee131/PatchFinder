@@ -1,7 +1,10 @@
 import torch
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
-gpus = [0,1,2,3]
+# os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
+# gpus = [0,1,2,3]
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
+gpus = [0,1]
+
 data_path='/mnt/local/Baselines_Bugs/PatchSleuth/data' 
 # data_path='/mnt/local/Baselines_Bugs/PatchSleuth/data/top100_split' ### 04/10/2023 we reuse it to train new data (colbert)
 # data_path='/mnt/local/Baselines_Bugs/ColBERT/data/cve_split/top100_split'
