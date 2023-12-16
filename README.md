@@ -15,4 +15,4 @@ In this paper, we propose PatchFinder, a two-phase framework with end-to-end cor
 tween CVE descriptions and commits. In this way, we can automatically rank the candidates based on their correlation scores while maintaining low computation overhead. We evaluated our system
 against 4,789 CVEs from 532 OSS projects. The results are highly promising: PatchFinder achieves a Recall@10 of 80.63% and a Mean Reciprocal Rank (MRR) of 0.7951. Moreover, the manual effort@10 required is curtailed to 2.77, marking a 1.94 times improvement over current leading methods. When applying PatchFinder in practice, we initially identified 172 patch commits (average rank at 1.65) and submitted them to the official, 135 of which have been confirmed by CVE Numbering Authorities.
 
-![overview-github](https://github.com/KaixuanLi-ECNU/PatchTracer/assets/119023398/8e74756f-b945-4d0a-8dcd-28cd4da3ff59)
+![overview of out approach](./overview-github.png)
