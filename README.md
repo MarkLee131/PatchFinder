@@ -1,5 +1,5 @@
 # PatchFinder
-PatchFinder A Two-Phase Approach to Security Patch Tracing for Disclosed Vulnerabilities in Open Source Software
+PatchFinder: A Two-Phase Approach to Security Patch Tracing for Disclosed Vulnerabilities in Open Source Software
 
 ## Overview
 PatchFinder operates in two distinct phases:
