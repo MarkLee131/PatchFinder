@@ -1,5 +1,7 @@
-# PatchFinder [![arXiv](https://img.shields.io/badge/arXiv-<2407.17065>-<COLOR>.svg)](https://arxiv.org/abs/2407.17065) 
-PatchFinder: A Two-Phase Approach to Security Patch Tracing for Disclosed Vulnerabilities in Open Source Software (Published @ [ISSTA 2024](https://2024.issta.org/details/issta-2024-papers/48/PatchFinder-A-Two-Phase-Approach-to-Security-Patch-Tracing-for-Disclosed-Vulnerabili))
+# PatchFinder [![arXiv](https://img.shields.io/badge/arXiv-<2407.17065>-<COLOR>.svg)](https://arxiv.org/abs/2407.17065) [![Visit Our Website](https://img.shields.io/badge/Google_Site-_PatchFinder-blue)](https://sites.google.com/view/issta2024-patchfinder/home) ![](https://img.shields.io/badge/CCF-A-red?style=flat-square) [![](https://img.shields.io/badge/ISSTA-2024-blue?style=flat-square)](https://2024.issta.org/)
+
+
+PatchFinder: A Two-Phase Approach to Security Patch Tracing for Disclosed Vulnerabilities in Open Source Software
 
 
 ## Overview
@@ -30,3 +32,7 @@ When applying PatchFinder in practice, we initially identified 533 patch commits
   year={2024}
 }
 ```
+## Website
+
+More details can be found on our [website](https://sites.google.com/view/issta2024-patchfinder/home). 
+
