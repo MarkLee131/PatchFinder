@@ -1,6 +1,5 @@
 Prestudy_CodeLlama/retrieval
 notes_test.md
-DPR/
 model/__pycache__/
 PatchFinder/TF-IDF/similarity_data_normalized_TFIDF.csv
 PatchFinder/TF-IDF/similarity_data_TFIDF.csv
@@ -13,7 +12,11 @@ wandb/
 *.ckpt
 PatchFinder/model/output_0831
 output/
-data/
+data/cr_score
+data/top100_split_colbert
+data/codellama*
+data/*_data.csv
+data/*_data_top100.csv
 *.pth
 # Byte-compiled / optimized / DLL files
 __pycache__/

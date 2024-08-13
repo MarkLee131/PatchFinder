@@ -21,7 +21,29 @@ When applying PatchFinder in practice, we initially identified 533 patch commits
 
 ## Structure of this repository
 
+```bash
+.
+|-- FN_Analysis # for our false negative analysis
+|-- LICENSE
+|-- PatchFinder # the main codebase, containing the implementation of our approach
+|-- Prestudy_CodeLlama # the codebase for the prestudy
+|-- README.md
+|-- RQ1_Baselines # the codebase for RQ1
+|-- RQ3 # the codebase for RQ3
+|-- data # the data used in our paper
+`-- metrics # the final metrics of our approach
 
+```
+
+### Steps to reproduce the results
+
+1. For Phase-1, you are supposed to run the code of `TF-IDF` in the `PatchFinder` folder and CRScore to get the initial retrieval results. 
+
+2. After that, you can get the top-100 candidates for each CVE, which will be used as the input for Phase-2. Remember, you need to retrieve the data for training, validation, and testing from the `data` folder in this step.
+
+3. For Phase-2, you can run the code of `CodeReviewer` in the `PatchFinder` folder to fine-tune the model and get the final results.
+
+4. Finally, you can get the final metrics by running the code in the `metrics` folder.
 
 ## Cite us
 
