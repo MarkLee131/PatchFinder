@@ -19,6 +19,9 @@ When applying PatchFinder in practice, we initially identified 533 patch commits
 
 ![overview of out approach](./overview-github.png)
 
+## Structure of this repository
+
+
 
 ## Cite us
 
