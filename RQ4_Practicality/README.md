@@ -7,7 +7,7 @@ manually reviewed and traced 533 patches. These patches achieved a ranking of 1.
 
 ## Traced Patches
 
-All patches that were traced by PatchFinder were manually reviewed by the authors. The patches were then submitted to CNAs for review. The patches that were submitted and confirmed by CNAs are available in [./PatchFinder_ISSTA2024_RQ4.csv](./PatchFinder-ISSTA2024_RQ4.csv).
+All patches that were traced by PatchFinder were manually reviewed by the authors. The patches were then submitted to CNAs for review. The patches that were submitted and confirmed by CNAs are available in [./PatchFinder_ISSTA2024_RQ4.csv](./PatchFinder_ISSTA2024_RQ4.csv).
 
 ## News
 
