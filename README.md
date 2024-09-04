@@ -1,4 +1,4 @@
-# PatchFinder [![arXiv](https://img.shields.io/badge/arXiv-<2407.17065>-<COLOR>.svg)](https://arxiv.org/abs/2407.17065) [![Visit Our Website](https://img.shields.io/badge/Google_Site-_PatchFinder-blue)](https://sites.google.com/view/issta2024-patchfinder/home) ![](https://img.shields.io/badge/CCF-A-red?style=flat-square) [![](https://img.shields.io/badge/ISSTA-2024-blue?style=flat-square)](https://2024.issta.org/)
+# PatchFinder [![arXiv](https://img.shields.io/badge/arXiv-<2407.17065>-<COLOR>.svg)](https://arxiv.org/abs/2407.17065) [![Visit Our Website](https://img.shields.io/badge/Google_Site-_PatchFinder-blue)](https://sites.google.com/view/issta2024-patchfinder/home) [![](https://img.shields.io/badge/ISSTA-2024-blue?style=flat-square)](https://2024.issta.org/)
 
 
 PatchFinder: A Two-Phase Approach to Security Patch Tracing for Disclosed Vulnerabilities in Open Source Software
@@ -60,4 +60,9 @@ When applying PatchFinder in practice, we initially identified 533 patch commits
 ## Website
 
 More details can be found on our [website](https://sites.google.com/view/issta2024-patchfinder/home). 
+
+## 
+> [!IMPORTANT]
+> 
+> [**2024.09.04**] We are keeping improving the documents and adding more implementation details. Feel free to share your suggestions for this process by opening issues or PRs. :)
 
