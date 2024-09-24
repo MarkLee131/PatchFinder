@@ -1,0 +1,1508 @@
+CVE,Patch_Commit,Alias/Evidence,Request,Confirmation,CNA,Update,Alias
+CVE-2011-0007,,,,,,,
+CVE-2024-27351,https://github.com/django/django/commit/3394fc6132436eca89e997083bae9985fb7e761e,,v,v,GitHub Advisory,,
+CVE-2023-5969,https://github.com/mattermost/mattermost/commit/77f094c7ee8c7a00be01c2df72f948a62c690b66,,v,v,GitHub Advisory,,
+CVE-2023-5968,https://github.com/mattermost/mattermost/commit/698f4a97da564e2c1f2bf1fbd01755cefa3b7881,,v,v,GitHub Advisory,,
+CVE-2023-46575,https://github.com/meshery/meshery/commit/ffe00967acfe4444a5db08ff3a4cafb9adf6013f,,v,v,MITRE,,
+CVE-2023-45885,https://github.com/nasa/openmct/commit/4e95e12559c9c5364269ff366a59768573baacb4,,v,v,GitHub Advisory,,
+CVE-2023-45884,https://github.com/nasa/openmct/commit/4e95e12559c9c5364269ff366a59768573baacb4,,v,v,GitHub Advisory,,
+CVE-2023-44765,https://github.com/concretecms/concretecms/commit/da516f7f0ee8782f0256d8db4e7d7d53d4a0963c,,v,v,GitHub Advisory,,
+CVE-2023-44765,https://github.com/concretecms/concretecms/commit/0f0564232e0a49719d0bdff6223539b624f116ee,,v,v,GitHub Advisory,,
+CVE-2023-44765,https://github.com/concretecms/concretecms/commit/92bcc208078571f4beda38cb0952f8e99887737a,,v,v,GitHub Advisory,,
+CVE-2013-2294,,,,,,,
+CVE-2013-2294,,,,,,,
+CVE-2023-44761,https://github.com/concretecms/concretecms/commit/4990e68e8a4be2ee66e2d2bfcbfca38712614f76,,v,v,GitHub Advisory,,
+CVE-2013-3250,,,,,,,
+CVE-2013-3250,,,,,,,
+CVE-2013-3250,,,,,,,
+CVE-2013-3250,,,,,,,
+CVE-2013-3250,,,,,,,
+CVE-2023-43123,https://github.com/apache/storm/commit/b778125a17ce7497d80aea1e339f3a282aeeb65a,,v,v,GitHub Advisory,,
+CVE-2013-4103,,,,,,,
+CVE-2023-40989,https://github.com/jeecgboot/jeecg-boot/commit/473875a9d261780a3400cf6f8260ca441b768ed1,,v,v,GitHub Advisory,,
+CVE-2023-40989,https://github.com/jeecgboot/jeecg-boot/commit/56e81fbf7bce11d2762b691f5d965b2265be608,,v,v,GitHub Advisory,,
+CVE-2023-40989,https://github.com/jeecgboot/jeecg-boot/commit/87677df925e55e51233bf740433b30a751fc7705,,v,v,GitHub Advisory,,
+CVE-2023-34234,https://github.com/OpenZeppelin/openzeppelin-contracts/commit/d9474327a492f9f310f31bc53f38dbea56ed9a57,,v,v,GitHub Advisory,,
+CVE-2023-34234,https://github.com/apache/storm/commit/b778125a17ce7497d80aea1e339f3a282aeeb65a,,v,v,GitHub Advisory,,
+CVE-2023-28819,https://github.com/concretecms/concretecms/pull/11749,,v,v,GitHub Advisory,,
+CVE-2013-4114,,,,,,,
+CVE-2013-4114,,,,,,,
+CVE-2013-4114,,,,,,,
+CVE-2013-4114,,,,,,,
+CVE-2013-4114,,,,,,,
+CVE-2013-4114,,,,,,,
+CVE-2013-4295,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4334,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4335,,,,,,,
+CVE-2013-4433,,,,,,,
+CVE-2013-4433,,,,,,,
+CVE-2023-28477,https://github.com/concretecms/concretecms/commit/546cef6ec29208d5c079113635cd6e6b250e9f7c,,v,v,MITRE,,
+CVE-2013-5322,,,,,,,
+CVE-2013-5322,,,,,,,
+CVE-2013-6289,,,,,,,
+CVE-2013-6289,,,,,,,
+CVE-2013-6289,,,,,,,
+CVE-2013-6289,,,,,,,
+CVE-2013-6409,,,,,,,
+CVE-2013-6409,,,,,,,
+CVE-2013-7240,,,,,,,
+CVE-2013-7240,,,,,,,
+CVE-2023-28475,https://github.com/concretecms/concretecms/commit/861ba66d248165c9ee9d6d11a0457908b97d68f0,,v,v,GitHub Advisory,,
+CVE-2023-28473,https://github.com/concretecms/concretecms/pull/11749,,v,v,GitHub Advisory,,
+CVE-2023-28472,https://github.com/concretecms/concretecms/pull/11749,,v,v,GitHub Advisory,,
+CVE-2023-23969,https://github.com/django/django/commit/9d7bd5a56b1ce0576e8e07a8001373576d277942,,v,v,GitHub Advisory,,
+CVE-2023-23969,https://github.com/django/django/commit/4452642f193533e288a52c02efb5bbc766a68f95,,v,v,GitHub Advisory,,
+CVE-2023-23969,https://github.com/django/django/commit/c7e0151fdf33e1b11d488b6f67b94fdf3a30614a,,v,v,GitHub Advisory,,
+CVE-2023-23925,https://github.com/switcherapi/switcher-client-js/commit/374752563d6ce9353ee592b40c809c8136f24930,,v,v,GitHub,,
+CVE-2022-39987,https://github.com/RaspAP/raspap-webgui/commit/e87e7d1d3a61617430851f2a040379de1ff3dd9d,,v,v,GitHub Advisory,,
+CVE-2022-39986,https://github.com/RaspAP/raspap-webgui/commit/1fabc481690e008279113e18d0642c5279e3b56e,,v,v,GitHub Advisory,,
+CVE-2022-32175,https://github.com/AdguardTeam/AdGuardHome/commit/756b14a61de138889130c239406dae43f1f115cb,,v,v,Mend,,
+CVE-2022-31814,https://github.com/pfsense/FreeBSD-ports/commit/071bdcf2d918c3e51cde11cf81fbd9b6f0379d7e,,v,v,MITRE,,
+CVE-2022-31249,https://github.com/rancher/wrangler/commit/12397eec50155cb2d24aa70bdf9e90c5f3b9a727,,v,v,SUSE,,
+CVE-2014-1639,,,,,,,
+CVE-2014-1639,,,,,,,
+CVE-2014-1934,,,,,,,
+CVE-2014-1934,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2340,,,,,,,
+CVE-2014-2527,,,,,,,
+CVE-2014-2527,,,,,,,
+CVE-2022-31249,https://github.com/rancher/wrangler/commit/341018c8fef3e12867c7cb2649bd2cecac75f287 ,,v,v,SUSE,,
+CVE-2022-31249,https://github.com/rancher/wrangler/commit/5a387e13e8d51e3340d9e5012a1951f0cca5fc90,,v,v,SUSE,,
+CVE-2014-3207,,,,,,,
+CVE-2014-3207,,,,,,,
+CVE-2022-31249,https://github.com/rancher/wrangler/commit/8649ecc062204f28764fd80157a621cbae89c9cf,,v,v,SUSE,,
+CVE-2022-29450,https://github.com/oliverschloebe/admin-management-xtended/commit/f94732d222414f10ce015e95b5c7c9fba13a8a20,,v,v,,,
+CVE-2022-28147,https://github.com/jenkinsci/ci-with-toad-edge-plugin/commit/2b65d62ebb71ec727097aa409c623f9c7c3b2792,,v,v,Jenkins Project,,
+CVE-2022-25881,https://github.com/kornelski/http-cache-semantics/commit/560b2d8ef452bbba20ffed69dc155d63ac757b74,,v,v,Snyk,,
+CVE-2022-25643,https://github.com/kennylevinsen/seatd/commit/10658dc5439db429af0088295a051c53925a4416,,v,v,MITRE,,
+CVE-2022-25643,https://github.com/kennylevinsen/seatd/commit/7cffe0797fdb17a9c08922339465b1b187394335,,v,v,MITRE,,
+CVE-2022-24128,https://github.com/timescale/timescaledb/commit/6275c2985927cfd4900b85cac5120227c8cb1f0c,,v,v,MITRE,,
+CVE-2022-24128,https://github.com/timescale/timescaledb/commit/c8b8516e466c2bb7d2ae6a4b0b2e8e60b24b24a2,,v,v,MITRE,,
+CVE-2022-23833,https://github.com/django/django/commit/c477b761804984c932704554ad35f78a2e230c6a,,v,v,MITRE,,
+CVE-2022-23833,https://github.com/django/django/commit/d16133568ef9c9b42cb7a08bdf9ff3feec2e5468,,v,v,MITRE,,
+CVE-2022-23833,https://github.com/django/django/commit/f9c7d48fdd6f198a6494a9202f90242f176e4fc9,,v,v,MITRE,,
+CVE-2014-3801,,,,,,,
+CVE-2014-3801,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-3949,,,,,,,
+CVE-2014-4907,,,,,,,
+CVE-2014-4907,,,,,,,
+CVE-2014-4907,,,,,,,
+CVE-2014-4907,,,,,,,
+CVE-2014-4907,,,,,,,
+CVE-2014-4907,,,,,,,
+CVE-2014-5072,,,,,,,
+CVE-2014-5072,,,,,,,
+CVE-2014-5288,,,,,,,
+CVE-2014-5288,,,,,,,
+CVE-2014-5288,,,,,,,
+CVE-2014-5288,,,,,,,
+CVE-2014-5347,,,,,,,
+CVE-2014-5347,,,,,,,
+CVE-2014-5347,,,,,,,
+CVE-2014-5347,,,,,,,
+CVE-2014-5508,,,,,,,
+CVE-2014-5508,,,,,,,
+CVE-2014-6041,,,,,,,
+CVE-2014-6041,,,,,,,
+CVE-2014-6041,,,,,,,
+CVE-2014-6041,,,,,,,
+CVE-2014-6041,,,,,,,
+CVE-2014-6041,,,,,,,
+CVE-2021-45099,https://github.com/hassio-addons/addon-ssh/pull/350/commits/b2c8a725c174bb7a32d94621b0a93e5a36977860,"1539103, need more evidence.",v,x,MITRE,,
+CVE-2022-23833,https://github.com/django/django/commit/f9c7d48fdd6f198a6494a9202f90242f176e4fc9,,v,v,GitHub Advisory,,
+CVE-2022-23114,https://github.com/jenkinsci/publish-over-ssh-plugin/commit/70b7689bf6fc894f4dc6c0ff34dd72808840760e,,v,v,Jenkins Project,,
+CVE-2022-23114,https://github.com/jenkinsci/publish-over-ssh-plugin/commit/2b4b9b2dfab5c001669f9a74c0e6078b0a27b928,,v,v,Jenkins Project,,
+CVE-2022-21669,https://github.com/PuddingBot/pudding-bot/commit/a5b15fb0a5be5fdbacba8ff7b2c8759d5e3ba20f,,v,v,GitHub,,
+CVE-2021-46022,https://github.com/gnu-mirror-unofficial/recutils/commit/34b75ed7ad492c8e38b669ebafe0176f1f9992d2,,v,v,MITRE,,
+CVE-2021-42257,https://github.com/Napsty/check_smart/commit/3d96f00d1e319c57493eb51fdaf91a4b9e433656,pending for one month...,v,,MITRE,,
+CVE-2021-42257,https://github.com/Napsty/check_smart/pull/68/commits/ae31b1a4c244323bdd20b04a7545830d96f36e9d,pending for one month...,v,,MITRE,,
+CVE-2021-46019,https://github.com/gnu-mirror-unofficial/recutils/commit/34b75ed7ad492c8e38b669ebafe0176f1f9992d2,,v,v,MITRE,,
+CVE-2021-43114,https://github.com/NICMx/FORT-validator/commit/425e0f4037b4543fe8044ac96ca71d6d02d7d8c5,,v,v,MITRE,,
+CVE-2021-43114,https://github.com/NICMx/FORT-validator/commit/673c679b6bf3f4187cd5242c31a795bf8a6c22b3,,v,v,MITRE,,
+CVE-2021-43114,https://github.com/NICMx/FORT-validator/commit/eb68ebbaab50f3365aa51bbaa17cb862bf4607fa,,v,v,MITRE,,
+CVE-2021-43114,https://github.com/NICMx/FORT-validator/commit/274dc14aed1eb9b3350029d1063578a6b9c77b54,,v,v,MITRE,,
+CVE-2014-8170,,,,,,,
+CVE-2014-8170,,,,,,,
+CVE-2014-8170,,,,,,,
+CVE-2014-8170,,,,,,,
+CVE-2014-8320,,,,,,,
+CVE-2014-8320,,,,,,,
+CVE-2014-8320,,,,,,,
+CVE-2014-8320,,,,,,,
+CVE-2014-8499,,,,,,,
+CVE-2014-8499,,,,,,,
+CVE-2014-8499,,,,,,,
+CVE-2014-8499,,,,,,,
+CVE-2014-8765,,,,,,,
+CVE-2014-8765,,,,,,,
+CVE-2014-8779,,,,,,,
+CVE-2014-8779,,,,,,,
+CVE-2014-9016,,,,,,,
+CVE-2014-9016,,,,,,,
+CVE-2014-9016,,,,,,,
+CVE-2014-9016,,,,,,,
+CVE-2021-42362,https://github.com/cabrerahector/wordpress-popular-posts/commit/d9b274cf6812eb446e4103cb18f69897ec6fe601,,v,v,Wordfence,,
+CVE-2021-42192,https://github.com/pantsel/konga/commit/d61535277aced18b5be0313ab2d124f60f649978,,v,v,MITRE,,
+CVE-2014-9699,,,,,,,
+CVE-2014-9699,,,,,,,
+CVE-2014-9766,,,,,,,
+CVE-2014-9766,,,,,,,
+CVE-2021-42073,https://github.com/debauchee/barrier/commit/b5adc93e2bd74cb094f91ff595c07f321a489f3e,,v,v,MITRE,,
+CVE-2021-42073,https://github.com/debauchee/barrier/commit/229abab99f39f11624e5651f819e7f1f8eddedcc,,v,v,MITRE,,
+CVE-2021-42072,https://github.com/debauchee/barrier/commit/b5adc93e2bd74cb094f91ff595c07f321a489f3e,,v,v,MITRE,,
+CVE-2021-42072,https://github.com/debauchee/barrier/commit/229abab99f39f11624e5651f819e7f1f8eddedcc,,v,v,MITRE,,
+CVE-2021-39359,https://github.com/GNOME/libgda/commit/bd7b9568bcd9f6d3e6680bb04323a670c842a62d,,v,v,MITRE,,
+CVE-2021-33571,https://github.com/django/django/commit/f27c38ab5d90f68c9dd60cabef248a570c0be8fc,,v,v,MITRE,,
+CVE-2021-33571,https://github.com/django/django/commit/203d4ab9ebcd72fc4d6eb7398e66ed9e474e118e,,v,v,MITRE,,
+CVE-2021-33571,https://github.com/django/django/commit/9f75e2e562fa0c0482f3dde6fc7399a9070b4a3d,,v,v,MITRE,,
+CVE-2015-0283,,,,,,,
+CVE-2015-0283,,,,,,,
+CVE-2015-0857,,,,,,,
+CVE-2015-0857,,,,,,,
+CVE-2015-0857,,,,,,,
+CVE-2015-0857,,,,,,,
+CVE-2015-1194,,,,,,,
+CVE-2015-1194,,,,,,,
+CVE-2015-1200,,,,,,,
+CVE-2015-1200,,,,,,,
+CVE-2015-1200,,,,,,,
+CVE-2015-1200,,,,,,,
+CVE-2015-1380,,,,,,,
+CVE-2015-1380,,,,,,,
+CVE-2021-31873,https://github.com/huolinjue/klibc/commit/a31ae8c508fc8d1bca4f57e9f9f88127572d5202,we add the patch on GitHub,v,v,MITRE,,
+CVE-2015-1612,,,,,,,
+CVE-2015-1612,,,,,,,
+CVE-2021-31855,https://github.com/KDE/messagelib/commit/3b5b171e91ce78b966c98b1292a1bcbc8d984799,,v,v,MITRE,,
+CVE-2021-31606,https://github.com/furlongm/openvpn-monitor/commit/ddb9d31ef0ec56f578bdacf99ebe9d68455ed8ca,,v,v,MITRE,,
+CVE-2021-31542,https://github.com/django/django/commit/04ac1624bdc2fa737188401757cf95ced122d26d,,v,v,MITRE,,
+CVE-2021-31542,https://github.com/django/django/commit/25d84d64122c15050a0ee739e859f22ddab5ac48,,v,v,MITRE,,
+CVE-2021-31542,https://github.com/django/django/commit/c98f446c188596d4ba6de71d1b77b4a6c5c2a007,,v,v,MITRE,,
+CVE-2021-29493,https://github.com/kennnyshiwa/kennnyshiwa-cogs/commit/5a84d60018468e5c0346f7ee74b2b4650a6dade7,the patch is recorded at: https://github.com/kennnyshiwa/kennnyshiwa-cogs/security/advisories/GHSA-f4j2-2cwr-h473,v,v,"GitHub, Inc.",,
+CVE-2021-29439,https://github.com/getgrav/grav-plugin-admin/commit/a220359877fd1281f76ba732e5308e0e3002e4b1,,v,v,"GitHub, Inc.",,
+CVE-2021-28676,https://github.com/python-pillow/Pillow/commit/bb6c11fb889e6c11b0ee122b828132ee763b5856,,v,v,MITRE,,
+CVE-2021-28117,https://github.com/KDE/discover/commit/fcd3b30552bf03a384b1a16f9bb8db029c111356,another on GitHub,v,v,MITRE,,
+CVE-2021-28117,https://github.com/KDE/discover/commit/d375031ff0262cedac7d6ee2b26d6a164ddebb67,another on GitHub,v,v,MITRE,,
+CVE-2021-27431,https://github.com/ARM-software/CMSIS_5/commit/40e936e6751947ada02068284d3ee98873663510,,v,v,,,
+CVE-2021-27417,https://github.com/GoogleCloudPlatform/iot-device-sdk-embedded-c/pull/119/commits/de759f477e60da5a53a147188167c821c479a1d6,1,v,v,ICS-CERT,,
+CVE-2021-27417,https://github.com/ARMmbed/mbed-os/commit/52eedfd86ec5147443dc4c9b0f0d75498a85c148,backport,v,v,ICS-CERT,,
+CVE-2021-2322,https://github.com/oracle/opengrok/pull/3528/commits/ff2b8efab6a844933bd963f4121997afd4009545,pending for two months...,v,,Oracle,,
+CVE-2021-2322,https://github.com/oracle/opengrok/pull/3528/commits/e0f6c20ca12f4a1f5a80095a4cb7fa7b85d1602c,pending for two months...,v,,Oracle,,
+CVE-2021-2322,https://github.com/oracle/opengrok/pull/3528/commits/601c283179d97542df011f92509fdc204a90b04b,pending for two months...,v,,Oracle,,
+CVE-2021-27417,https://github.com/GoogleCloudPlatform/iot-device-sdk-embedded-c/commit/96018ab742975e1a4fc45857bb16140e52297041,same to 1,v,v,ICS-CERT,,
+CVE-2015-3201,,,,,,,
+CVE-2015-3201,,,,,,,
+CVE-2015-3201,,,,,,,
+CVE-2015-3201,,,,,,,
+CVE-2015-3201,,,,,,,
+CVE-2015-3201,,,,,,,
+CVE-2015-3201,,,,,,,
+CVE-2015-3201,,,,,,,
+CVE-2021-27417,https://github.com/ARMmbed/mbed-os/pull/14408/commits/151ebfcfc9f2383ee11ce3c771c3bf92900d6b43,same to 1,v,v,ICS-CERT,,
+CVE-2021-27417,https://github.com/GoogleCloudPlatform/iot-device-sdk-embedded-c/pull/119/commits/30f05a800913f9efe970eb964e3cea301d77eafc,same to 1,v,v,ICS-CERT,,
+CVE-2021-27417,https://github.com/GoogleCloudPlatform/iot-device-sdk-embedded-c/pull/119/commits/46cccccb7bf94d935890a177f6160ede91780ef3,same to 1,v,v,ICS-CERT,,
+CVE-2015-3628,,,,,,,
+CVE-2015-3628,,,,,,,
+CVE-2015-3648,,,,,,,
+CVE-2015-3648,,,,,,,
+CVE-2015-4631,,,,,,,
+CVE-2015-4631,,,,,,,
+CVE-2015-5186,,,,,,,
+CVE-2015-5186,,,,,,,
+CVE-2021-24366,https://github.com/codepress/admin-columns/commit/b45571ed21d574d13687213a5002e0c68e4442c7,,v,v,WPScan,,
+CVE-2021-23727,https://github.com/celery/celery/commit/1f7ad7e6df1e02039b6ab9eec617d283598cad6b,,v,v,Snyk,,
+CVE-2021-22143,https://github.com/elastic/apm-agent-dotnet/commit/c2b519aaa0fe5e5044b736cfec695342f124bf30,,v,v,,,
+CVE-2021-21681,https://github.com/jenkinsci/nomad-plugin/commit/d45123487d57c0e2a8a6869866b05362f690f511,,v,v,Jenkins Project,,
+CVE-2020-7694,https://github.com/encode/uvicorn/commit/895807f94ea9a8e588605c12076b7d7517cda503,,v,v,Snyk,,
+CVE-2020-35857,https://github.com/bluejekyll/trust-dns/commit/8b9eab05795fdc098976262853b2498055c7a8f3,,v,v,MITRE,,
+CVE-2015-5301,,,,,,,
+CVE-2015-5301,,,,,,,
+CVE-2015-5301,,,,,,,
+CVE-2015-5301,,,,,,,
+CVE-2020-25792,https://github.com/bodil/sized-chunks/commit/3ae48bd463c1af41c24b96b84079946f51f51e3c,,v,v,MITRE,,
+CVE-2020-25792,https://github.com/bodil/sized-chunks/commit/99e593c3037438db478256a1f3101371a69cbd3f,,v,v,MITRE,,
+CVE-2020-25698,https://github.com/moodle/moodle/commit/c8ac07fb50fa92eee1d574823fbda09e1b309a63,,v,v,GitHub Advisory,,
+CVE-2020-25698,https://github.com/moodle/moodle/commit/c8ac07fb50fa92eee1d574823fbda09e1b309a63,"add patch commit: https://github.com/moodle/moodle/commit/c8ac07fb50fa92eee1d574823fbda09e1b309a63. 
+ the commit msg has shown it's a fix for `MDL-67837`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2020-16209,https://github.com/FieldCommGroup/hipserver/commit/6ec7d911b550c1cdb7b60718de38647081ff4e25,,v,v,,,
+CVE-2020-15957,https://github.com/DP-3T/dp3t-sdk-backend/commit/e967592bf131442b9d9916aefac2f4e42eaddd32,Original patch link is wrong on NVD (1539103),v,v,MITRE,,
+CVE-2020-15957,https://github.com/DP-3T/dp3t-sdk-backend/commit/b8c6476303097b195f084587d0854997146c79f4,Original patch link is wrong on NVD (1539103),v,v,MITRE,,
+CVE-2020-15885,https://github.com/munkireport/comment/commit/2fbe7ddbf44193b1990a9e6b6390204102a8d3e8,,v,v,,,
+CVE-2015-5723,,,,,,,
+CVE-2015-5723,,,,,,,
+CVE-2015-7358,,,,,,,
+CVE-2015-7358,,,,,,,
+CVE-2015-7358,,,,,,,
+CVE-2015-7358,,,,,,,
+CVE-2015-7358,,,,,,,
+CVE-2015-7358,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-7945,,,,,,,
+CVE-2015-8300,,,,,,,
+CVE-2015-8300,,,,,,,
+CVE-2020-15883,https://github.com/munkireport/managedinstalls/commit/708f6a2abc4b80a3751bcc9cf896f80d84250c55,,v,v,,,
+CVE-2020-15167,https://github.com/abcheek/Miller/commit/49576c88e0334198cf4a15202451b5b1d6f1d359,,v,v,,,
+CVE-2015-9433,,,,,,,
+CVE-2015-9433,,,,,,,
+CVE-2015-9433,,,,,,,
+CVE-2015-9433,,,,,,,
+CVE-2015-9433,,,,,MITRE,,
+CVE-2015-9433,,,,,,,
+CVE-2015-9433,,,,,,,
+CVE-2015-9433,,,,,,,
+CVE-2015-9433,,,,,,,
+CVE-2020-13700,https://github.com/airesvsg/acf-to-rest-api/commit/9e05b7647b5b96b1336f88f90aaaa52529f060e6,,v,v,,,
+CVE-2020-13676,https://github.com/drupal/core/commit/8e8e3d2ddd72471ba886346ecabfb5d98fd27d9b,,v,v,Drupal.org,,
+CVE-2016-1579,,,,,,,
+CVE-2016-1579,,,,,,,
+CVE-2016-1586,,,,,,,
+CVE-2016-1586,,,,,,,
+CVE-2020-13670,https://github.com/drupal/core/commit/f93a37b713b59f8d24e826bc74378099853eef3d,,v,v,Drupal.org,,
+CVE-2020-13132,https://src.fedoraproject.org/rpms/yubico-piv-tool/c/66f72de25aa1c316721b38ee8dcab1d93e7a987a,,v,v,,,
+CVE-2020-10738,https://github.com/moodle/moodle/commit/2cd534a7df3867813e3aad42db615865149a58c6,,v,v,GitHub Advisory,,
+CVE-2020-10738,https://github.com/moodle/moodle/commit/2cd534a7df3867813e3aad42db615865149a58c6,"add patch commit: https://github.com/moodle/moodle/commit/2cd534a7df3867813e3aad42db615865149a58c6. 
+ the commit msg has shown it's a fix for `MDL-68410`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2020-10712,https://github.com/openshift/cluster-image-registry-operator/pull/527/commits/9236422daff41e3550c10d8ab46164fd1a964ebc,,v,v,RedHat,,
+CVE-2020-10712,https://github.com/openshift/cluster-image-registry-operator/pull/527/commits,,v,v,RedHat,,
+CVE-2019-9199,https://github.com/podofo/podofo/commit/bafc1572f1dc1199b5d054ed1b99321b3cd918b3,,v,v,,,
+CVE-2019-9199,https://github.com/jjanku/podofo/commit/ada821df68fb0bf673840ed525daf4ec709dbfd9,,v,v,,,
+CVE-2019-9199,https://github.com/mksdev/podofo/commit/1400a9aaf611299b9a56aa2abeb158918b9743c8,,v,v,,,
+CVE-2019-3852,https://github.com/moodle/moodle/commit/54c2b176040c4cd65d921bf10123b5146eb486f5,"add patch commit: https://github.com/moodle/moodle/commit/54c2b176040c4cd65d921bf10123b5146eb486f5. 
+ the commit msg has shown it's a fix for `MDL-64410`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2019-3851,https://github.com/moodle/moodle/commit/c430bed525c4c7e6e5a1c0f7222bc323cf9b6245,"add patch commit: https://github.com/moodle/moodle/commit/c430bed525c4c7e6e5a1c0f7222bc323cf9b6245. 
+ the commit msg has shown it's a fix for `MDL-64706`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2019-3850,https://github.com/moodle/moodle/commit/5d87464bc6283e72969cd251ce4f399aacebd608,"add patch commit: https://github.com/moodle/moodle/commit/5d87464bc6283e72969cd251ce4f399aacebd608. 
+ the commit msg has shown it's a fix for `MDL-64651`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2019-3849,https://github.com/moodle/moodle/commit/898d5d05a0c3ae6795db0241bf3cb5951213d45c,"add patch commit: https://github.com/moodle/moodle/commit/898d5d05a0c3ae6795db0241bf3cb5951213d45c. 
+ the commit msg has shown it's a fix for `MDL-62702`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-4383,,,,,,,
+CVE-2016-4383,,,,,,,
+CVE-2016-4484,,,,,,,
+CVE-2016-4484,,,,,,,
+CVE-2016-4911,,,,,,,
+CVE-2016-4911,,,,,,,
+CVE-2016-4911,,,,,,,
+CVE-2016-4911,,,,,,,
+CVE-2019-3847,https://github.com/moodle/moodle/commit/93dda3bfd3caaaa8d23fe8ede543f27ef774958d,"add patch commit: https://github.com/moodle/moodle/commit/93dda3bfd3caaaa8d23fe8ede543f27ef774958d. 
+ the commit msg has shown it's a fix for `MDL-63786`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-5003,,,,,,,
+CVE-2019-3772,https://github.com/spring-projects/spring-integration/commit/59c69ed40d3755ef59f80872e0ea711adbb13620,,v,v,GitHub Advisory,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-6131,,,,,,,
+CVE-2016-7063,,,,,,,
+CVE-2016-7063,,,,,,,
+CVE-2016-7063,,,,,,,
+CVE-2016-7063,,,,,,,
+CVE-2016-7063,,,,,,,
+CVE-2016-7063,,,,,,,
+CVE-2016-9085,,,,,,,
+CVE-2016-9085,,,,,,,
+CVE-2017-10600,,,,,,,
+CVE-2017-10600,,,,,,,
+CVE-2019-16892,https://github.com/rubyzip/rubyzip/commit/d65fe7bd283ec94f9d6dc7605f61a6b0dd00f55e,,v,v,MITRE,,
+CVE-2017-10862,,,,,,,
+CVE-2017-10862,,,,,,,
+CVE-2017-10862,,,,,,,
+CVE-2017-10862,,,,,,,
+CVE-2017-11658,,,,,,,
+CVE-2017-11658,,,,,,,
+CVE-2017-11658,,,,,,,
+CVE-2017-11658,,,,,,,
+CVE-2017-11670,,,,,,,
+CVE-2017-11670,,,,,,,
+CVE-2019-16140,https://github.com/sagebind/isahc/commit/9e9f1fb44114078c000c78c72e691eeb9e7ac260,,v,v,MITRE,,
+CVE-2017-17427,,,,,,,
+CVE-2017-17427,,,,,,,
+CVE-2017-17428,,,,,,,
+CVE-2017-17428,,,,,,,
+CVE-2019-11069,https://github.com/sequelize/sequelize/commit/850c7fd04669e0fef9238b6dc4f8d6ee93ed71e9,,v,v,MITRE,,
+CVE-2017-17796,,,,,,GitHub Advisory,
+CVE-2017-17796,,,,,,GitHub Advisory,
+CVE-2017-5234,,,,,,,
+CVE-2017-5234,,,,,,,
+CVE-2017-5234,,,,,,,
+CVE-2017-5234,,,,,,GitHub Advisory,
+CVE-2019-10154,https://github.com/moodle/moodle/commit/2904a7f851da8e66be12f41d55068bf07817fbd6,"add patch commit: https://github.com/moodle/moodle/commit/2904a7f851da8e66be12f41d55068bf07817fbd6. 
+ the commit msg has shown it's a fix for `MDL-65365`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2019-10133,https://github.com/moodle/moodle/commit/c509d108216524887c7ca08b1c451054d669ea75,,v,v,"Red Hat, Inc.",,
+CVE-2019-10133,https://github.com/moodle/moodle/commit/c509d108216524887c7ca08b1c451054d669ea75,"add patch commit: https://github.com/moodle/moodle/commit/c509d108216524887c7ca08b1c451054d669ea75. 
+ the commit msg has shown it's a fix for `MDL-64708`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2018-8030,https://github.com/apache/qpid-broker-j/commit/025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27,,v,v,GitHub Advisory,,
+CVE-2018-8026,https://github.com/apache/lucene-solr/commit/d1baf6ba593561f39e2da0a71a8440797005b55,,v,v,GitHub Advisory,,
+CVE-2018-8026,https://github.com/apache/lucene-solr/commit/e5407c5a9710247e5f728aae36224a245a51f0b,,v,v,GitHub Advisory,,
+CVE-2018-8026,https://github.com/apache/lucene-solr/commit/e21d4937e0637c7b7949ac463f331da9a42c07f,,v,v,GitHub Advisory,,
+CVE-2018-8026,https://github.com/apache/lucene-solr/commit/1880d4824e6c5f98170b9a00aad1d437ee2aa12,,v,v,GitHub Advisory,,
+CVE-2018-8026,https://github.com/apache/lucene-solr/commit/3aa6086ed99fa7158d423dc7c33dae6da466b09,,v,v,GitHub Advisory,,
+CVE-2017-5263,,,,,GitHub Advisory,,
+CVE-2017-5606,,,,,GitHub Advisory,,
+CVE-2017-5606,,,,,GitHub Advisory,,
+CVE-2017-5677,,,,,,,
+CVE-2017-5677,,,,,,,
+CVE-2017-6168,,,,,GitHub Advisory,,
+CVE-2017-6168,,,,,GitHub Advisory,,
+CVE-2017-7358,,,,,GitHub Advisory,,
+CVE-2017-7488,,,,,,,
+CVE-2017-7488,,,,,,,
+CVE-2017-7496,,,,,,,
+CVE-2017-7496,,,,,,,
+CVE-2017-8316,,,,,,,
+CVE-2017-8316,,,,,,,
+CVE-2017-8386,,,,,,,
+CVE-2017-8386,,,,,,,
+CVE-2017-8386,,,,,,,
+CVE-2017-8386,,,,,,,
+CVE-2017-9109,,,,,,,
+CVE-2017-9109,,,,,,,
+CVE-2017-9417,,,,,,,
+CVE-2017-9417,,,,,,,
+CVE-2017-9424,,,,,,,
+CVE-2017-9424,,,,,,,
+CVE-2017-9506,,,,,,,
+CVE-2017-9506,,,,,,,
+CVE-2018-1000621,,,,,,,
+CVE-2014-0112,https://github.com/apache/struts/commit/74e26830d2849a84729b33497f729e0f033dc147," https://github.com/apache/struts/commit/74e26830d2849a84729b33497f729e0f033dc147, of which the commit message claims `Adds additional pattern to prevent access to getClass method`",x,x,GitHub Advisory,,"I think this is not the correct commit link. apache/struts@74e2683 was committed on 10 January 2016. https://bugzilla.redhat.com/show_bug.cgi?id=1091939 states that the vulnerability was fixed in Apache Struts version 2.3.16.2 and https://nvd.nist.gov/vuln/detail/CVE-2014-0112 says the vulnerability was fixed in 2.3.20. According to https://mvnrepository.com/artifact/org.apache.struts/struts2-core, versions 2.3.16.2 and 2.3.20 were both released in 2014. Therefore, apache/struts@74e2683 is too new to be the fix commit."
+CVE-2014-0113,https://github.com/apache/struts/commit/74e26830d2849a84729b33497f729e0f033dc147," https://github.com/apache/struts/commit/74e26830d2849a84729b33497f729e0f033dc147, of which the commit message claims `Adds additional pattern to prevent access to getClass method`",x,x,GitHub Advisory,,"similar to #4239, apache/struts@74e2683 was committed on 10 January 2016 and CVE-2014-0112 was patched in 2014. This makes apache/struts@74e2683 too new to be the fix commit."
+CVE-2018-8025,https://github.com/apache/hbase/commit/625d4d002620139f49c8201f95b789b6a715cd4,,v,v,GitHub Advisory,,
+CVE-2018-8025,https://github.com/apache/hbase/commit/bf25c1cb7221178388baaa58f0b16a408e151a6,,v,v,GitHub Advisory,,
+CVE-2018-8025,https://github.com/apache/hbase/commit/30e98b4455f971c9cb3c02ac7b2daeebe4ee6f2,,v,v,GitHub Advisory,,
+CVE-2018-8025,https://github.com/apache/hbase/commit/7fe07075b35a816725ba18f6dd43d3fa84e08f9,,v,v,GitHub Advisory,,
+CVE-2018-8025,https://github.com/apache/hbase/commit/0c42acbdf86d08af3003105a26a2201f75f2e2c,,v,v,GitHub Advisory,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/ea3da56f6098390e79568dfbc5b34a479c8a582a,1539108,v,,,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/9e25ed75e83d1f621c9e7e1a514a9cf39fa6f762,1539108,v,,,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/c1bae861f1b0f8da7c8517c07c38a05a37317886,1539108,v,,,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/d4816e024115beb2adff2018c8919c84b4476f2e,1539108,v,,,,
+CVE-2018-19794,,,,,,,
+CVE-2018-19794,,,,,,,
+CVE-2018-19794,,,,,,,
+CVE-2018-19794,,,,,,,
+CVE-2018-20167,,,,,,,
+CVE-2018-20167,,,,,,,
+CVE-2018-20752,,,,,,,
+CVE-2018-20752,,,,,,,
+CVE-2018-20838,,,,,,,
+CVE-2018-20838,,,,,,,
+CVE-2018-8018,https://github.com/apache/ignite/commit/82a7b8209fcf56971d12cb10410a38ed632215b,,v,v,GitHub Advisory,,
+CVE-2018-8018,https://github.com/apache/ignite/commit/bc374f85ca4a5e69572902d2167fe6bedebd40a,,v,v,GitHub Advisory,,
+CVE-2018-8017,https://github.com/apache/tika/commit/8a6a9e1344f5b10ebfa1a189dc3c30d0da2b9d4,,v,v,GitHub Advisory,,
+CVE-2018-8017,https://github.com/apache/tika/commit/62926cae31a02d4f23d21148435804b96c543cc,,v,v,GitHub Advisory,,
+CVE-2018-1000807,https://github.com/pyca/pyopenssl/commit/e73818600065821d588af475b024f4eb518c3509,,x,x,,,
+CVE-2018-8016,https://github.com/beobal/cassandra/commit/28ee665b3c0c9238b61a871064f024d54cddcc79,,v,v,GitHub Advisory,,
+CVE-2018-8013,https://github.com/apache/batik/commit/f91125b26a6ca2b7a1195f1842360bed03629839,,v,v,GitHub Advisory,,
+CVE-2018-8010,https://github.com/apache/lucene-solr/commit/6c4e45e28494d4d4d04fb89852d18c86fa3d5f8,,v,v,GitHub Advisory,,
+CVE-2018-8010,https://github.com/apache/lucene-solr/commit/1b760114216fcdfae138a8b37f183a9293c4911,,v,v,GitHub Advisory,,
+CVE-2018-8010,https://github.com/apache/lucene-solr/commit/4ba409e0ff3dc38aad88f7b7ad69a76325272b8,,v,v,GitHub Advisory,,
+CVE-2018-8010,https://github.com/apache/lucene-solr/commit/96f079b4b47eaadff65c7aaf0e5bafe68e30ec3,,v,v,GitHub Advisory,,
+CVE-2018-8010,https://github.com/apache/lucene-solr/commit/6d082d5743dee7e08a86b3f2ef03bc025112512,,v,v,GitHub Advisory,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/cedc28d4ab2a27ba47e15ab2711218d96ec88d2,,v,v,GitHub Advisory,,
+CVE-2018-8061,,,,,,,
+CVE-2018-8061,,,,,,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/fc4c20fc3469674cb584a4fb98bac7e3c2277c9,,v,v,GitHub Advisory,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/12258c7cff8d32710fbd8b9088a930e3ce27432,,v,v,GitHub Advisory,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/45a1c680c276c4501402f7bc4cebcf85a6fbc7f,,v,v,GitHub Advisory,,
+CVE-2019-1020004,,,,,,,
+CVE-2019-1020004,,,,,,,
+CVE-2019-10656,,,,,,,
+CVE-2019-10656,,,,,,,
+CVE-2019-10659,,,,,,,
+CVE-2019-10659,,,,,,,
+CVE-2019-10685,,,,,,,
+CVE-2019-10685,,,,,,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/11a425d11a329010d0ff8255ecbcd1eb51b642e,,v,v,GitHub Advisory,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11398,,,,,,,
+CVE-2019-11561,,,,,,,
+CVE-2019-11561,,,,,,,
+CVE-2019-12182,,,,,,,
+CVE-2019-12182,,,,,,,
+CVE-2019-12182,,,,,,,
+CVE-2019-12182,,,,,,,
+CVE-2019-12276,,,,,,,
+CVE-2019-12276,,,,,,,
+CVE-2019-12440,,,,,,,
+CVE-2019-12440,,,,,,,
+CVE-2019-12495,,,,,,,
+CVE-2019-12495,,,,,,,
+CVE-2019-12552,,,,,,,
+CVE-2019-12552,,,,,,,
+CVE-2019-12586,,,,,,,
+CVE-2019-12586,,,,,,,
+CVE-2019-12586,,,,,,,
+CVE-2019-12586,,,,,,,
+CVE-2019-12586,,,,,,,
+CVE-2019-12586,,,,,,,
+CVE-2019-12588,,,,,,,
+CVE-2019-12588,,,,,,,
+CVE-2019-12588,,,,,,,
+CVE-2019-12938,,,,,,,
+CVE-2019-12938,,,,,,,
+CVE-2019-12968,,,,,,,
+CVE-2019-12968,,,,,,,
+CVE-2019-12968,,,,,,,
+CVE-2019-12968,,,,,,,
+CVE-2019-13313,,,,,,,
+CVE-2019-13313,,,,,,,
+CVE-2019-13313,,,,,,,
+CVE-2019-13313,,,,,,,
+CVE-2019-1332,,,,,,,
+CVE-2019-1332,,,,,,,
+CVE-2019-13571,,,,,,,
+CVE-2019-13571,,,,,,,
+CVE-2019-13989,,,,,,,
+CVE-2019-13989,,,,,,,
+CVE-2019-14807,,,,,,,
+CVE-2019-14807,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-14948,,,,,,,
+CVE-2019-15293,,,,,,,
+CVE-2019-15293,,,,,,,
+CVE-2019-15796,,,,,,,
+CVE-2019-15796,,,,,,,
+CVE-2019-15796,,,,,,,
+CVE-2019-15796,,,,,,,
+CVE-2019-15796,,,,,,,
+CVE-2019-15948,,,,,,,
+CVE-2019-15948,,,,,,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/eaa2b8035b584dfcf7c79a33484eb2dffd3fdb1,,v,v,GitHub Advisory,,
+CVE-2019-16200,,,,,,,
+CVE-2019-16200,,,,,,,
+CVE-2019-1663,,,,,,,
+CVE-2019-1663,,,,,,,
+CVE-2019-16650,,,,,,,
+CVE-2019-16650,,,,,,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/e3236a9680709de7a95ffbc11b20e1bdc95a860,,v,v,GitHub Advisory,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-16932,,,,,,,
+CVE-2019-17080,,,,,,,
+CVE-2019-17080,,,,,,,
+CVE-2019-18178,,,,,,,
+CVE-2019-18178,,,,,,,
+CVE-2019-18905,,,,,,,
+CVE-2019-18905,,,,,,,
+CVE-2019-18931,,,,,,,
+CVE-2019-18931,,,,,,,
+CVE-2019-18938,,,,,,,
+CVE-2019-18938,,,,,,,
+CVE-2019-18939,,,,,,,
+CVE-2019-18939,,,,,,,
+CVE-2019-19396,,,,,,,
+CVE-2019-19396,,,,,,,
+CVE-2019-19494,,,,,,,
+CVE-2019-19494,,,,,,,
+CVE-2019-19501,,,,,,,
+CVE-2019-19501,,,,,,,
+CVE-2019-19501,,,,,,,
+CVE-2019-19787,,,,,,,
+CVE-2019-19787,,,,,,,
+CVE-2019-19918,,,,,,,
+CVE-2019-19918,,,,,,,
+CVE-2019-20797,,,,,,,
+CVE-2019-20797,,,,,,,
+CVE-2019-3700,,,,,,,
+CVE-2019-3700,,,,,,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/6d7d192e4799b51931e55217e02baec14d49607,,v,v,GitHub Advisory,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/6a4ae6f6eeed1392a4828a5721fa1499f65bdde,,v,v,GitHub Advisory,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/1373e3d8ad60e4da721a292912cb69243bfdf47,,v,v,GitHub Advisory,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/745f203e577bacb35b042206db94615141fa5e6,,v,v,GitHub Advisory,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/65e55097da2bb3f2fbdf9ba1946da25fe58bec9,,v,v,GitHub Advisory,,
+CVE-2019-5052,,,,,,,
+CVE-2019-5052,,,,,,,
+CVE-2019-5429,,,,,,,
+CVE-2019-5429,,,,,,,
+CVE-2019-5618,,,,,,,
+CVE-2019-5618,,,,,,,
+CVE-2019-6964,,,,,,,
+CVE-2019-6964,,,,,,,
+CVE-2019-6964,,,,,,,
+CVE-2019-6964,,,,,,,
+CVE-2019-6964,,,,,,,
+CVE-2019-6964,,,,,,,
+CVE-2019-7652,,,,,,,
+CVE-2019-7652,,,,,,,
+CVE-2019-8292,,,,,,,
+CVE-2019-8292,,,,,,,
+CVE-2019-8337,,,,,,,
+CVE-2019-8337,,,,,,,
+CVE-2018-8009,https://github.com/apache/hadoop/commit/bd98d4e77cf9f7b2f4b1afb4d5e5bad0f6b2fde,,v,v,GitHub Advisory,,
+CVE-2018-8008,https://github.com/apache/storm/commit/0fc6b522487c061f89e8cdacf09f722d3f20589,,v,v,GitHub Advisory,,
+CVE-2018-8008,https://github.com/apache/storm/commit/efad4cca2d7d461f5f8c08a0d7b51fabeb82d0a,,v,v,GitHub Advisory,,
+CVE-2019-9211,,,,,,,
+CVE-2019-9211,,,,,,,
+CVE-2019-9871,,,,,,,
+CVE-2019-9871,,,,,,,
+CVE-2019-9926,,,,,,,
+CVE-2019-9926,,,,,,,
+CVE-2019-9950,,,,,,,
+CVE-2019-9950,,,,,,,
+CVE-2018-8008,https://github.com/apache/storm/commit/1117a37b01a1058897a34e11ff5156e465efb69,,v,v,GitHub Advisory,,
+CVE-2018-8008,https://github.com/apache/storm/commit/f61e5daf299d6c37c7ad65744d02556c94a16a4,,v,v,GitHub Advisory,,
+CVE-2018-7536,https://github.com/django/django/commit/1ca63a66ef3163149ad822701273e8a1844192c2,,v,v,MITRE,,
+CVE-2020-11103,,,,,,,
+CVE-2020-11103,,,,,,,
+CVE-2020-11530,,,,,,,
+CVE-2020-11530,,,,,,,
+CVE-2020-11614,,,,,,,
+CVE-2020-11614,,,,,,,
+CVE-2020-12122,,,,,,,
+CVE-2020-12122,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2020-12638,,,,,,,
+CVE-2018-7536,https://github.com/django/django/commit/abf89d729f210c692a50e0ad3f75fb6bec6fae16,,v,v,MITRE,,
+CVE-2018-7536,https://github.com/django/django/commit/e157315da3ae7005fa0683ffc9751dbeca7306c8,,v,v,MITRE,,
+CVE-2018-7340,https://github.com/Wizkunde/SAMLBase/commit/482cdf8c090e0f1179073034ebcb609ac7c3f5b3,,v,v,,,
+CVE-2018-6188,https://github.com/django/django/commit/57b95fedad5e0b83fc9c81466b7d1751c6427aae,,v,v,GitHub Advisory,,
+CVE-2018-6188,https://github.com/django/django/commit/c37bb28677295f6edda61d8ac461014ef0d3aeb2,,v,v,GitHub Advisory,,
+CVE-2018-5410,https://github.com/dokan-dev/dokany/commit/4954cc0a3299b20274ac64bf52d6c285a1f40b0f,,v,v,,,
+CVE-2018-5382,https://github.com/bcgit/bc-java/commit/81b00861cd5711e85fe8dce2a0e119f684120255,,v,v,GitHub Advisory,,
+CVE-2018-25023,https://github.com/servo/rust-smallvec/commit/e64afc8c473d43e375ab42bd33db2d0d4ac4e41b,,v,v,MITRE,,
+CVE-2018-20227,https://github.com/eclipse/rdf4j/commit/df15a4d7a8f2789c043b27c9eafe1b30316cfa79,,v,v,GitHub Advisory,,
+CVE-2020-15497,,,,,,,
+CVE-2020-15497,,,,,,,
+CVE-2018-20059,https://github.com/pippo-java/pippo/commit/9f36e5891c0b11f840e1e1561ae96d83ba9ce759,,v,v,GitHub Advisory,,
+CVE-2018-19413,https://github.com/SonarSource/sonarqube/commit/7b567ba3d15ed7dd0b0bba0330686487e35af85c,,v,v,GitHub Advisory,,
+CVE-2018-18628,https://github.com/pippo-java/pippo/commit/c6b26551a82d2dd32097fcb17c13c3b830916296,,v,v,GitHub Advisory,,
+CVE-2018-17297,https://github.com/looly/hutool/commit/8d7d0b7fb5ea4f7447b40131bffc1ec506a6528e,,v,v,GitHub Advisory,,
+CVE-2020-16131,,,,,,,
+CVE-2020-16131,,,,,,,
+CVE-2018-17297,https://github.com/looly/hutool/commit/fed1a1f747a9308e2f65f8dbbff05ce62478ecc0,,v,v,GitHub Advisory,,
+CVE-2020-17514,,,,,,,
+CVE-2020-17514,,,,,,,
+CVE-2020-24361,,,,,,,
+CVE-2020-24361,,,,,,,
+CVE-2020-24388,,,,,,,
+CVE-2020-24588,,,,,,,
+CVE-2020-24588,,,,,,,
+CVE-2020-24588,,,,,,,
+CVE-2020-24662,,,,,,,
+CVE-2020-24662,,,,,,,
+CVE-2020-24662,,,,,,,
+CVE-2020-24662,,,,,,,
+CVE-2020-24671,,,,,,,
+CVE-2020-24671,,,,,,,
+CVE-2020-24671,,,,,,,
+CVE-2020-24671,,,,,,,
+CVE-2020-24913,,,,,,,
+CVE-2020-24913,,,,,,,
+CVE-2020-25263,,,,,,,
+CVE-2020-25263,,,,,,,
+CVE-2020-25474,,,,,,,
+CVE-2020-25474,,,,,,,
+CVE-2018-17297,https://github.com/looly/hutool/commit/9f8a801c7b98b75ee681c0988e1a58bcfdc21756,,v,v,GitHub Advisory,,
+CVE-2018-17197,https://github.com/apache/tika/commit/0c49c851979163334ea05cbebdd11ff87feba62d,,v,v,GitHub Advisory,,
+CVE-2018-17195,https://github.com/apache/nifi/commit/246c090526143943557b15868db6e8fe3fb30cf6,,v,v,GitHub Advisory,,
+CVE-2020-25860,,,,,,,
+CVE-2020-25860,,,,,,,
+CVE-2020-26542,,,,,,,
+CVE-2020-26542,,,,,,,
+CVE-2020-26885,,,,,,,
+CVE-2020-26885,,,,,,,
+CVE-2020-26885,,,,,,,
+CVE-2020-26885,,,,,,,
+CVE-2020-26885,,,,,,,
+CVE-2020-27151,,,,,,,
+CVE-2020-27151,,,,,,,
+CVE-2020-27151,,,,,,,
+CVE-2020-28364,,,,,,,
+CVE-2020-28364,,,,,,,
+CVE-2020-28364,,,,,,,
+CVE-2020-28364,,,,,,,
+CVE-2020-28657,,,,,,,
+CVE-2020-29166,,,,,,,
+CVE-2020-29166,,,,,,,
+CVE-2020-35459,,,,,,,
+CVE-2020-35459,,,,,,,
+CVE-2020-35459,,,,,,,
+CVE-2020-35488,,,,,,,
+CVE-2020-35488,,,,,,,
+CVE-2020-35577,,,,,,,
+CVE-2020-35577,,,,,,,
+CVE-2020-35717,,,,,,,
+CVE-2020-35717,,,,,,,
+CVE-2018-17194,https://github.com/apache/nifi/commit/748cf745628dab20b7e71f12b5dcfe6ed0bbf134,,v,v,GitHub Advisory,,
+CVE-2020-36200,,,,,,,
+CVE-2020-36200,,,,,,,
+CVE-2020-36241,,,,,,,
+CVE-2020-36334,,,,,,,
+CVE-2020-36334,,,,,,,
+CVE-2020-36542,,,,,,,
+CVE-2020-36542,,,,,,,
+CVE-2020-7209,,,,,,,
+CVE-2020-7209,,,,,,,
+CVE-2018-17193,https://github.com/apache/nifi/commit/e62aa0252dfcf34dff0c3a9c51265b1d0f9dfc9f,,v,v,GitHub Advisory,,
+CVE-2020-8030,,,,,,,
+CVE-2020-8030,,,,,,,
+CVE-2018-17192,https://github.com/apache/nifi/commit/dbf259508c2b8e176d8cb837177aaadbf44f0670,,v,v,GitHub Advisory,,
+CVE-2018-17187,https://github.com/apache/qpid-proton-j/commit/0cb8ca03cec42120dcfc434561592d89a89a805e,,v,v,GitHub Advisory,,
+CVE-2021-22684,,,,,,,
+CVE-2021-22684,,,,,,,
+CVE-2018-17186,https://github.com/apache/syncope/commit/bdb6a180dcae6f1baaff16619cb906b7292da0d,,v,v,GitHub Advisory,,
+CVE-2018-17186,https://github.com/apache/syncope/commit/a0f35f45f8ca5c98853ae8477fb2db81a84709a,,v,v,GitHub Advisory,,
+CVE-2018-17186,https://github.com/apache/syncope/commit/979c28abf2587c73b57d20e4b892410fdd336f0,,v,v,GitHub Advisory,,
+CVE-2018-17184,https://github.com/apache/syncope/commit/73aed0a741b1255f45893e3cada650147335073,,v,v,GitHub Advisory,,
+CVE-2018-17184,https://github.com/apache/syncope/commit/36fb466afd64894170fa5e2e030ce6895120b1a,,v,v,GitHub Advisory,,
+CVE-2018-17184,https://github.com/apache/syncope/commit/b25a8834db2cc7ea45707a1218e85e047568427,,v,v,GitHub Advisory,,
+CVE-2018-15801,https://github.com/spring-projects/spring-security/commit/c70b65c5df0e170a2d34d812b83db0b7bc71ea25,,v,v,GitHub Advisory,,
+CVE-2018-15758,https://github.com/spring-projects/spring-security-oauth/commit/623776689fdcc8047f5a908c71f348e1f172a97,,v,v,GitHub Advisory,,
+CVE-2018-15758,https://github.com/spring-projects/spring-security-oauth/commit/f92223afc71687bd3156298054903f50aa71fbf,,v,v,GitHub Advisory,,
+CVE-2018-15758,https://github.com/spring-projects/spring-security-oauth/commit/ddd65cd9417ae1e4a69e4193a622300db38e2ef,,v,v,GitHub Advisory,,
+CVE-2014-3600,https://github.com/apache/activemq/commit/b9696ac80bb496b52d05c3884f81b0746d9af9e2," https://github.com/apache/activemq/commit/b9696ac80bb496b52d05c3884f81b0746d9af9e2, of which the commit message claims `https://issues.apache.org/jira/browse/AMQ-5333 - make xpath parser features configurable`",x,x,GitHub Advisory,,"The vulnerability in GHSA-4vhf-2hv7-8mrx was fixed in 5.10.1. The commit for the 5.10 branch is apache/activemq@3e5ac63. Since apache/activemq@b9696ac addresses later branches that can be assumed to have the fix, the additional commit is unnecessary."
+CVE-2018-15758,https://github.com/spring-projects/spring-security-oauth/commit/4082ec7ae3d39198a47b5c803ccb20dacefb0b0,,v,v,GitHub Advisory,,
+CVE-2018-15756,https://github.com/spring-projects/spring-framework/commit/c8e320019ffe7298fc4cbeeb194b2bfd6389b6d,,v,v,GitHub Advisory,,
+CVE-2018-15756,https://github.com/spring-projects/spring-framework/commit/423aa28ed584b4ff6e5bad218c09beef5e91951,,v,v,GitHub Advisory,,
+CVE-2018-15756,https://github.com/spring-projects/spring-framework/commit/044772641d12b9281185f6cf50f8485b8747132,,v,v,GitHub Advisory,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/d4816e024115beb2adff2018c8919c84b4476f2e,,v,v,,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/ea3da56f6098390e79568dfbc5b34a479c8a582a,,v,v,,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/9e25ed75e83d1f621c9e7e1a514a9cf39fa6f762,,v,v,,,
+CVE-2018-14847,https://github.com/BasuCert/WinboxPoC/commit/c1bae861f1b0f8da7c8517c07c38a05a37317886,,v,v,,,
+CVE-2018-14658,https://github.com/keycloak/keycloak/commit/a957e118e6efb35fe7ef3a62acd66341a6523cb7,,v,v,GitHub Advisory,,
+CVE-2018-14630,https://github.com/moodle/moodle/commit/cb8aefa658cf7ad8f002a480343afb2dea94cc08,"add patch commit: https://github.com/moodle/moodle/commit/cb8aefa658cf7ad8f002a480343afb2dea94cc08. 
+ the commit msg has shown it's a fix for `MDL-62880`. 
+ update vvr as well.",v,v,,,
+CVE-2018-14574,https://github.com/django/django/commit/d6eaee092709aad477a9894598496c6deec532ff,,v,v,GitHub Advisory,,
+CVE-2018-14574,https://github.com/django/django/commit/6fffc3c6d420e44f4029d5643f38d00a39b08525,,v,v,GitHub Advisory,,
+CVE-2018-14574,https://github.com/django/django/commit/c4e5ff7fdb5fce447675e90291fd33fddd052b3c,,v,v,GitHub Advisory,,
+CVE-2018-1337,https://github.com/apache/directory-ldap-api/commit/075b70a733d7af150b3d85684149ff5f029f7fd,,v,v,GitHub Advisory,,
+CVE-2018-1337,https://github.com/apache/directory-ldap-api/commit/5faa6a71606a22a7503d401911875ec3a355cac,,v,v,GitHub Advisory,,
+CVE-2018-1335,https://github.com/apache/tika/commit/d1bc09386405d28d6b0f0a29ce8c3e7efd72d6c7,,v,v,GitHub Advisory,,
+CVE-2018-1335,https://github.com/apache/tika/commit/4fdc51a40bf9532d7db57d0b08c1aec3931468ad,,v,v,GitHub Advisory,,
+CVE-2018-1335,https://github.com/apache/tika/commit/e82c2efd2b1ac731b6954634741b70ecf0ed6f01,,v,v,GitHub Advisory,,
+CVE-2018-1335,https://github.com/apache/tika/commit/302f22aff7a836868b270038e1d66002a2004869,,v,v,GitHub Advisory,,
+CVE-2018-1335,https://github.com/apache/tika/commit/ffb48dd29d0c2009490caefda75e5b57c7958c51,,v,v,GitHub Advisory,,
+CVE-2018-1335,https://github.com/apache/tika/commit/5d983aad0b68a228f180686a4135ed8c7cd589f1,,v,v,GitHub Advisory,,
+CVE-2018-1335,https://github.com/apache/tika/commit/b2d3932b847a171a85e356aa230af461a0f80d91,,v,v,GitHub Advisory,,
+CVE-2018-1325,https://github.com/sebfz1/wicket-jquery-ui/commit/2fec03dbe2f6e8808f4bdc6b3195dff3e44f520,,v,v,GitHub Advisory,,
+CVE-2018-1324,https://github.com/apache/commons-compress/commit/2a2f1dc48e22a34ddb72321a4db211da91aa933b,,v,v,,,
+CVE-2018-1322,https://github.com/apache/syncope/commit/7b168c142b09c3b03e39f1449211e7ddf026a14,,v,v,GitHub Advisory,,
+CVE-2018-1322,https://github.com/apache/syncope/commit/44a5ca0fbd357b8b5d81aa9313fb01cca30d8ad,,v,v,GitHub Advisory,,
+CVE-2018-1322,https://github.com/apache/syncope/commit/735579b6f987b407049ac1f1da08e675d957c3e,,v,v,GitHub Advisory,,
+CVE-2018-1321,https://github.com/apache/syncope/commit/726231fbf7b817bd2a9467171dcb1c0087c75bc,,v,v,GitHub Advisory,,
+CVE-2018-1321,https://github.com/apache/syncope/commit/717289bc10b6f3b204cb6d14881f530174c6235,,v,v,GitHub Advisory,,
+CVE-2018-1321,https://github.com/apache/syncope/commit/ad31479c1c543ac7d26b8c882aa14f6c00c1fd0,,v,v,GitHub Advisory,,
+CVE-2018-1320,https://github.com/apache/thrift/commit/d973409661f820d80d72c0034d06a12348c8705e,,v,v,GitHub Advisory,,
+CVE-2018-1308,https://github.com/apache/lucene-solr/commit/02c693f3713add1b4891cbaa87127de3a55c10f,,v,v,GitHub Advisory,,
+CVE-2018-1308,https://github.com/apache/lucene-solr/commit/dd3be31f7062dcb2f3b2d7f0e89df29e197dee6,,v,v,GitHub Advisory,,
+CVE-2018-1308,https://github.com/apache/lucene-solr/commit/739a79338856599084617d44b6a1b424af059aa,,v,v,GitHub Advisory,,
+CVE-2018-1331,https://github.com/apache/storm/commit/8ffa920d3894634aa078f0fdf6b02d270262caf,,v,?,GitHub Advisory,,can you elaborate on how these commits are related to the advisory?
+CVE-2018-1331,https://github.com/apache/storm/commit/22a962073c5f12dc5ab281a15d93eb5efc31ab6,,v,?,GitHub Advisory,,can you elaborate on how these commits are related to the advisory?
+CVE-2018-1331,https://github.com/apache/storm/commit/e3652b44a377436256f77a2749ed133bbafd2fb,,v,?,GitHub Advisory,,can you elaborate on how these commits are related to the advisory?
+CVE-2018-1331,https://github.com/apache/storm/commit/a6bf3e421d3d37a797e3bb374fcd20a00189feb,,v,?,GitHub Advisory,,can you elaborate on how these commits are related to the advisory?
+CVE-2018-1325,https://github.com/sebfz1/wicket-jquery-ui/commit/4ade74d87389935dee5ba49b8cdd0abb075cc50,,v,?,GitHub Advisory,,can you elaborate on how these commits are related to the advisory?
+CVE-2018-1325,https://github.com/sebfz1/wicket-jquery-ui/commit/22e414d693e8ef679ac6da38107fbc118a63f00,,v,?,GitHub Advisory,,can you elaborate on how these commits are related to the advisory?
+CVE-2018-1284,https://github.com/apache/hive/commit/b0a58d245875dc1b3ac58a7cf1a61d3b17805e96,,v,v,GitHub Advisory,,
+CVE-2018-1275,https://github.com/spring-projects/spring-framework/commit/d3acf45ea4db51fa5c4cbd0bc0e7b6d9ef805e6,,v,v,GitHub Advisory,,
+CVE-2018-1275,https://github.com/spring-projects/spring-framework/commit/1db7e02de3eb0c011ee6681f5a12eb9d166fea8,,v,v,GitHub Advisory,,
+CVE-2018-1274,https://github.com/spring-projects/spring-data-commons/commit/371f6590c509c72f8e600f3d05e110941607fba,,v,v,GitHub Advisory,,
+CVE-2018-1274,https://github.com/spring-projects/spring-data-commons/commit/3d8576fe4e4e71c23b9e6796b32fd56e51182ee,,v,v,GitHub Advisory,,
+CVE-2018-1273,https://github.com/spring-projects/spring-data-commons/commit/b1a20ae1e82a63f99b3afc6f2aaedb3bf4dc432,,v,v,GitHub Advisory,,
+CVE-2018-1273,https://github.com/spring-projects/spring-data-commons/commit/ae1dd2741ce06d44a0966ecbd6f47beabde2b65,,v,v,GitHub Advisory,,
+CVE-2018-1272,https://github.com/spring-projects/spring-framework/commit/e02ff3a0da50744b0980d5d665fd242eedea767,,v,v,GitHub Advisory,,was incorrectly closed but finally updated on the database.
+CVE-2018-1272,https://github.com/spring-projects/spring-framework/commit/ab2410c754b67902f002bfcc0c3895bd7772d39,,v,v,GitHub Advisory,,was incorrectly closed but finally updated on the database.
+CVE-2018-1313,https://github.com/apache/derby/commit/a2027c64e185a9ce46929f352e2db03371c1f95,,v,?,GitHub Advisory,,elaborating on how these commits are related to the advisory?
+CVE-2018-1313,https://github.com/apache/derby/commit/4da5b2db5f3a60c1fa8ef616d88a7efe28b0c9d,,v,?,GitHub Advisory,,elaborating on how these commits are related to the advisory?
+CVE-2018-1271,https://github.com/spring-projects/spring-framework/commit/91b803a2310344d925e5d4b1709bbcea9037554,,v,v,GitHub Advisory,,
+CVE-2018-1271,https://github.com/spring-projects/spring-framework/commit/f59ea610dfcf55cd0b42f6dd76a9b3dab0218aa,,v,v,GitHub Advisory,,
+CVE-2018-1271,https://github.com/spring-projects/spring-framework/commit/b9ebdaaf3710db473a2e1fec8641c316483a22a,,v,v,GitHub Advisory,,
+CVE-2018-1306,https://github.com/apache/portals-pluto/commit/89f6a59a740d0a8318640ca6015e9a381c5c6b50,,v,?,GitHub Advisory,,"any chance you can elaborate on the linkage between this commit and the advisory?
+
+"
+CVE-2018-1298,https://github.com/apache/qpid-broker-j/commit/30ca170c42c400b41340a81c6a69d33aa19bf189,,v,?,GitHub Advisory,,can you please elaborate on which of these is an actual fix? The first one seems like it is clearly not as it only adds tests.
+CVE-2018-1298,https://github.com/apache/qpid-broker-j/commit/4b9fb37abbe882193b16595ed7b8e9d8383f59e1,,v,?,GitHub Advisory,,can you please elaborate on which of these is an actual fix? The first one seems like it is clearly not as it only adds tests.
+CVE-2018-1298,https://github.com/apache/qpid-broker-j/commit/de509dd955229a395c086a7cca874dc55306648a,,v,?,GitHub Advisory,,can you please elaborate on which of these is an actual fix? The first one seems like it is clearly not as it only adds tests.
+CVE-2018-12972,https://github.com/OpenTSDB/opentsdb/commit/a6a9ec4bc8a526951bc25bb19a145782bafaa8b0,,v,?,GitHub Advisory,," are you sure this resolves this issue? The backing issue is still open
+OpenTSDB/opentsdb#1239"
+CVE-2018-1295,https://github.com/apache/ignite/commit/340569b8f4e14a4cb61a9407ed2d9aa4a20bdf49,,v,?,GitHub Advisory,,elaborating on how that commit is related to this advisory?
+CVE-2013-4114,https://github.com/HenriWahl/Nagstamon/pull/50/commits/22048e86aec5bc65e970f7e6704da2f181925472,,v,,,,
+CVE-2013-4114,https://github.com/HenriWahl/Nagstamon/pull/50/commits/e52d9d8ced598e6da0a750641b3abebbae3144fe,,v,,,,
+CVE-2013-4114,https://github.com/HenriWahl/Nagstamon/pull/50/commits/9cc0b3e858a955dfe6f23e2ef9e915d1cd7492d5,,v,,,,
+CVE-2013-4114,https://github.com/HenriWahl/Nagstamon/pull/50/commits/a32f53eefe20d9d1426fa1451a0556fcbd9f0da9,,v,,,,
+CVE-2013-4114,https://github.com/HenriWahl/Nagstamon/pull/50/commits/d9968fe96cca34425c68f2a042bf24448317619e,,v,,,,
+CVE-2013-4114,https://github.com/HenriWahl/Nagstamon/pull/50/commits/da4f4d81c903507231a5374a0eeeae0e74cac7bf,,v,,,,
+CVE-2013-4103,https://github.com/arlolra/otr/commit/8a1c8fa845f3120669c1177b34d61edd0a7194c0,,v,,,,
+CVE-2013-3250,https://github.com/Codeinwp/wp-maintenance-mode/commit/2f07a6462d9f715a4e8d61ce2ee39b7e8abb83c6,,v,,,,
+CVE-2018-1271,https://github.com/spring-projects/spring-framework/commit/98ad23bef8e2e04143f8f5b201380543a8d8c0c,,v,v,GitHub Advisory,,
+CVE-2018-1282,https://github.com/apache/hive/commit/63df42966cf44ffdd20d3fcdcfb70738c0432ab,,v,?,GitHub Advisory,,Any chance you also have a reference linking the HIVE-18788 id to the CVE?
+CVE-2018-1282,https://github.com/apache/hive/commit/0330c1c0b62f3c2e6a4744048578dea55193b62,,v,?,GitHub Advisory,,Any chance you also have a reference linking the HIVE-18788 id to the CVE?
+CVE-2018-1271,https://github.com/spring-projects/spring-framework/commit/0e28bee0f155b9bf240b4bafc4646e4810cb23f,,v,v,GitHub Advisory,,
+CVE-2018-1271,https://github.com/spring-projects/spring-framework/commit/13356a7ee2240f740737c5c83bdccdacc30603a,,v,v,GitHub Advisory,,
+CVE-2018-1271,https://github.com/spring-projects/spring-framework/commit/695bf2961feffd35b5560ccc982a2189dcca611,,v,v,GitHub Advisory,,
+CVE-2018-1263,https://github.com/spring-projects/spring-integration-extensions/commit/d10f537283d90eabd28af57ac97f860a3913bf9b," https://github.com/spring-projects/spring-integration-extensions/commit/d10f537283d90eabd28af57ac97f860a3913bf9b, of which the commit message claims `Dissallow traversal entry even for byte[]
+
+The previous change prevents the transformer from writing a file outside of
+the working directory.
+
+However it still produced an entry for an errant file when producing just contents,
+and not writing to the file system. However, the errant path would be added to the
+message and might be used by subsequent components to write to the file system.
+
+This situation is present in the `UnZip2FileTests`.
+
+While this vulnerability is not directly exposed by the framework, user applications
+could be affected by it.`",v,v,,GitHub Advisory,
+CVE-2018-1261,https://github.com/spring-projects/spring-integration-extensions/commit/a5573eb232ff85199ff9bb28993df715d9a19a25," https://github.com/spring-projects/spring-integration-extensions/commit/a5573eb232ff85199ff9bb28993df715d9a19a25, of which the commit message claims `Disallow traversal entity in zip
+
+When the file name holds path traversal file names it gets
+concatenated to the target extraction directory,
+the final path ends up outside of the target folder.`",v,v,,GitHub Advisory,
+CVE-2018-1258,https://github.com/spring-projects/spring-security/commit/fed15f2b01b763158f6650afa13059203366974,,v,v,,GitHub Advisory,
+CVE-2018-1258,https://github.com/spring-projects/spring-security/commit/7b8fa90d96aaf751a3256fa755d5f17e081c20f,,v,v,,GitHub Advisory,
+CVE-2018-1257,https://github.com/spring-projects/spring-framework/commit/246a6db1cad205ca9b6fca00c544ab7443ba202,,v,v,,GitHub Advisory,
+CVE-2018-1257,https://github.com/spring-projects/spring-framework/commit/ff2228fdaf131d57b5c8c5918ee8d07c6dd9bba,,v,v,,GitHub Advisory,
+CVE-2018-1256,https://github.com/pivotal-cf/spring-cloud-sso-connector/commit/ef647a2acf2363c6018e8543d665ac8862593372,,v,v,,GitHub Advisory,
+CVE-2018-12544,https://github.com/vert-x3/vertx-web/commit/d814d22ade14bafec47c4447a4ba9bff090f05e,,v,v,,GitHub Advisory,
+CVE-2018-12544,https://github.com/vert-x3/vertx-web/commit/ac8692c618d6180a9bc012a2ac8dbec821b1a97,,v,v,,GitHub Advisory,
+CVE-2018-12540,https://github.com/vert-x3/vertx-web/commit/f42b193b15a29b772fc576b2d0f2497e7474a7e," https://github.com/vert-x3/vertx-web/commit/f42b193b15a29b772fc576b2d0f2497e7474a7e, of which the commit message claims `Validate that X-XSRF-Token and X-XSRF-Token cookie are the same - fixes #970
+(cherry picked from commit 482bc72)`",v,v,,GitHub Advisory,
+CVE-2018-12540,https://github.com/vert-x3/vertx-web/commit/98891b1d9e022b467a3e4674aca4d1889849b1d," https://github.com/vert-x3/vertx-web/commit/98891b1d9e022b467a3e4674aca4d1889849b1d, of which the commit message claims `Validate that X-XSRF-Token and X-XSRF-Token cookie are the same - fixes #970
+(cherry picked from commit 482bc72)
+
+(cherry picked from commit f42b193)`",v,v,,GitHub Advisory,
+CVE-2018-11750,https://github.com/puppetlabs/cisco_ios/commit/bd422c022a989831a6a143113574266671e4cf16,,v,v,Puppet,,
+CVE-2018-1270,https://github.com/spring-projects/spring-framework/commit/1db7e02de3eb0c011ee6681f5a12eb9d166fea8,pending verification by adding evidence.,v,?,,GitHub Advisory,
+CVE-2018-1270,https://github.com/spring-projects/spring-framework/commit/d3acf45ea4db51fa5c4cbd0bc0e7b6d9ef805e6,pending verification by adding evidence.,v,?,,GitHub Advisory,
+CVE-2018-1270,https://github.com/spring-projects/spring-framework/commit/e0de9126ed8cf25cf141d3e66420da94e350708,pending verification by adding evidence.,v,?,,GitHub Advisory,
+CVE-2017-7234,https://github.com/django/django/commit/4a6b945dffe8d10e7cec107d93e6efaebfbded29,,v,v,,GitHub Advisory,
+CVE-2017-7234,https://github.com/django/django/commit/5f1ffb07afc1e59729ce2b283124116d6c0659e4,,v,v,,GitHub Advisory,
+CVE-2018-1260,https://github.com/spring-projects/spring-security-oauth/commit/1c6815ac1b26fb2f079adbe283c43a7fd0885f3,,v,?,,GitHub Advisory, elaborating on how these fix commits are related to the advisory?
+CVE-2018-1260,https://github.com/spring-projects/spring-security-oauth/commit/adb1e6d19c681f394c9513799b81b527b0cb007,,v,?,,GitHub Advisory, elaborating on how these fix commits are related to the advisory?
+CVE-2018-1260,https://github.com/spring-projects/spring-security-oauth/commit/8e9792c1963f1aeea81ca618785eb8d71d1cd1d,,v,?,,GitHub Advisory, elaborating on how these fix commits are related to the advisory?
+CVE-2018-1260,https://github.com/spring-projects/spring-security-oauth/commit/6b1791179c1092553aa0690da22dac4dff2fc58,,v,?,,GitHub Advisory, elaborating on how these fix commits are related to the advisory?
+CVE-2018-1259,https://github.com/SvenEwald/xmlbeam/commit/f8e943f44961c14cf1316deb56280f7878702ee1,,v,?,,GitHub Advisory,can you elaborate on how this is related to the spring project? Is there some analogous commit in a spring repo?
+CVE-2017-7234,https://github.com/django/django/commit/2a9f6ef71b8e23fd267ee2be1be26dde8ab67037,,v,v,,GitHub Advisory,
+CVE-2017-5244,https://github.com/phpmyadmin/phpmyadmin/commit/53f70fd7f3b388639922e6cc1ca51fbe890c91cc,,v,v,GitHub Advisory,,
+CVE-2017-5243,https://github.com/phpmyadmin/phpmyadmin/commit/53f70fd7f3b388639922e6cc1ca51fbe890c91cc,,v,v,GitHub Advisory,,
+CVE-2017-5242,https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/commit/58fa0f81c4036f1a3b616fdffad2fd27e5d5ce21,,v,v,GitHub Advisory,,
+CVE-2017-5240,https://github.com/concretecms/concretecms/commit/861ba66d248165c9ee9d6d11a0457908b97d68f0,,v,v,GitHub Advisory,,
+CVE-2017-5239,https://github.com/concretecms/concretecms/commit/546cef6ec29208d5c079113635cd6e6b250e9f7c,,v,v,GitHub Advisory,,
+CVE-2017-5238,https://github.com/n8n-io/n8n/commit/fb07d77106bb4933758c63bbfb87f591bf4a27dd,,v,v,GitHub Advisory,,
+CVE-2017-5237,https://github.com/n8n-io/n8n/commit/40b97846483fe7c58229c156acb66f43a5a79dc3,,v,v,,,
+CVE-2017-5236,https://github.com/n8n-io/n8n/commit/1414bfa7906ea089b9dc55853405e774a5384ce2,,v,v,,,
+CVE-2017-5235,https://github.com/n8n-io/n8n/commit/27adea70459329fc0dddabee69e10c9d1453835f,,v,v,GitHub Advisory,,
+CVE-2017-17528,https://github.com/jdog252/scummvm/commit/7aaac1dfba22d2e70b33b2cf856d7885944d4a6e,,v,v,MITRE,,
+CVE-2017-17528,https://github.com/jdog252/scummvm/commit/7aaac1dfba22d2e70b33b2cf856d7885944d4a6e,,v,v,GitHub Advisory,,
+CVE-2017-16877,https://github.com/vercel/next.js/commit/02fe7cf63f6265d73bdaf8bc50a4f2fb539dcd00,,v,v,MITRE,,
+CVE-2017-15695,https://github.com/apache/geode/commit/90f8f6242927c5e16da64f38bba9abf3d450a305,"Add a patch https://github.com/apache/geode/commit/90f8f6242927c5e16da64f38bba9abf3d450a305, of which the commit message claims `GEODE-3974: Improve permissions for geode-modules functions (#1258)`",v,v,,GitHub Advisory,
+CVE-2017-15695,https://github.com/apache/geode/commit/aa469239860778eb46e09dd7b390aee08f152480,"Add a patch https://github.com/apache/geode/commit/aa469239860778eb46e09dd7b390aee08f152480, of which the commit message claims `GEODE-3974: improve permission for Internal functions (#1395)
+ 
+  New marker interface InternalFunction to define all
+ 
+  internal functions. InternalFunctions need * permission.`",v,v,,GitHub Advisory,
+CVE-2017-15695,https://github.com/apache/geode/commit/6df14c8b1e3c644f9f810149e80bba0c2f073dab,"Add a patch https://github.com/apache/geode/commit/6df14c8b1e3c644f9f810149e80bba0c2f073dab, of which the commit message claims `GEODE-3974: Core function security improvement (#1310)`",v,v,,GitHub Advisory,
+CVE-2017-15695,https://github.com/apache/geode/commit/740289c61d60256c6270756bc84b9e24b76e4913,"Add a patch https://github.com/apache/geode/commit/740289c61d60256c6270756bc84b9e24b76e4913, of which the commit message claims `GEODE-3974: Improve permissions for geode-lucene functions`",v,v,,GitHub Advisory,
+CVE-2017-15695,https://github.com/apache/geode/commit/49d28f93fd2ef069693ce15d124ef3a29f22fb7d,"Add a patch https://github.com/apache/geode/commit/49d28f93fd2ef069693ce15d124ef3a29f22fb7d, of which the commit message claims `GEODE-3974: Improve permissions for geode-connectors functions (#1265)`",v,v,,GitHub Advisory,
+CVE-2017-15695,https://github.com/apache/geode/commit/00be4f9774e1adf8e7ccc2664da8005fc30bb11d,"Add a patch https://github.com/apache/geode/commit/00be4f9774e1adf8e7ccc2664da8005fc30bb11d, of which the commit message claims `GEODE-3974: function security improvement (#1287)
+ 
+ * GEODE-3974: function security improvement
+ 
+ 
+ 
+ * function executed on a local member does not log out user accidentally
+ 
+ * Mark some internal functions as InternalEntity
+ 
+ * test refactor`",v,v,,GitHub Advisory,
+CVE-2017-15695,https://github.com/apache/geode/commit/954ccb545d24a9c9a35cbd84023a4d7e07032de0,"Add a patch https://github.com/apache/geode/commit/954ccb545d24a9c9a35cbd84023a4d7e07032de0, of which the commit message claims `GEODE-3974: revert a change to log the exception in the server logs (#1444)`",v,v,,GitHub Advisory,
+CVE-2017-12794,https://github.com/django/django/commit/58e08e80e362db79eb0fd775dc81faad90dca47a,,v,v,,GitHub Advisory,
+CVE-2017-12794,https://github.com/django/django/commit/e35a0c56086924f331e9422daa266e907a4784cc,,v,v,,GitHub Advisory,
+CVE-2017-12631,https://github.com/apache/cxf-fediz/commit/e7127129dbc0f4ee83985052085e185e750cebbf,"Add a patch https://github.com/apache/cxf-fediz/commit/e7127129dbc0f4ee83985052085e185e750cebbf, of which the commit message claims `Some improvements to the Spring plugins`",v,v,,GitHub Advisory,
+CVE-2017-12631,https://github.com/apache/cxf-fediz/commit/48dd9b68d67c6b729376c1ce8886f52a57df6c4,"Add a patch https://github.com/apache/cxf-fediz/commit/48dd9b68d67c6b729376c1ce8886f52a57df6c4, of which the commit message claims `Some improvements to the Spring plugins`",v,v,,GitHub Advisory,
+CVE-2017-12631,https://github.com/apache/cxf-fediz/commit/ccdb12b26ff89e0a998a333e84dd84bd713ac76,"Add a patch https://github.com/apache/cxf-fediz/commit/ccdb12b26ff89e0a998a333e84dd84bd713ac76, of which the commit message claims `Some improvements to the Spring plugins`",v,v,,GitHub Advisory,
+CVE-2017-12629,https://github.com/apache/lucene-solr/commit/f9fd6e9e26224f26f1542224ce187e04c27b268,"Add a patch https://github.com/apache/lucene-solr/commit/f9fd6e9e26224f26f1542224ce187e04c27b268, of which the commit message claims `SOLR-11477: Disallow resolving of external entities in Lucene queryparser/xml/CoreParser and SolrCoreParser (defType=xmlparser or {!xmlparser ...}) by default.
+ 
+ (Michael Stepankin, Olga Barinova, Uwe Schindler, Christine Poerschke)`",v,v,,GitHub Advisory,
+CVE-2017-12629,https://github.com/apache/lucene-solr/commit/3bba91131b5257e64b9d0a2193e1e32a145b2a2,"Add a patch https://github.com/apache/lucene-solr/commit/3bba91131b5257e64b9d0a2193e1e32a145b2a2, of which the commit message claims `SOLR-11477: Disallow resolving of external entities in Lucene queryparser/xml/CoreParser and SolrCoreParser (defType=xmlparser or {!xmlparser ...}) by default.
+ 
+ (Michael Stepankin, Olga Barinova, Uwe Schindler, Christine Poerschke)`",v,v,,GitHub Advisory,
+CVE-2017-12629,https://github.com/apache/lucene-solr/commit/d8000beebfb13ba0b6e754f84c760e11592d8d1,"Add a patch https://github.com/apache/lucene-solr/commit/d8000beebfb13ba0b6e754f84c760e11592d8d1, of which the commit message claims `SOLR-11477: Disallow resolving of external entities in Lucene queryparser/xml/CoreParser and SolrCoreParser (defType=xmlparser or {!xmlparser ...}) by default.
+ 
+ (Michael Stepankin, Olga Barinova, Uwe Schindler, Christine Poerschke)
+ 
+ This closes #263.`",v,v,,GitHub Advisory,
+CVE-2017-12629,https://github.com/apache/lucene-solr/commit/d28baa3fc5566b47f1ca7cc2ba1aba658dc634a,"Add a patch https://github.com/apache/lucene-solr/commit/d28baa3fc5566b47f1ca7cc2ba1aba658dc634a, of which the commit message claims `SOLR-11477: Disallow resolving of external entities in Lucene queryparser/xml/CoreParser and SolrCoreParser (defType=xmlparser or {!xmlparser ...}) by default.
+ 
+ (Michael Stepankin, Olga Barinova, Uwe Schindler, Christine Poerschke)`",v,v,,GitHub Advisory,
+CVE-2017-12629,https://github.com/apache/lucene-solr/commit/926cc4d65b6d2cc40ff07f76d50ddeda947e3cc,"Add a patch https://github.com/apache/lucene-solr/commit/926cc4d65b6d2cc40ff07f76d50ddeda947e3cc, of which the commit message claims `SOLR-11477: Disallow resolving of external entities in Lucene queryparser/xml/CoreParser and SolrCoreParser (defType=xmlparser or {!xmlparser ...}) by default.
+ 
+ (Michael Stepankin, Olga Barinova, Uwe Schindler, Christine Poerschke)`",v,v,,GitHub Advisory,
+CVE-2017-10711,https://github.com/simplerisk/code/commit/3e074bc509b7cbf96d33b3b2fb5dace3c7d469b7,,v,v,MITRE,,
+CVE-2016-9014,https://github.com/django/django/commit/c401ae9a7dfb1a94a8a61927ed541d6f93089587,,v,v,,GitHub Advisory,
+CVE-2016-9014,https://github.com/django/django/commit/45acd6d836895a4c36575f48b3fb36a3dae98d19,,v,v,,GitHub Advisory,
+,,,,,,,
+CVE-2016-9014,https://github.com/django/django/commit/884e113838e5a72b4b0ec9e5e87aa480f6aa4472,,v,v,,GitHub Advisory,
+CVE-2016-9013,https://github.com/django/django/commit/70f99952965a430daf69eeb9947079aae535d2d0,,v,v,,GitHub Advisory,
+CVE-2016-9013,https://github.com/django/django/commit/4844d86c7728c1a5a3bbce4ad336a8d32304072b,,v,v,,GitHub Advisory,
+CVE-2016-9013,https://github.com/django/django/commit/34e10720d81b8d407aa14d763b6a7fe8f13b4f2e,,v,v,,GitHub Advisory,
+CVE-2016-7401,https://github.com/django/django/commit/6118ab7d0676f0d622278e5be215f14fb5410b6a,,v,v,,GitHub Advisory,
+CVE-2016-7401,https://github.com/django/django/commit/d1bc980db1c0fffd6d60677e62f70beadb9fe64a,,v,v,,GitHub Advisory,
+CVE-2016-6809,https://github.com/apache/tika/commit/8a68b5d474205cc91cbbb610d4a1c05af57f0610," https://github.com/apache/tika/commit/8a68b5d474205cc91cbbb610d4a1c05af57f0610, of which the commit message claims `clean up MatParser`",v,v,,GitHub Advisory,
+CVE-2016-5851,https://github.com/python-openxml/python-docx/commit/61b40b161b64173ab8e362aec1fd197948431beb,,v,v,MITRE,,
+CVE-2016-4992,https://github.com/389ds/389-ds-base/commit/0b932d4b926d46ac5060f02617330dc444e06da1,,v,v,Redhat,,
+CVE-2016-3734,https://github.com/moodle/moodle/commit/e90e0ea5700ee9b016034b74ed7f41787109d1a2,"add patch commit: https://github.com/moodle/moodle/commit/e90e0ea5700ee9b016034b74ed7f41787109d1a2. 
+ the commit msg has shown it's a fix for `MDL-53755`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-3733,https://github.com/moodle/moodle/commit/f824aceb50274e21c99056ed608dba8556b90e31,"add patch commit: https://github.com/moodle/moodle/commit/f824aceb50274e21c99056ed608dba8556b90e31. 
+ the commit msg has shown it's a fix for `MDL-51369`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2513,https://github.com/django/django/commit/f4e6e02f7713a6924d16540be279909ff4091eb6,,v,v,,GitHub Advisory,
+CVE-2016-2513,https://github.com/django/django/commit/af7d09b0c5c6ab68e629fd9baf736f9dd203b18e,,v,v,,GitHub Advisory,
+CVE-2016-2512,https://github.com/django/django/commit/382ab137312961ad62feb8109d70a5a581fe8350,,v,v,,GitHub Advisory,
+CVE-2016-2512,https://github.com/django/django/commit/fc6d147a63f89795dbcdecb0559256470fff4380,,v,v,,GitHub Advisory,
+CVE-2016-2190,https://github.com/moodle/moodle/commit/1688564a6eee6000013f6e185f704049283ae375,"add patch commit: https://github.com/moodle/moodle/commit/1688564a6eee6000013f6e185f704049283ae375. 
+ the commit msg has shown it's a fix for `MDL-52651`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2159,https://github.com/moodle/moodle/commit/711f9468d4e2792afe0f2025ac98c52ee3e4ee71,"add patch commit: https://github.com/moodle/moodle/commit/711f9468d4e2792afe0f2025ac98c52ee3e4ee71. 
+ the commit msg has shown it's a fix for `MDL-52901`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2158,https://github.com/moodle/moodle/commit/7b9fbb1cf4228b39f81454cdb8370e7853fbe184,"add patch commit: https://github.com/moodle/moodle/commit/7b9fbb1cf4228b39f81454cdb8370e7853fbe184. 
+ the commit msg has shown it's a fix for `MDL-52774`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2157,https://github.com/moodle/moodle/commit/85984545a937b0790c355473d7295eb60b0265eb,"add patch commit: https://github.com/moodle/moodle/commit/85984545a937b0790c355473d7295eb60b0265eb. 
+ the commit msg has shown it's a fix for `MDL-53031`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/283df6f101676579086400e30e8dd42eacd5ef33," https://github.com/apache/jackrabbit/commit/283df6f101676579086400e30e8dd42eacd5ef33, of which the commit message claims `JCR-4009: back out changes for JCR-4002
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/trunk@1758597 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/db26ade17d791bbb4e4771ed9650ec1159a541ff," https://github.com/apache/jackrabbit/commit/db26ade17d791bbb4e4771ed9650ec1159a541ff, of which the commit message claims `JCR-4009: fix whitespace in log messages (ported to 2.12)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.12@1761911 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/d6e86e4350989af3eb3eb0429d6e4d4d6bd40e5c," https://github.com/apache/jackrabbit/commit/d6e86e4350989af3eb3eb0429d6e4d4d6bd40e5c, of which the commit message claims `JCR-4009: CSRF in Jackrabbit-Webdav (ported to 2.6)
+
+CSRFUtil: properly parse content types (handle params, normalize, handle case differences also multiple field instances), handle missing content type header field, handle partial-URI in referer, DEBUG logging
+
+WebDAV servlet: disable bogus POST support
+
+Davex: include Referer header field in POST requests used for davex remoting
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.6@1758771 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/987168c04327fd4fbbb4fb9d13ae92d5ca888386," https://github.com/apache/jackrabbit/commit/987168c04327fd4fbbb4fb9d13ae92d5ca888386, of which the commit message claims `JCR-4009: CSRF in Jackrabbit-Webdav (ported to 2.10)
+
+CSRFUtil: properly parse content types (handle params, normalize, handle case differences also multiple field instances), handle missing content type header field, handle partial-URI in referer, DEBUG logging
+
+WebDAV servlet: disable bogus POST support
+
+Davex: include Referer header field in POST requests used for davex remoting
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.10@1758761 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/4908cb64317122cdd3e096ebe8c32bd98d2ed8b7," https://github.com/apache/jackrabbit/commit/4908cb64317122cdd3e096ebe8c32bd98d2ed8b7, of which the commit message claims `JCR-4009: CSRF in Jackrabbit-Webdav (ported to 2.8)
+
+CSRFUtil: properly parse content types (handle params, normalize, handle case differences also multiple field instances), handle missing content type header field, handle partial-URI in referer, DEBUG logging
+
+WebDAV servlet: disable bogus POST support
+
+Davex: include Referer header field in POST requests used for davex remoting
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.8@1758764 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/30318d5aef7bf494e579a86f45c79b18b204a997," https://github.com/apache/jackrabbit/commit/30318d5aef7bf494e579a86f45c79b18b204a997, of which the commit message claims `JCR-4009: fix whitespace in log messages (ported to 2.6)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.6@1761915 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/43accb855897b0d82393d47420e25a1e4a569211," https://github.com/apache/jackrabbit/commit/43accb855897b0d82393d47420e25a1e4a569211, of which the commit message claims `JCR-4009: CSRF in Jackrabbit-Webdav (ported to 2.12)
+
+CSRFUtil: properly parse content types (handle params, normalize, handle case differences also multiple field instances), handle missing content type header field, handle partial-URI in referer, DEBUG logging
+
+WebDAV servlet: disable bogus POST support
+
+Davex: include Referer header field in POST requests used for davex remoting
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.12@1758609 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/f0bd17956647cf09cc898d30e7d58221ef409bca," https://github.com/apache/jackrabbit/commit/f0bd17956647cf09cc898d30e7d58221ef409bca, of which the commit message claims `JCR-4009: CSRF in Jackrabbit-Webdav (ported to 2.4)
+
+CSRFUtil: properly parse content types (handle params, normalize, handle case differences also multiple field instances), handle missing content type header field, handle partial-URI in referer, DEBUG logging
+
+WebDAV servlet: disable bogus POST support
+
+Davex: include Referer header field in POST requests used for davex remoting
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.4@1758791 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/09393f93862923e4c8a2f8c7d1236e1a5d3373b5," https://github.com/apache/jackrabbit/commit/09393f93862923e4c8a2f8c7d1236e1a5d3373b5, of which the commit message claims `JCR-4009: CSRF in Jackrabbit-Webdav
+
+CSRFUtil: properly parse content types (handle params, normalize, handle case differences also multiple field instances), handle missing content type header field, handle partial-URI in referer, DEBUG logging
+
+WebDAV servlet: disable bogus POST support
+
+Davex: include Referer header field in POST requests used for davex remoting
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/trunk@1758600 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/8dde23b63151417769eaca112fbbae9a52c47ff3," https://github.com/apache/jackrabbit/commit/8dde23b63151417769eaca112fbbae9a52c47ff3, of which the commit message claims `JCR-4009: fix whitespace in log messages
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/trunk@1761909 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/884ede7db1c6ca490fcbb8238762b000a25f82c3," https://github.com/apache/jackrabbit/commit/884ede7db1c6ca490fcbb8238762b000a25f82c3, of which the commit message claims `JCR-4009: fix whitespace in log messages (ported to 2.4)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.4@1761916 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/cab86cdfb7829b66c89196dfb6095f0faa5aa3c3," https://github.com/apache/jackrabbit/commit/cab86cdfb7829b66c89196dfb6095f0faa5aa3c3, of which the commit message claims `JCR-4009: fix whitespace in log messages (ported to 2.10)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.10@1761912 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-6801,https://github.com/apache/jackrabbit/commit/f05620fb3f4c72429c9856ab7f63a9ac8ca90acf," https://github.com/apache/jackrabbit/commit/f05620fb3f4c72429c9856ab7f63a9ac8ca90acf, of which the commit message claims `JCR-4009: fix whitespace in log messages (ported to 2.8)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.8@1761913 13f79535-47bb-0310-9956-ffa450edef68`",v,x,,GitHub Advisory,functionally equivalent
+CVE-2016-2156,https://github.com/moodle/moodle/commit/39b851376337b853c8d403dcba64645d16f0a9bd,"add patch commit: https://github.com/moodle/moodle/commit/39b851376337b853c8d403dcba64645d16f0a9bd. 
+ the commit msg has shown it's a fix for `MDL-52808`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2155,https://github.com/moodle/moodle/commit/ae66ed23b6ae8000efd4e1f612697892c9795c65,"add patch commit: https://github.com/moodle/moodle/commit/ae66ed23b6ae8000efd4e1f612697892c9795c65. 
+ the commit msg has shown it's a fix for `MDL-52378`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2154,https://github.com/moodle/moodle/commit/fac004e28bf307dec1537f1c850795b5eb7f3c2f,"add patch commit: https://github.com/moodle/moodle/commit/fac004e28bf307dec1537f1c850795b5eb7f3c2f. 
+ the commit msg has shown it's a fix for `MDL-51167`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2153,https://github.com/moodle/moodle/commit/a5fae3b0d21cc85a7ea2d2c2af8c7fc9acf2fd92,"add patch commit: https://github.com/moodle/moodle/commit/a5fae3b0d21cc85a7ea2d2c2af8c7fc9acf2fd92. 
+ the commit msg has shown it's a fix for `MDL-52727`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2152,https://github.com/moodle/moodle/commit/ce597604763272396e5cb8ec93859a8568020b8b,"add patch commit: https://github.com/moodle/moodle/commit/ce597604763272396e5cb8ec93859a8568020b8b. 
+ the commit msg has shown it's a fix for `MDL-50705`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-2151,https://github.com/moodle/moodle/commit/8e24a54e526c149469bd77c910876c4489e87841,"add patch commit: https://github.com/moodle/moodle/commit/8e24a54e526c149469bd77c910876c4489e87841. 
+ the commit msg has shown it's a fix for `MDL-52433`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2016-20018,https://github.com/knex/knex/commit/e145322da92749be7749f9ade5b5f5a66d6586a4,,v,v,MITRE,,
+CVE-2016-10893,https://github.com/aramk/crayon-syntax-highlighter/commit/7fdb2e6b4c65178b4ed01ff08a8a38afe5a5151e,https://github.com/aramk/crayon-syntax-highlighter/issues/347,v,v,MITRE,,
+CVE-2016-0724,https://github.com/moodle/moodle/commit/4323a973d57a41e19e039a850ad71ebcabae73c1,"add patch commit: https://github.com/moodle/moodle/commit/4323a973d57a41e19e039a850ad71ebcabae73c1. 
+ the commit msg has shown it's a fix for `MDL-52072`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-9287,https://github.com/cambridgeuniversity/ucam-webauth-php/commit/cd471c38612941c213716d4b7dd2dceff607bd04,,v,v,MITRE,,
+CVE-2015-9287,https://github.com/cambridgeuniversity/mod_ucam_webauth/commit/dd4fedbe8192e3b147d9cfe05c8373b2fd8c195e,,v,v,MITRE,,
+CVE-2015-5964,https://github.com/django/django/commit/575f59f9bc7c59a5e41a081d1f5f55fc859c5012,,v,v,,GitHub Advisory,
+CVE-2015-5964,https://github.com/django/django/commit/2f5485346ee6f84b4e52068c04e043092daf55f7,,v,v,,GitHub Advisory,
+CVE-2015-5964,https://github.com/django/django/commit/8cc41ce7a7a8f6bebfdd89d5ab276cd0109f4fc5,,v,v,,GitHub Advisory,
+CVE-2015-5963,https://github.com/django/django/commit/2eb86b01d7b59be06076f6179a454d0fd0afaff6,,v,v,GitHub Advisory,,
+CVE-2015-5342,https://github.com/moodle/moodle/commit/265ddbf30c2a8df2e9becaaa38c2e4b262eb886f,"add patch commit: https://github.com/moodle/moodle/commit/265ddbf30c2a8df2e9becaaa38c2e4b262eb886f. 
+ the commit msg has shown it's a fix for `MDL-51569`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5341,https://github.com/moodle/moodle/commit/03b1f63d40d09c206f641b246110c2371d3068a2,"add patch commit: https://github.com/moodle/moodle/commit/03b1f63d40d09c206f641b246110c2371d3068a2. 
+ the commit msg has shown it's a fix for `MDL-50837`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5340,https://github.com/moodle/moodle/commit/47d5c29202e299fdbe54229d3f6b0c381835eae3,,v,v,GitHub Advisory,,
+CVE-2015-5340,https://github.com/moodle/moodle/commit/47d5c29202e299fdbe54229d3f6b0c381835eae3,"add patch commit: https://github.com/moodle/moodle/commit/47d5c29202e299fdbe54229d3f6b0c381835eae3. 
+ the commit msg has shown it's a fix for `MDL-51684`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5339,https://github.com/moodle/moodle/commit/ed4e707577877f9253e376d22ce307140fcb8c2c,"add patch commit: https://github.com/moodle/moodle/commit/ed4e707577877f9253e376d22ce307140fcb8c2c. 
+ the commit msg has shown it's a fix for `MDL-51861`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5338,https://github.com/moodle/moodle/commit/541c5b8552e0162010d0259c90a04eb63e875958,"add patch commit: https://github.com/moodle/moodle/commit/541c5b8552e0162010d0259c90a04eb63e875958. 
+ the commit msg has shown it's a fix for `MDL-48109`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5337,https://github.com/moodle/moodle/commit/c73f6d03e5037729097bb9f5f5a55be15f3cab18,"add patch commit: https://github.com/moodle/moodle/commit/c73f6d03e5037729097bb9f5f5a55be15f3cab18. 
+ the commit msg has shown it's a fix for `MDL-48085`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5336,https://github.com/moodle/moodle/commit/31d0bf81af079bc285ea439ac5160f9e45697c88,"add patch commit: https://github.com/moodle/moodle/commit/31d0bf81af079bc285ea439ac5160f9e45697c88. 
+ the commit msg has shown it's a fix for `MDL-49940`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5335,https://github.com/moodle/moodle/commit/4bb9e1ad8af12b01499c68543e80f7c12fd557ea,"add patch commit: https://github.com/moodle/moodle/commit/4bb9e1ad8af12b01499c68543e80f7c12fd557ea. 
+ the commit msg has shown it's a fix for `MDL-51091`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5269,https://github.com/moodle/moodle/commit/fa5a3cdedcd92bd96881fa89a6ff5efd80bd3512,"add patch commit: https://github.com/moodle/moodle/commit/fa5a3cdedcd92bd96881fa89a6ff5efd80bd3512. 
+ the commit msg has shown it's a fix for `MDL-50709`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5268,https://github.com/moodle/moodle/commit/731c2712e746053b1ca06b50118632305b447e02,"add patch commit: https://github.com/moodle/moodle/commit/731c2712e746053b1ca06b50118632305b447e02. 
+ the commit msg has shown it's a fix for `MDL-50173`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5267,https://github.com/moodle/moodle/commit/e4ac3879c2d1f8fe66caa74ff1544248bccef61e,"add patch commit: https://github.com/moodle/moodle/commit/e4ac3879c2d1f8fe66caa74ff1544248bccef61e. 
+ the commit msg has shown it's a fix for `MDL-50860`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5266,https://github.com/moodle/moodle/commit/f06d8d94a1f20d4f79376b2dc9e4707835386d97,"add patch commit: https://github.com/moodle/moodle/commit/f06d8d94a1f20d4f79376b2dc9e4707835386d97. 
+ the commit msg has shown it's a fix for `MDL-50744`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5265,https://github.com/moodle/moodle/commit/40a154551fcdf0b9ea906f4d1313df29754f1fa1,"add patch commit: https://github.com/moodle/moodle/commit/40a154551fcdf0b9ea906f4d1313df29754f1fa1. 
+ the commit msg has shown it's a fix for `MDL-48371`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5264,https://github.com/moodle/moodle/commit/cd3a6a78b67abf5c9eb355ddc7899b1b2a9b20ac,"add patch commit: https://github.com/moodle/moodle/commit/cd3a6a78b67abf5c9eb355ddc7899b1b2a9b20ac. 
+ the commit msg has shown it's a fix for `MDL-50516`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-5143,https://github.com/django/django/commit/2e47f3e401c29bc2ba5ab794d483cb0820855fb9,,v,v,,GitHub Advisory,
+CVE-2015-5143,https://github.com/django/django/commit/1828f4341ec53a8684112d24031b767eba557663,,v,v,,GitHub Advisory,
+CVE-2015-5143,https://github.com/django/django/commit/66d12d1ababa8f062857ee5eb43276493720bf16,,v,v,,GitHub Advisory,
+CVE-2015-3982,https://github.com/django/django/commit/31cb25adecba930bdeee4556709f5a1c42d88fd6,,v,v,,GitHub Advisory,
+CVE-2015-3275,https://github.com/moodle/moodle/commit/476e97f280f5fa146f3ab676dd6f07de481ad9e8,"add patch commit: https://github.com/moodle/moodle/commit/476e97f280f5fa146f3ab676dd6f07de481ad9e8. 
+ the commit msg has shown it's a fix for `MDL-50614`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3274,https://github.com/moodle/moodle/commit/e96e66aa16dca5cbcdb1aef0f9499edf86f1404b,"add patch commit: https://github.com/moodle/moodle/commit/e96e66aa16dca5cbcdb1aef0f9499edf86f1404b. 
+ the commit msg has shown it's a fix for `MDL-50130`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3272,https://github.com/moodle/moodle/commit/0339f2c4c1eb34b598b9eee99c3e5436f7533693,"add patch commit: https://github.com/moodle/moodle/commit/0339f2c4c1eb34b598b9eee99c3e5436f7533693. 
+ the commit msg has shown it's a fix for `MDL-50688`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3181,https://github.com/moodle/moodle/commit/57d9a750e3da6708dba13513e9b05e84a895ad9f,"add patch commit: https://github.com/moodle/moodle/commit/57d9a750e3da6708dba13513e9b05e84a895ad9f. 
+ the commit msg has shown it's a fix for `MDL-49994`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3180,https://github.com/moodle/moodle/commit/8b4568500b305f7ddedbca355b73ce34ea4afbc0,"add patch commit: https://github.com/moodle/moodle/commit/8b4568500b305f7ddedbca355b73ce34ea4afbc0. 
+ the commit msg has shown it's a fix for `MDL-49788`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3179,https://github.com/moodle/moodle/commit/f236dcc35c3595dfcc77932d84660056e982a310,"add patch commit: https://github.com/moodle/moodle/commit/f236dcc35c3595dfcc77932d84660056e982a310. 
+ the commit msg has shown it's a fix for `MDL-50090`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3178,https://github.com/moodle/moodle/commit/46be1d58accd39de1027e7bc0b7955713af0151d,"add patch commit: https://github.com/moodle/moodle/commit/46be1d58accd39de1027e7bc0b7955713af0151d. 
+ the commit msg has shown it's a fix for `MDL-49718`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3176,https://github.com/moodle/moodle/commit/4f8b6d567494375017c4bc2228e1668d13b21645,"add patch commit: https://github.com/moodle/moodle/commit/4f8b6d567494375017c4bc2228e1668d13b21645. 
+ the commit msg has shown it's a fix for `MDL-50099`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3175,https://github.com/moodle/moodle/commit/b2687a055dc990ca86ddce178d5aee3fb1df644a,,v,v,GitHub Advisory,,
+CVE-2015-3175,https://github.com/moodle/moodle/commit/dd0607b7bbaff38cc62e4d00658c02da3fdbb4c8,,v,v,GitHub Advisory,,
+CVE-2015-3175,https://github.com/moodle/moodle/commit/db200a8e9f88c8c4a2141ac264062dca74ee2f29,"add patch commit: https://github.com/moodle/moodle/commit/db200a8e9f88c8c4a2141ac264062dca74ee2f29. 
+ the commit msg has shown it's a fix for `MDL-49179`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-3174,https://github.com/moodle/moodle/commit/e51fdfe0cbab19320f139773d83aacb1ad15eb46,"add patch commit: https://github.com/moodle/moodle/commit/e51fdfe0cbab19320f139773d83aacb1ad15eb46. 
+ the commit msg has shown it's a fix for `MDL-49941`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-2317,https://github.com/django/django/commit/2342693b31f740a422abf7267c53b4e7bc487c1b,,v,v,,GitHub Advisory,
+CVE-2015-2317,https://github.com/django/django/commit/5510f070711540aaa8d3707776cd77494e688ef9,,v,v,,GitHub Advisory,
+CVE-2015-2317,https://github.com/django/django/commit/2a4113dbd532ce952308992633d802dc169a75f1,,v,v,,GitHub Advisory,
+CVE-2015-2317,https://github.com/django/django/commit/770427c2896a078925abfca2317486b284d22f04,,v,v,,GitHub Advisory,
+CVE-2015-2316,https://github.com/django/django/commit/b6b3cb9899214a23ebb0f4ebf0e0b300b0ee524f,Django 1.6: https://github.com/django/django/commit/b6b3cb9899214a23ebb0f4ebf0e0b300b0ee524f,v,v,,GitHub Advisory,
+CVE-2015-2316,https://github.com/django/django/commit/e63363f8e075fa8d66326ad6a1cc3391cc95cd97,Django 1.7: https://github.com/django/django/commit/e63363f8e075fa8d66326ad6a1cc3391cc95cd97,v,v,,GitHub Advisory,
+CVE-2015-2316,https://github.com/django/django/commit/5447709a571cd5d95971f1d5d21d4a7edcf85bbd,Django 1.8: https://github.com/django/django/commit/5447709a571cd5d95971f1d5d21d4a7edcf85bbd,v,v,,GitHub Advisory,
+CVE-2015-2273,https://github.com/moodle/moodle/commit/8b6fcfa958204c6f26c410b9a9757612b326b6c7,"add patch commit: https://github.com/moodle/moodle/commit/8b6fcfa958204c6f26c410b9a9757612b326b6c7. 
+ the commit msg has shown it's a fix for `MDL-49364`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-2272,https://github.com/moodle/moodle/commit/bd3b68c8a7a08b4fef407f68cef14b30dd88336e,"add patch commit: https://github.com/moodle/moodle/commit/bd3b68c8a7a08b4fef407f68cef14b30dd88336e. 
+ the commit msg has shown it's a fix for `MDL-48691`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-2271,https://github.com/moodle/moodle/commit/b771b31e20cbf3d39aab877c648cf387e77173ba,"add patch commit: https://github.com/moodle/moodle/commit/b771b31e20cbf3d39aab877c648cf387e77173ba. 
+ the commit msg has shown it's a fix for `MDL-49084`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-2270,https://github.com/moodle/moodle/commit/1edd3d6fbfcc7ac757579a7953f03e3401c0c32d,"add patch commit: https://github.com/moodle/moodle/commit/1edd3d6fbfcc7ac757579a7953f03e3401c0c32d. 
+ the commit msg has shown it's a fix for `MDL-48804`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-2269,https://github.com/moodle/moodle/commit/ead8b28f92da72fb836cf9183aaf6f11a7eb1a21,update another patch,v,v,,,
+CVE-2015-2268,https://github.com/moodle/moodle/commit/07323f50ffc71f8ba1b2914ec8947451e32a61c1,"add patch commit: https://github.com/moodle/moodle/commit/07323f50ffc71f8ba1b2914ec8947451e32a61c1. 
+ the commit msg has shown it's a fix for `MDL-38466`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-2267,https://github.com/moodle/moodle/commit/8d9bdd28e049ca6b6b2a4ab8f142097c2f907df6,"add patch commit: https://github.com/moodle/moodle/commit/8d9bdd28e049ca6b6b2a4ab8f142097c2f907df6. 
+ the commit msg has shown it's a fix for `MDL-49087`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-2266,https://github.com/moodle/moodle/commit/553319be03c4ef8e62499841c8d5d94c6786ed6d,"add patch commit: https://github.com/moodle/moodle/commit/553319be03c4ef8e62499841c8d5d94c6786ed6d. 
+ the commit msg has shown it's a fix for `MDL-49204`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-1833,https://github.com/apache/jackrabbit/commit/26e601934d0f439f0a61d62265f52936d79df40d," https://github.com/apache/jackrabbit/commit/26e601934d0f439f0a61d62265f52936d79df40d, of which the commit message claims `JCR-3883: Jackrabbit WebDAV bundle susceptible to XXE/XEE attack (CVE-2015-1833) (ported to 2.0)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.0@1680822 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2015-1833,https://github.com/apache/jackrabbit/commit/3903739363b79deb7579802fbc27b9b7448218b2," https://github.com/apache/jackrabbit/commit/3903739363b79deb7579802fbc27b9b7448218b2, of which the commit message claims `JCR-3883: Jackrabbit WebDAV bundle susceptible to XXE/XEE attack
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/trunk@1680757 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2015-1833,https://github.com/apache/jackrabbit/commit/ddf9a3cd408397d0805917299c4114b09449373d," https://github.com/apache/jackrabbit/commit/ddf9a3cd408397d0805917299c4114b09449373d, of which the commit message claims `JCR-3883: Jackrabbit WebDAV bundle susceptible to XXE/XEE attack (CVE-2015-1833) (ported to 2.8)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.8@1680785 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2015-1833,https://github.com/apache/jackrabbit/commit/17e9f68f5a3f05ded20569777a7b07422680612d," https://github.com/apache/jackrabbit/commit/17e9f68f5a3f05ded20569777a7b07422680612d, of which the commit message claims `JCR-3883: Jackrabbit WebDAV bundle susceptible to XXE/XEE attack (CVE-2015-1833) (ported to 2.4)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.4@1680798 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2015-1833,https://github.com/apache/jackrabbit/commit/b7fa1ae39641936872617ff95363353b0345b777," https://github.com/apache/jackrabbit/commit/b7fa1ae39641936872617ff95363353b0345b777, of which the commit message claims `JCR-3883: Jackrabbit WebDAV bundle susceptible to XXE/XEE attack (CVE-2015-1833) - add missing test classed (ported to 2.0)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.0@1680837 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2015-1833,https://github.com/apache/jackrabbit/commit/89c5c4ed6ab250ad609829517f167d2dbe0abdd0," https://github.com/apache/jackrabbit/commit/89c5c4ed6ab250ad609829517f167d2dbe0abdd0, of which the commit message claims `JCR-3883: Jackrabbit WebDAV bundle susceptible to XXE/XEE attack (CVE-2015-1833) (ported to 2.6)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.6@1680794 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2015-1833,https://github.com/apache/jackrabbit/commit/6191b366c607e65325a0116097aca8a359b36486," https://github.com/apache/jackrabbit/commit/6191b366c607e65325a0116097aca8a359b36486, of which the commit message claims `JCR-3883: Jackrabbit WebDAV bundle susceptible to XXE/XEE attack (CVE-2015-1833) (ported to 2.2)
+
+git-svn-id: https://svn.apache.org/repos/asf/jackrabbit/branches/2.2@1680800 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2015-1493,https://github.com/moodle/moodle/commit/af9a7937cc085f96bdbc4724cadec6eeae0242fc,"add patch commit: https://github.com/moodle/moodle/commit/af9a7937cc085f96bdbc4724cadec6eeae0242fc. 
+ the commit msg has shown it's a fix for `MDL-48980`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0222,https://github.com/django/django/commit/d7a06ee7e571b6dad07c0f5b519b1db02e2a476c,,v,v,,GitHub Advisory,
+CVE-2015-0222,https://github.com/django/django/commit/bcfb47780ce7caecb409a9e9c1c314266e41d392,,v,v,,GitHub Advisory,
+CVE-2015-0218,https://github.com/moodle/moodle/commit/fb60e23a67931eeba8fc9aacf3cc838e462f21f2,"add patch commit: https://github.com/moodle/moodle/commit/fb60e23a67931eeba8fc9aacf3cc838e462f21f2. 
+ the commit msg has shown it's a fix for `MDL-47964`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0217,https://github.com/moodle/moodle/commit/5329d84f0b5767f5bb800b203bfb89753ac35146,"add patch commit: https://github.com/moodle/moodle/commit/5329d84f0b5767f5bb800b203bfb89753ac35146. 
+ the commit msg has shown it's a fix for `MDL-48546`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0216,https://github.com/moodle/moodle/commit/b9c86823c70a1cba20bca1c4b5b032ee1559e22d,"add patch commit: https://github.com/moodle/moodle/commit/b9c86823c70a1cba20bca1c4b5b032ee1559e22d. 
+ the commit msg has shown it's a fix for `MDL-48034`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0215,https://github.com/moodle/moodle/commit/76aea854f6877cc5accb288bc6ac60bc55d30788,"add patch commit: https://github.com/moodle/moodle/commit/76aea854f6877cc5accb288bc6ac60bc55d30788. 
+ the commit msg has shown it's a fix for `MDL-48017`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0214,https://github.com/moodle/moodle/commit/436bbf8975f0daef329c6483ec595dbf9b39ee56,"add patch commit: https://github.com/moodle/moodle/commit/436bbf8975f0daef329c6483ec595dbf9b39ee56. 
+ the commit msg has shown it's a fix for `MDL-48329`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0213,https://github.com/moodle/moodle/commit/c84888c1ccb25450cbf54e21b1127776aaa3f367,"add patch commit: https://github.com/moodle/moodle/commit/c84888c1ccb25450cbf54e21b1127776aaa3f367. 
+ the commit msg has shown it's a fix for `MDL-48106`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0212,https://github.com/moodle/moodle/commit/82356399b97be933c4d72f9c55b797e49b8c8232,"add patch commit: https://github.com/moodle/moodle/commit/82356399b97be933c4d72f9c55b797e49b8c8232. 
+ the commit msg has shown it's a fix for `MDL-48368`. 
+ update vvr as well.",v,v,GitHub Advisory,,
+CVE-2015-0211,https://github.com/moodle/moodle/commit/da4c33f510aabc0d7443c29a7c097cfd54b6c4a4,,v,v,GitHub Advisory,,
+CVE-2014-9060,https://github.com/moodle/moodle/commit/edc89dfecb3f6891cea019baf2aecce51b3de41a,,v,v,GitHub Advisory,,
+CVE-2014-9059,https://github.com/moodle/moodle/commit/3c98b7a5ad1bb596a738e550fc3bf966d6415fe0,,v,v,GitHub Advisory,,
+CVE-2014-8152,https://github.com/apache/santuario-java/commit/55857fd4cdfdb1af4069170ecdac448c078f544e," https://github.com/apache/santuario-java/commit/55857fd4cdfdb1af4069170ecdac448c078f544e, of which the commit message claims `more signature verification tests
+
+
+git-svn-id: https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1634334 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-7848,https://github.com/moodle/moodle/commit/1993cc02b6b05f45ff1776813567c6b3f91480f4,,v,v,GitHub Advisory,,
+CVE-2014-7847,https://github.com/moodle/moodle/commit/eb46bf2f4e80f4421255f6aee00b73448ba582a7,,v,v,GitHub Advisory,,
+CVE-2014-7846,https://github.com/moodle/moodle/commit/5d0b3b21d6dbabe9e15cd646753a58ee25bd5f73,,v,v,GitHub Advisory,,
+CVE-2014-7845,https://github.com/moodle/moodle/commit/40a04658232d898223462f84d8cd35510338acbe,,v,v,GitHub Advisory,,
+CVE-2014-7838,https://github.com/moodle/moodle/commit/7a311adbba9471edb5a49e4c4b8c356c87f0e44b,,v,v,GitHub Advisory,,
+CVE-2014-7837,https://github.com/moodle/moodle/commit/a481e32f02cdabd2b76aaa06d1d513ffe480e71b,,v,v,GitHub Advisory,,
+CVE-2014-7836,https://github.com/moodle/moodle/commit/babaf596e10ee525e58314b36f8063c65b59aa7d,,v,v,GitHub Advisory,,
+CVE-2014-7835,https://github.com/moodle/moodle/commit/76ae1f6068f63149acc2d8c362af94067f4a227d,,v,v,GitHub Advisory,,
+CVE-2014-7834,https://github.com/moodle/moodle/commit/40afeb4044c9718bf175c347f0f9099a037ce9f0,,v,v,GitHub Advisory,,
+CVE-2014-7833,https://github.com/moodle/moodle/commit/c4a6c65c1bd8536484a9e53e62d3867081dedd6b,,v,v,GitHub Advisory,,
+CVE-2014-7832,https://github.com/moodle/moodle/commit/c844af2569e972195db8bca683c1fdf2ddbc3a59,,v,v,GitHub Advisory,,
+CVE-2014-7831,https://github.com/moodle/moodle/commit/a0095e5a893190ec28f63a89deba7fd89ad1839a,,v,v,GitHub Advisory,,
+CVE-2014-7830,https://github.com/moodle/moodle/commit/b7f75a9c05c65fb1d2f6391f5dd852f9e923a183,,v,v,GitHub Advisory,,
+CVE-2014-4172,https://github.com/apereo/java-cas-client/commit/ab6cbdc3daa451b4fef89c0bd0f4e6568f3aa9ef," https://github.com/apereo/java-cas-client/commit/ab6cbdc3daa451b4fef89c0bd0f4e6568f3aa9ef, of which the commit message claims `Merge pull request #73 from battags/CASC-228
+
+CASC-228 URL Encode Paramaters Passed to Server via Validate`",v,v,,GitHub Advisory,
+CVE-2014-3617,https://github.com/moodle/moodle/commit/8f2e80600bf0fc220b92706907fb3d683602e5c2,,v,v,GitHub Advisory,,
+CVE-2014-3579,https://github.com/apache/activemq-apollo/commit/e5647554e6801a522c508a8eb457979a9af8c398," https://github.com/apache/activemq-apollo/commit/e5647554e6801a522c508a8eb457979a9af8c398, of which the commit message claims `https://issues.apache.org/jira/browse/APLO-366 - make xpath parser features configurable`",v,v,,GitHub Advisory,
+CVE-2014-3577,https://github.com/apache/httpcomponents-client/commit/51cc67567765d67f878f0dcef61b5ded454d3122," https://github.com/apache/httpcomponents-client/commit/51cc67567765d67f878f0dcef61b5ded454d3122, of which the commit message claims `Improved cert subject parsing
+
+git-svn-id: https://svn.apache.org/repos/asf/httpcomponents/httpclient/branches/4.3.x@1614064 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3574,https://github.com/apache/poi/commit/b350d5c5edbf2fa4312ab0f46194a733194ddf55," https://github.com/apache/poi/commit/b350d5c5edbf2fa4312ab0f46194a733194ddf55, of which the commit message claims `Before parsing an OOXML document, reset the xmlbeans sax parser to avoid the risk of getting one in an error state (due to XMLBEANS-512). Should be a minimal extra overhead pending a proper fix. Allows us to finish enabling the unit tests for #54764
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/trunk@1615781 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3574,https://github.com/apache/poi/commit/236c3c52a9b90688b2e57ec503559409e29f33ed," https://github.com/apache/poi/commit/236c3c52a9b90688b2e57ec503559409e29f33ed, of which the commit message claims `Apply suggestions from Uwe Schindler for more secure xml defaults for #54764 and #56164, for xml parsers which support them
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/trunk@1615720 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3574,https://github.com/apache/poi/commit/07771c3d8c7204c14a7a597b4db04a7e828a956f," https://github.com/apache/poi/commit/07771c3d8c7204c14a7a597b4db04a7e828a956f, of which the commit message claims `Add another test file for #54764, and a test that uses it
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/trunk@1615731 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3574,https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c," https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c, of which the commit message claims `Merged revision(s) 1569991, 1615720, 1615731, 1615780-1615781, 1615893, 1589759 from poi/trunk:
+Apply suggestions from Uwe Schindler for more secure xml defaults for #54764 and #56164, for xml parsers which support them
+........
+Add another test file for #54764, and a test that uses it
+........
+Change the default XMLBeans version used for running to be 2.6, leave 2.3 for compiling the schemas (for maximum compatibility)
+........
+Before parsing an OOXML document, reset the xmlbeans sax parser to avoid the risk of getting one in an error state (due to XMLBEANS-512). Should be a minimal extra overhead pending a proper fix. Allows us to finish enabling the unit tests for #54764
+........
+Correct xmlbeans 2.6 url
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3730,https://github.com/django/django/commit/e7b0cace455c2da24492660636bfd48c45a19cdf,v1.7,v,x,,GitHub Advisory,
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/c489416f699a46859c134796b3ccfea41ef3ce52," https://github.com/hibernate/hibernate-validator/commit/c489416f699a46859c134796b3ccfea41ef3ce52, of which the commit message claims `HV-912 Wrapping call to JAXBContext#newInstance() and Unmarshaller#unmarshal() into privileged actions`",v,v,,GitHub Advisory,
+CVE-2014-3612,https://github.com/apache/activemq/commit/0b5231ada5ce365b41832ba8752ee210145d1cbe," https://github.com/apache/activemq/commit/0b5231ada5ce365b41832ba8752ee210145d1cbe, of which the commit message claims `https://issues.apache.org/jira/browse/AMQ-5345 - improve ldap communication`",v,x,,GitHub Advisory,"The vulnerability in GHSA-72m6-23ff-7q26 was fixed in 5.10.1. The commit for the 5.10 branch is apache/activemq@22f2f3d. Since apache/activemq@0b5231a addresses later branches that can be assumed to have the fix, the additional commit is unnecessary."
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/c9525ca544b1281e2b7c7347e86e87c86dc1dc6e," https://github.com/hibernate/hibernate-validator/commit/c9525ca544b1281e2b7c7347e86e87c86dc1dc6e, of which the commit message claims `HV-912 Not exposing accessible-made members`",v,v,,GitHub Advisory,
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/7e7131939a4361a7cad3e77ab89a8462132c561c," https://github.com/hibernate/hibernate-validator/commit/7e7131939a4361a7cad3e77ab89a8462132c561c, of which the commit message claims `HV-912 Wrapping call to SchemaFactory#newSchema() into privileged action`",v,v,,GitHub Advisory,
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/fd4eaed7fb930db6a5e4c03742b4b3adcfecc90e," https://github.com/hibernate/hibernate-validator/commit/fd4eaed7fb930db6a5e4c03742b4b3adcfecc90e, of which the commit message claims `HV-912 Reducing accessibility of some classes and methods`",v,v,,GitHub Advisory,
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/f97c2021a03c825abdeca1692f5be51e77e76a8f," https://github.com/hibernate/hibernate-validator/commit/f97c2021a03c825abdeca1692f5be51e77e76a8f, of which the commit message claims `HV-912 Removing unused method parameter`",v,v,,GitHub Advisory,
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/e8c42b689df8c6752d635d02c6518da3fece3870," https://github.com/hibernate/hibernate-validator/commit/e8c42b689df8c6752d635d02c6518da3fece3870, of which the commit message claims `HV-912 Removing methods from ReflectionHelper which make privileged operations publicly accessible`",v,v,,GitHub Advisory,
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/2c95d4ea0ef20977be249e31a4a4f4f4f71c945d," https://github.com/hibernate/hibernate-validator/commit/2c95d4ea0ef20977be249e31a4a4f4f4f71c945d, of which the commit message claims `HV-912 Adding doPrivileged() block around ClassLoader#loadResource() call`",v,v,,GitHub Advisory,
+CVE-2014-3558,https://github.com/hibernate/hibernate-validator/commit/67fdff14831c035c25e098fe14bd86523d17f726," https://github.com/hibernate/hibernate-validator/commit/67fdff14831c035c25e098fe14bd86523d17f726, of which the commit message claims `HV-912 Wrapping invocation of ClassMate method into privileged action`",v,v,,GitHub Advisory,
+CVE-2014-3553,https://github.com/moodle/moodle/commit/f2946a5419a94f19cb3490a249fe0bb50161f254,,v,v,GitHub Advisory,,
+CVE-2014-3551,https://github.com/moodle/moodle/commit/db5a6e6560c963849f8807184ca32efee6779264,,v,v,GitHub Advisory,,
+CVE-2014-3548,https://github.com/moodle/moodle/commit/cd6e149c86b282b8926155451802799af1402418,,v,v,GitHub Advisory,,
+CVE-2014-3547,https://github.com/moodle/moodle/commit/ea76b652fc4f3600403a61e54f198cc8570a4234,,v,v,GitHub Advisory,,
+CVE-2014-3546,https://github.com/moodle/moodle/commit/9dbf62d23017a91fcbf63bba7f2eb4835f77b8c9,,v,v,GitHub Advisory,,
+CVE-2014-3545,https://github.com/moodle/moodle/commit/82b3260eab2db58dfa9510645fd2c60ee0ce142e,,v,v,GitHub Advisory,,
+CVE-2014-3544,https://github.com/moodle/moodle/commit/ce5a785b0962c3c94c7a7b0d36176482d21db95d,,v,v,GitHub Advisory,,
+CVE-2014-3543,https://github.com/moodle/moodle/commit/595ef4772d330a20c757635ab090acdcc9b2a2fa,,v,v,GitHub Advisory,,
+CVE-2014-3542,https://github.com/moodle/moodle/commit/78ed99ec7e5e75b283e844adb058140d6ba0ff14,,v,v,GitHub Advisory,,
+CVE-2014-3541,https://github.com/moodle/moodle/commit/e29bb97c0756de511ba287b40790d8275a991d33,,v,v,GitHub Advisory,,
+CVE-2014-3529,https://github.com/apache/poi/commit/d72bd78c19dfb7b57395a66ae8d9269d59a87bd2," https://github.com/apache/poi/commit/d72bd78c19dfb7b57395a66ae8d9269d59a87bd2, of which the commit message claims `Fix bug #56164 - Tidy up the OPC SAX setup code with a new common Helper
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/trunk@1569991 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3529,https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c," https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c, of which the commit message claims `Merged revision(s) 1569991, 1615720, 1615731, 1615780-1615781, 1615893, 1589759 from poi/trunk:
+Apply suggestions from Uwe Schindler for more secure xml defaults for #54764 and #56164, for xml parsers which support them
+........
+Add another test file for #54764, and a test that uses it
+........
+Change the default XMLBeans version used for running to be 2.6, leave 2.3 for compiling the schemas (for maximum compatibility)
+........
+Before parsing an OOXML document, reset the xmlbeans sax parser to avoid the risk of getting one in an error state (due to XMLBEANS-512). Should be a minimal extra overhead pending a proper fix. Allows us to finish enabling the unit tests for #54764
+........
+Correct xmlbeans 2.6 url
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3529,https://github.com/apache/poi/commit/6050a68d5adfb4ffef1edb778add09bcee32d1c3," https://github.com/apache/poi/commit/6050a68d5adfb4ffef1edb778add09bcee32d1c3, of which the commit message claims `Two more test files from Stefan Kopf for bug #56164, and unit tests which use them
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/trunk@1589759 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3529,https://github.com/apache/poi/commit/eabb6a924be24abb879372d0bc967e0d316b2cf8," https://github.com/apache/poi/commit/eabb6a924be24abb879372d0bc967e0d316b2cf8, of which the commit message claims `More cleanups for bug #56814 and some more external entity leaks of #56164
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/trunk@1617849 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3529,https://github.com/apache/poi/commit/236c3c52a9b90688b2e57ec503559409e29f33ed," https://github.com/apache/poi/commit/236c3c52a9b90688b2e57ec503559409e29f33ed, of which the commit message claims `Apply suggestions from Uwe Schindler for more secure xml defaults for #54764 and #56164, for xml parsers which support them
+
+git-svn-id: https://svn.apache.org/repos/asf/poi/trunk@1615720 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-3527,https://github.com/spring-projects/spring-security/commit/934937d9c1dc20c396b96c08310b72cfa627acb," https://github.com/spring-projects/spring-security/commit/934937d9c1dc20c396b96c08310b72cfa627acb, of which the commit message claims `SEC-2688: CAS Proxy Ticket Authentication uses Service for host & port`",v,v,,GitHub Advisory,
+CVE-2014-3527,https://github.com/spring-projects/spring-security/commit/2cb99f079152ac05cee5c90457c7feb3bb2de55," https://github.com/spring-projects/spring-security/commit/2cb99f079152ac05cee5c90457c7feb3bb2de55, of which the commit message claims `SEC-2688: CAS Proxy Ticket Authentication uses Service for host & port`",v,v,,GitHub Advisory,
+CVE-2014-2572,https://github.com/moodle/moodle/commit/695a18b6aa9661f812a1a745a888df5acdbd7bc6,,v,v,GitHub Advisory,,
+CVE-2014-2571,https://github.com/moodle/moodle/commit/7051f3a8828665f4fab37c8db91322fec85a64db,,v,v,GitHub Advisory,,
+CVE-2014-1972,https://github.com/apache/tapestry-5/commit/95846b173d83c2eb42db75dae3e7d5e13a633946," https://github.com/apache/tapestry-5/commit/95846b173d83c2eb42db75dae3e7d5e13a633946, of which the commit message claims `TAP5-2008: Implement HMAC signatures on object streams stored on the client`",v,v,,GitHub Advisory,
+CVE-2014-0483,https://github.com/django/django/commit/027bd348642007617518379f8b02546abacaa6e0,v1.4,v,v,,GitHub Advisory,
+CVE-2014-0483,https://github.com/django/django/commit/2a446c896e7c814661fb9c4f212b071b2a7fa446,v1.5,v,v,,GitHub Advisory,
+CVE-2014-0483,https://github.com/django/django/commit/f7c494f2506250b8cb5923714360a3642ed63e0f,v1.6,v,v,,GitHub Advisory,
+CVE-2014-0473,https://github.com/django/django/commit/1170f285ddd6a94a65f911a27788ba49ca08c0b0,v1.4,v,v,,GitHub Advisory,
+CVE-2014-0473,https://github.com/django/django/commit/6872f42757d7ef6a97e0b6ec5db4d2615d8a2bd8,v1.5,v,v,,GitHub Advisory,
+CVE-2014-0473,https://github.com/django/django/commit/d63e20942f3024f24cb8cd85a49461ba8a9b6736,v1.6,v,v,,GitHub Advisory,
+CVE-2014-0473,https://github.com/django/django/commit/380545bf85cbf17fc698d136815b7691f8d023ca,v1.7,v,v,,GitHub Advisory,
+CVE-2014-1418,https://github.com/django/django/commit/7fef18ba9e5a8b47bc24b5bb259c8bf3d3879f2a,v1.7,v,x,,GitHub Advisory,
+CVE-2014-0472,https://github.com/django/django/commit/c1a8c420fe4b27fb2caf5e46d23b5712fc0ac535,v1.4,v,v,,GitHub Advisory,
+CVE-2014-0472,https://github.com/django/django/commit/2a5bcb69f42b84464b24b5c835dca6467b6aa7f1,v1.5,v,v,,GitHub Advisory,
+CVE-2014-0472,https://github.com/django/django/commit/4352a50871e239ebcdf64eee6f0b88e714015c1b,v1.6,v,v,,GitHub Advisory,
+CVE-2014-0481,https://github.com/django/django/commit/3123f8452cf49071be9110e277eea60ba0032216,v1.7,v,x,,GitHub Advisory,
+CVE-2014-0480,https://github.com/django/django/commit/bf650a2ee78c6d1f4544a875dcc777cf27fe93e9,v1.7,v,x,,GitHub Advisory,
+CVE-2014-0474,https://github.com/django/django/commit/34526c2f56b863c2103655a0893ac801667e86ea,v1.7,v,x,,GitHub Advisory,
+,,,,,,,
+CVE-2014-0472,https://github.com/django/django/commit/546740544d7f69254a67b06a3fc7fa0c43512958,v1.7,v,v,,GitHub Advisory,
+CVE-2014-0227,https://github.com/apache/tomcat/commit/593a2447e6ebe465585cfa07e93b5635dffa1c70," https://github.com/apache/tomcat/commit/593a2447e6ebe465585cfa07e93b5635dffa1c70, of which the commit message claims `i18n for ChunkedInputFilter error message
+Add error flag to allow subsequent attempts at reading after an error to fail fast
+
+git-svn-id: https://svn.apache.org/repos/asf/tomcat/trunk@1600984 13f79535-47bb-0310-9956-ffa450edef68`",v,v,,GitHub Advisory,
+CVE-2014-0218,https://github.com/moodle/moodle/commit/c5e8a036c509197bb2927f47c0579992be479f35,,v,v,GitHub Advisory,,
+CVE-2014-0217,https://github.com/moodle/moodle/commit/eaea796e70f6630494d3772684604ab6e907f4ac,,v,v,GitHub Advisory,,
+CVE-2014-0216,https://github.com/moodle/moodle/commit/b04bf988ef47f8fa65dd08ce936ecb774d5d76bd,,v,v,GitHub Advisory,,
+CVE-2014-0214,https://github.com/moodle/moodle/commit/679e323aaab2a968b8e87862e1658814645db525,,v,v,GitHub Advisory,,
+CVE-2014-0213,https://github.com/moodle/moodle/commit/0cd720fe512d48c2af81fc054c042c9c63e8a234,,v,v,GitHub Advisory,,
+CVE-2014-0193,https://github.com/netty/netty/commit/8599ab5bdb761bb99d41a975d689f74c12e4892b," https://github.com/netty/netty/commit/8599ab5bdb761bb99d41a975d689f74c12e4892b, of which the commit message claims `Remove ContinuationWebSocketFrame.aggregatedText()
+
+Motivation:
+Before we aggregated the full text in the WebSocket08FrameDecoder just to fill in the ContinuationWebSocketFrame.aggregatedText(). The problem was that there was no upper-limit and so it would be possible to see an OOME if the remote peer sends a TextWebSocketFrame + a never ending stream of ContinuationWebSocketFrames. Furthermore the aggregation does not really belong in the WebSocket08FrameDecoder, as we provide an extra ChannelHandler for this anyway (WebSocketFrameAggregator).
+
+Modification:
+Remove the ContinuationWebSocketFrame.aggregatedText() method and corresponding constructor. Also refactored WebSocket08FrameDecoder a bit to me more efficient which is now possible as we not need to aggregate here.
+
+Result:
+No more risk of OOME because of frames.`",v,v,,GitHub Advisory,
+CVE-2014-0129,https://github.com/moodle/moodle/commit/100ec861820ce763d4f25a9f98649bb1ae17e7a5,,v,v,GitHub Advisory,,
+CVE-2014-0127,https://github.com/moodle/moodle/commit/1298acc7075614d8f24befe7e50edbd695498d66,,v,v,GitHub Advisory,,
+CVE-2014-0126,https://github.com/moodle/moodle/commit/caf766507771e07c1752ece1f37a32b2b4f6d8b9,,v,v,GitHub Advisory,,
+CVE-2014-0125,https://github.com/moodle/moodle/commit/f4f0aa27d43527c15070d00bc96be879876ccc38,,v,v,GitHub Advisory,,
+CVE-2014-0124,https://github.com/moodle/moodle/commit/dc8f55c30211efd6fac80386e5b3bffef31cca13,,v,v,,,
+CVE-2014-0123,https://github.com/moodle/moodle/commit/3a7b9b76c2d3c58237bec56b3b537e05c23970ad,,v,v,,,
+CVE-2014-0122,https://github.com/moodle/moodle/commit/5c45ea0c6bf2fdf4dddfaef9fc5ff12e6b426a3f,,v,v,,,
+CVE-2014-0109,https://github.com/apache/cxf/commit/f8ed98e684c1a67a77ae8726db05a04a4978a445,,v,v,,GitHub Advisory,
+CVE-2014-0094,https://github.com/apache/struts/commit/74e26830d2849a84729b33497f729e0f033dc147,,v,v,,GitHub Advisory,
+CVE-2013-7398,https://github.com/AsyncHttpClient/async-http-client/commit/3c9152e2c75f7e8b654beec40383748a14c6b51b,,v,v,,GitHub Advisory,
+CVE-2013-7398,https://github.com/AsyncHttpClient/async-http-client/commit/a894583921c11c3b01f160ada36a8bb9d5158e9,,v,v,,GitHub Advisory,
+CVE-2013-7397,https://github.com/AsyncHttpClient/async-http-client/commit/df6ed70e86c8fc340ed75563e016c8baa94d7e72,,v,v,,GitHub Advisory,
+CVE-2013-7341,https://github.com/moodle/moodle/commit/d65634044ebaa738f55bdec521beb42844d6916a,,v,v,,,
+CVE-2013-7285,https://github.com/x-stream/xstream/commit/6344867dce6767af7d0fe34fb393271a6456672d,,v,v,,GitHub Advisory,
+CVE-2013-6408,https://github.com/apache/lucene-solr/commit/7239a57a51ea0f4d05dd330ce5e15e4f72f72747,,v,v,,GitHub Advisory,
+CVE-2013-6407,https://github.com/apache/lucene-solr/commit/f230486ce6707762c1a6e81655d0fac52887906d,,v,v,,GitHub Advisory,
+CVE-2013-6397,https://github.com/apache/lucene-solr/commit/da34b18cb3092df4972e2b6fa5178d1059923910,,v,v,,GitHub Advisory,
+CVE-2013-5960,https://github.com/ESAPI/esapi-java-legacy/commit/b7cbc53f9cc967cf1a5a9463d8c6fef9ed6ef4f7,,v,v,,GitHub Advisory,
+CVE-2013-5823,https://github.com/apache/santuario-java/commit/f9a61f2df9473237aa71308c28113540b4063d33,,v,v,,GitHub Advisory,
+CVE-2013-5823,https://github.com/apache/santuario-java/commit/55a48497dfbf3fe63a81e67c13160b3f41ebb1f3,,v,v,,GitHub Advisory,
+CVE-2013-5679,https://github.com/ESAPI/esapi-java-legacy/commit/41138fef5f63d9cf0d5e05d2bee2c7f682ffef3f,,v,v,,GitHub Advisory,
+CVE-2013-4584,https://github.com/horms/perdition/commit/62a0ce94aeb7dd99155882956ce9e327ab914ddf,the original tagged 'patch ' on the website is not a real patch,v,v,redhat,,
+CVE-2013-4558,https://github.com/apache/subversion/commit/2c77c43e4255555f3b79f761f0d141393a3856cc,,v,v,redhat,,
+CVE-2013-4558,https://github.com/apache/subversion/commit/647e3f8365a74831bb915f63793b63e31fae062d,,v,v,redhat,,
+CVE-2013-4517,https://github.com/apache/santuario-java/commit/a09b9042f7759d094f2d49f40fc7bcf145164b25,,v,v,,GitHub Advisory,
+CVE-2013-4378,https://github.com/javamelody/javamelody/commit/aacbc46151ff4ac1ca34ce0899c2a6113071c66e,,v,v,,GitHub Advisory,
+CVE-2013-4366,https://github.com/apache/httpcomponents-client/commit/08140864e3e4c0994e094c4cf0507932baf6a66,,v,v,,GitHub Advisory,
+CVE-2013-4221,https://github.com/restlet/restlet-framework-java/commit/c3015e4783c2a36e7528aa611c911b7d8c4ec5b,,v,v,,GitHub Advisory,
+CVE-2013-4221,https://github.com/restlet/restlet-framework-java/commit/b85c2ef182c69c5e2e21df008ccb249ccf80c7b,,v,v,,GitHub Advisory,
+CVE-2013-4221,https://github.com/restlet/restlet-framework-java/commit/12cc79b3953c7bd276e9f1cae2fbfdb9c1a6f07,,v,v,,GitHub Advisory,
+CVE-2013-4002,https://github.com/apache/xerces2-j/commit/266e837852e0f0e3c8c1ad572b6fc4dbb4ded17,,v,v,,GitHub Advisory,
+CVE-2013-4002,https://github.com/apache/xerces2-j/commit/628cbc7142ef9acfb61b8e571aab63504235849,,v,v,,GitHub Advisory,
+CVE-2013-2186,https://github.com/apache/commons-fileupload/commit/163a6061fbc077d4b6e4787d26857c2baba495d1,,v,v,,GitHub Advisory,
+CVE-2013-2185,https://github.com/apache/tomcat/commit/e246e5fc13307da0a5d3bbf860d64d97be1c40f8,,v,v,,GitHub Advisory,
+CVE-2013-2172,https://github.com/apache/santuario-java/commit/8e8f8bf92a43608d7d5f9e357fae19244454a61f,,v,v,,GitHub Advisory,
+CVE-2013-1965,https://github.com/apache/struts/commit/7e6f641ebb142663cbd1653dc49bed725edf7f56,,v,v,,GitHub Advisory,
+CVE-2013-1836,https://github.com/moodle/moodle/commit/ac5fc5953426befb1232106ade9e42ff239d9b63,,v,v,GitHub Advisory,,
+CVE-2013-1835,https://github.com/moodle/moodle/commit/31581ae65df05ea64031ac24c8b8f817414f1379,,v,v,GitHub Advisory,,
+CVE-2013-1834,https://github.com/moodle/moodle/commit/6a9235c998dab2ec0ddc49898a59dd5089156cb0,,v,v,GitHub Advisory,,
+CVE-2013-1833,https://github.com/moodle/moodle/commit/954b35451112c333c0ae77dff25dafbf41587c26,,v,v,GitHub Advisory,,
+CVE-2013-1832,https://github.com/moodle/moodle/commit/ce96f23fe15ce6addc2f56af015452c3ea406190,,v,v,GitHub Advisory,,
+CVE-2013-1831,https://github.com/moodle/moodle/commit/8d220cb552d9c55b98aef70e2f40ef560efeb79b,,v,v,GitHub Advisory,,
+CVE-2013-1830,https://github.com/moodle/moodle/commit/3ecc63e9dbe29c6a5a8f65fa8e7980ba0fffb5a8,,v,v,GitHub Advisory,,
+CVE-2013-1777,https://github.com/apache/geronimo/commit/ee031c5e62b0d358250d06c2aa6722518579a6c5,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/87a4452be08b4f97274d0ccfac585ae85841e470,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/521fecd2d9b91c27e9f90d97e5f5479d17239eb8,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/d3c68ad3bb9aa0e4e9abbfdec691abb06df642a5,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/01bc0d257b38743372af91cb88269524634db7d3,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/f4ca597b9a7000a88ad6bbe556283247e9f6bc14,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/b8933dc24b84e7e7430ece56bd645d425dd89f24,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/ad5cd6fb86af8809b367f709b6e041218055de2f,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/4487017fbf57fb7aed4024e0991850bb89fc1c43,,v,v,,GitHub Advisory,
+CVE-2013-1768,https://github.com/apache/openjpa/commit/7f14c7df6b7c7ef42f0671138b9b5dd062fe99aa,,v,v,,GitHub Advisory,
+CVE-2013-1665,https://github.com/django/django/commit/d19a27066b2247102e65412aa66917aff0091112,v1.4,v,v,,GitHub Advisory,
+CVE-2013-1665,https://github.com/django/django/commit/1c60d07ba23e0350351c278ad28d0bd5aa410b40,v1.5,v,v,,GitHub Advisory,
+CVE-2013-1665,https://github.com/django/django/commit/c6d69c12ea7ee9ad35abc7dbf95e00d624d0df5d,v1.6a1,v,v,,GitHub Advisory,
+CVE-2013-1664,https://github.com/django/django/commit/d19a27066b2247102e65412aa66917aff0091112,v1.4,v,v,,GitHub Advisory,
+CVE-2013-1664,https://github.com/django/django/commit/1c60d07ba23e0350351c278ad28d0bd5aa410b40,v1.5,v,v,,GitHub Advisory,
+CVE-2013-1664,https://github.com/django/django/commit/c6d69c12ea7ee9ad35abc7dbf95e00d624d0df5d,v1.6a1,v,v,,GitHub Advisory,
+CVE-2013-0239,https://github.com/apache/cxf/commit/295a4e2f9eb3e7e0513980202949ccc424dee2d4,,v,v,,GitHub Advisory,
+CVE-2012-6153,https://github.com/apache/httpcomponents-client/commit/6e14fc146a66e0f3eb362f45f95d1a58ee18886a,,v,v,,GitHub Advisory,
+CVE-2012-6112,https://github.com/moodle/moodle/commit/48d2e1117fbb34510b3567b65120b94ae2b4c9fc,,v,v,GitHub Advisory,,
+CVE-2012-6092,https://github.com/apache/activemq/commit/51eb87a84be88d28383ea48f6e341ffe1203c5ba,,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/b06f7b41c936ef1a79589d16ea5c1d8b93f71f66,https://svn.apache.org/viewvc?view=revision&revision=1332540,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/6e95697e783767f3549f00d7d2e1b002eac4a3d4,https://svn.apache.org/viewvc?view=revision&revision=1332552,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/1ce57d976c4f25fe99edcadf079840c278f3cb84,https://svn.apache.org/viewvc?view=revision&revision=1333522,v,v,,GitHub Advisory,
+CVE-2013-1443,https://github.com/django/django/commit/aae5a96d5754ad34e48b7f673ef2411a3bbc1015,,v,x,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/020c03d8ef579e80511023fb46ece30e9c3dd27d,https://svn.apache.org/viewvc?view=revision&revision=1337444,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/ea31005111f0abede7e43e4ba0012e62e0808b22,https://svn.apache.org/viewvc?view=revision&revision=1340715,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/cca0e6e5341aacddefd4c4d36cef7cbdbc2a8777,https://svn.apache.org/viewvc?view=revision&revision=1340723,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/fdd7459bc5470e90024dbe762249166481cce769,https://svn.apache.org/viewvc?view=revision&revision=1340757,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/0600296ab8f8a0bbdfedd483f51b38005eb8e34e,https://svn.apache.org/viewvc?view=revision&revision=1340786,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/2ab2fcb356753927afaa731b9d2dcc47d3083408,https://svn.apache.org/viewvc?view=revision&revision=1340787,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/6ced422bf5eca3aac05396367bafb33ec21bf74e,https://svn.apache.org/viewvc?view=revision&revision=1340790,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/654222e628097763ee6ca561ae77be5c06666173,https://svn.apache.org/viewvc?view=revision&revision=1340795,v,v,,GitHub Advisory,
+CVE-2012-2098,https://github.com/apache/commons-compress/commit/8f702469cbf4c451b6dea349290bc4af0f6f76c7,https://svn.apache.org/viewvc?view=revision&revision=1340799,v,v,,GitHub Advisory,
+CVE-2012-0213,https://github.com/apache/poi/commit/c702bc5ce58f9f11f408c7568cc96382c76641ef,,v,v,,GitHub Advisory,
+CVE-2012-0022,https://github.com/apache/tomcat55/commit/0314fe7743cb72e469cb395ccaaf2793a2ea0355,,v,v,,GitHub Advisory,
+CVE-2012-0022,https://github.com/apache/tomcat55/commit/b05497eff4311a9657de6dfc53511d0309eb9db4,,v,v,,GitHub Advisory,
+CVE-2012-0022,https://github.com/apache/tomcat55/commit/7a1cfb6bd2f849806e7c060dda8648409ad8714e,,v,v,,GitHub Advisory,
+CVE-2011-4461,https://github.com/eclipse/jetty.project/commit/d0b81a185c260ffceecb9d7470b3ddfbfeda4c11,,v,v,,GitHub Advisory,
+CVE-2011-4461,https://github.com/eclipse/jetty.project/commit/979d6dbbf9416b1a0ad965e2b8a3b11a2d208627,,v,v,,GitHub Advisory,
+CVE-2011-4137,https://github.com/django/django/commit/7268f8af86186518821d775c530d5558fd726930,v1.2,v,v,,GitHub Advisory,
+CVE-2011-4137,https://github.com/django/django/commit/1a76dbefdfc60e2d5954c0ba614c3d054ba9c3f0,v1.3,v,v,,GitHub Advisory,
+CVE-2011-4136,https://github.com/django/django/commit/ac7c3a110f906e4dfed3a17451bf7fd9fcb81296,v1.2,v,v,,GitHub Advisory,
+CVE-2011-4136,https://github.com/django/django/commit/fbe2eead2fa9d808658ca582241bcacb02618840,v1.3,v,v,,GitHub Advisory,
+CVE-2011-1498,https://github.com/apache/httpcomponents-client/commit/a572756592c969affd0ce87885724e74839176fb,,v,v,,GitHub Advisory,
+CVE-2011-0698,https://github.com/django/django/commit/570a32a047ea56265646217264b0d3dab1a14dbd,v1.1,v,v,,GitHub Advisory,
+CVE-2011-0698,https://github.com/django/django/commit/194566480b15cf4e294d3f03ff587019b74044b2,v1.2,v,v,,GitHub Advisory,
+CVE-2011-0696,https://github.com/django/django/commit/408c5c873ce1437c7eee9544ff279ecbad7e150a,v1.1,v,v,,GitHub Advisory,
+CVE-2011-0696,https://github.com/django/django/commit/818e70344e7193f6ebc73c82ed574e6ce3c91afc,v1.2,v,v,,GitHub Advisory,
+CVE-2011-0448,https://github.com/rails/rails/commit/354da43ab0a10b3b7b3f9cb0619aa562c3be8474,,v,v,MITRE,,
+CVE-2010-4535,https://github.com/django/django/commit/7f8dd9cbac074389af8d8fd235bf2cb657227b9a,,v,v,,GitHub Advisory,
+CVE-2010-4535,https://github.com/django/django/commit/d5d8942a160685c403d381a279e72e09de5489a9,,v,v,,GitHub Advisory,
+CVE-2010-4534,https://github.com/django/django/commit/17084839fd7e267da5729f2a27753322b9d415a0,,v,v,,GitHub Advisory,
+CVE-2010-4534,https://github.com/django/django/commit/85207a245bf09fdebe486b4c7bbcb65300f2a693,,v,v,,GitHub Advisory,
+CVE-2010-4172,https://github.com/apache/tomcat/commit/5971f9392edc6d70808b2599b062b050fcd11d23,,v,v,,GitHub Advisory,
+CVE-2010-0684,https://github.com/apache/activemq/commit/2895197d0dad246757d8d1d9eea181cbf0543ae9,,v,v,,GitHub Advisory,
+CVE-2010-0684,https://github.com/apache/activemq/commit/fed39c3619825bd92990cf1aa7a4e85119e00a6e,,v,v,,GitHub Advisory,
+CVE-2010-0684,https://github.com/apache/activemq/commit/9dc43f3ffe85c9c56faee235a21f23bfceb865c8,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/e47a65896bd12e23e090436c0b6e2478f162ae3e,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/8bf8fbddc409167774ae425b17d81928481a9ae0,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/5aa135f01ddcaa227c3db72bb08715bbb2ca19d2,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/13c980be3edf51dee1a3e5acfbeaa5101ee27834,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/232fb428b7c6b11a518bca942613e458f1960f94,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/eef44e37a15f5850171c3aae15b1777ce8de847d,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/34125e42d1db74064482c296c871e11c92dc4527,,v,v,,GitHub Advisory,
+CVE-2010-0432,https://github.com/apache/ofbiz/commit/50983b72a329851f88a013630b718efbd4c291bf,,v,v,,GitHub Advisory,
+CVE-2009-3965,https://github.com/django/django/commit/594a28a9044120bed58671dde8a805c9e0f6c79a,,v,v,,GitHub Advisory,
+CVE-2009-3965,https://github.com/django/django/commit/e3e992e18b368fcd56aabafc1b5bf80a6e11b495,,v,v,,GitHub Advisory,
+CVE-2009-3555,https://github.com/eclipse/jetty.project/commit/b90ad09443e1771e37d23e393afe842759c20454,,v,v,,GitHub Advisory,
+CVE-2009-3555,https://github.com/eclipse/jetty.project/commit/b4390f98529fce165e6394b94122b427fdfb8a5e,,v,v,,GitHub Advisory,
+CVE-2009-3555,https://github.com/eclipse/jetty.project/commit/102625b86c8e82e0e3d02a71028ba62795aff52b,,v,v,,GitHub Advisory,
+CVE-2009-3555,https://github.com/apache/tomcat55/commit/359c7ee17f5759cc99988e1cc9e971fe4a6ffad5,,v,v,,GitHub Advisory,
+CVE-2009-3555,https://github.com/apache/tomcat/commit/30af3f5630542a2340781f66553e734a6fd69701,,v,v,,GitHub Advisory,
+CVE-2009-2902,https://github.com/apache/tomcat55/commit/0299cb724ea71f304d54adfcdb950f59b01fb421,,v,v,,GitHub Advisory,
+CVE-2009-2902,https://github.com/apache/tomcat/commit/3e1010b1a2f648581fac3d68afbf18f2979f6bf6,,v,v,,GitHub Advisory,
+CVE-2009-2901,https://github.com/apache/tomcat55/commit/0299cb724ea71f304d54adfcdb950f59b01fb421,,v,v,,GitHub Advisory,
+CVE-2009-2901,https://github.com/apache/tomcat/commit/3e1010b1a2f648581fac3d68afbf18f2979f6bf6,,v,v,,GitHub Advisory,
+CVE-2009-2693,https://github.com/apache/tomcat/commit/3e1010b1a2f648581fac3d68afbf18f2979f6bf6,,v,v,,GitHub Advisory,
+CVE-2009-2693,https://github.com/apache/tomcat55/commit/0299cb724ea71f304d54adfcdb950f59b01fb421,,v,v,,GitHub Advisory,
+CVE-2009-2625,https://github.com/apache/xerces2-j/commit/0bdf77af1d4fd26ec2e630fb6d12e2dfa77bc12b,,v,v,,GitHub Advisory,
+CVE-2009-0039,https://github.com/apache/geronimo/commit/67dda0760bb0925ead201ddd5d809ff53686d63f,,v,v,,GitHub Advisory,
+CVE-2009-0039,https://github.com/apache/geronimo/commit/f8a612df7b06729bfd6c826e1a110d4bb40dc1f5,,v,v,,GitHub Advisory,
+CVE-2009-0039,https://github.com/apache/geronimo/commit/aa0c2c26dde8930cad924796af7c17a13d236b16,,v,v,,GitHub Advisory,
+CVE-2009-0038,https://github.com/apache/geronimo/commit/aa0c2c26dde8930cad924796af7c17a13d236b16,,v,v,,GitHub Advisory,
+CVE-2009-0038,https://github.com/apache/geronimo/commit/67dda0760bb0925ead201ddd5d809ff53686d63f,,v,v,,GitHub Advisory,
+CVE-2009-0038,https://github.com/apache/geronimo/commit/f8a612df7b06729bfd6c826e1a110d4bb40dc1f5,,v,v,,GitHub Advisory,
+CVE-2008-5518,https://github.com/apache/geronimo/commit/f8a612df7b06729bfd6c826e1a110d4bb40dc1f5,,v,v,,GitHub Advisory,
+CVE-2008-5518,https://github.com/apache/geronimo/commit/67dda0760bb0925ead201ddd5d809ff53686d63f,,v,v,,GitHub Advisory,
+CVE-2008-5518,https://github.com/apache/geronimo/commit/aa0c2c26dde8930cad924796af7c17a13d236b16,,v,v,,GitHub Advisory,
+CVE-2008-5515,https://github.com/apache/tomcat/commit/6b61911f94d6d8d49ee933c5f1882a7e7c336d2c,,v,v,,GitHub Advisory,
+CVE-2008-3909,https://github.com/django/django/commit/44debfeaa4473bd28872c735dd3d9afde6886752,,v,v,,GitHub Advisory,
+CVE-2008-3909,https://github.com/django/django/commit/aee48854a164382c655acb9f18b3c06c3d238e81,,v,v,,GitHub Advisory,
+CVE-2008-3909,https://github.com/django/django/commit/7e0972bded362bc4b851c109df2c8a6548481a8e,,v,v,,GitHub Advisory,
+CVE-2008-2938,https://github.com/apache/tomcat/commit/150bc791ac3ba40081425dd1c37a053fbb02b339,,v,v,,GitHub Advisory,
+CVE-2008-2302,https://github.com/django/django/commit/6e657e2c404a96e744748209e896d8a69c15fdf2,backporting,v,v,,GitHub Advisory,
+CVE-2008-2302,https://github.com/django/django/commit/50ce7fb57d79e8940ccf6e2781f2f01df029b5c5,backporting,v,v,,GitHub Advisory,
+CVE-2008-2302,https://github.com/django/django/commit/7791e5c050cebf86d868c5dab7092185b125fdc9,backporting,v,v,,GitHub Advisory,
+CVE-2008-1947,https://github.com/apache/tomcat/commit/49c71fc59c1b8f8da77aea9eb53e61db168aebab,,v,v,,GitHub Advisory,
+CVE-2008-1728,https://github.com/igniterealtime/Openfire/commit/c9cd1e521673ef0cccb8795b78d3cbaefb8a576a,,v,v,,GitHub Advisory,
+CVE-2007-5712,https://github.com/django/django/commit/8bc36e726c9e8c75c681d3ad232df8e882aaac81,,v,v,,GitHub Advisory,
+CVE-2007-5712,https://github.com/django/django/commit/412ed22502e11c50dbfee854627594f0e7e2c234,,v,v,,GitHub Advisory,
+CVE-2007-5712,https://github.com/django/django/commit/7dd2dd08a79e388732ce00e2b5514f15bd6d0f6f,,v,v,,GitHub Advisory,
+CVE-2007-2450,https://github.com/apache/tomcat/commit/1bc3bcb2848f478fd6674487d6dad507fd5dd686,,v,v,,GitHub Advisory,
+CVE-2007-0405,https://github.com/django/django/commit/e89f0a65581f82a5740bfe989136cea75d09cd67,,v,v,,GitHub Advisory,
+CVE-2024-32113,https://github.com/apache/ofbiz-framework/commit/f599c60f0a,"add two patches 
+https://github.com/apache/ofbiz-framework/commit/f599c60f0a
+https://github.com/apache/ofbiz-framework/commit/b3b87d98dd
+also mentioned by the bug report https://issues.apache.org/jira/browse/OFBIZ-13006.",v,,,GitHub Advisory,
+CVE-2024-32113,https://github.com/apache/ofbiz-framework/commit/b3b87d98dd,"add two patches 
+https://github.com/apache/ofbiz-framework/commit/f599c60f0a
+https://github.com/apache/ofbiz-framework/commit/b3b87d98dd
+also mentioned by the bug report https://issues.apache.org/jira/browse/OFBIZ-13006.",v,,,GitHub Advisory,
+CVE-2007-0404,https://github.com/django/django/commit/6eefa521be3c658dc0b38f8d62d52e9801e198ab,0.9,v,v,,GitHub Advisory,
+CVE-2007-0404,https://github.com/django/django/commit/d31e39173c29537e6a1613278c93634c18a3206e,0.91,v,v,,GitHub Advisory,
+CVE-2007-0404,https://github.com/django/django/commit/a132d411c6986418ee6c0edc331080aa792fee6e,0.95,v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/keycloak/keycloak/commit/0d0530046b9cb4b0d74d2fdefc9bd04f1d20cac0,,v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/keycloak/keycloak/commit/1f56a9e48bf96c3bcb18dfc6cd93e3dd16f281f1,,v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/keycloak/keycloak/commit/bde8568d4174a7072f7c7bb507d2c7d05824b1a6,not updated into GitHub advisory along with no clarification (maybe they think duplicate although as a real patch),v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/rmartinc/keycloak/commit/02bb60505f8c4472d7564f71a8eb38450f861fd5,not updated into GitHub advisory along with no clarification (maybe they think duplicate although as a real patch),v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/rmartinc/keycloak/commit/768f5d1d48a2ad981c08067104c8e10eb433cd6c,not updated into GitHub advisory along with no clarification (maybe they think duplicate although as a real patch),v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/rmartinc/keycloak/commit/d30512c07aa0f225c30e2c9b49ac16912a91ba13,not updated into GitHub advisory along with no clarification (maybe they think duplicate although as a real patch),v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/rmartinc/keycloak/commit/446476adf9ad320278104f38684779d2a83c318a,not updated into GitHub advisory along with no clarification (maybe they think duplicate although as a real patch),v,v,,GitHub Advisory,
+CVE-2024-5967,https://github.com/rmartinc/keycloak/commit/81336a510fcd03e804c9140c58ae7c390c0fe098,not updated into GitHub advisory along with no clarification (maybe they think duplicate although as a real patch),v,v,,GitHub Advisory,
