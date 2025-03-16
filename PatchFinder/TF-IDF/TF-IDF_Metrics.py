@@ -1,11 +1,15 @@
-### Used to calculate TF-IDF similarity between query and document first
-# TF-IDF similarity
+### This script needs to use the results of `TF-IDF_Calculate_Similarity.py`, and use them to rank the commits.
+
+### This script is used as the Lexical-based retriever.
+### It aims to rank commits by using TF-IDF similarity only. (So it can also be used to conduct the ablation study (to show the effectiveness of using Lexical-based similarity)
+
+
 import os
 from tqdm import tqdm
 import pandas as pd
 
-DATA_DIR = '/mnt/local/Baselines_Bugs/PatchFinder/TF-IDF'
-DATA_TMP_DIR = '/mnt/local/Baselines_Bugs/PatchFinder/TF-IDF/tmp_0830'
+DATA_DIR = './PatchFinder/TF-IDF'
+DATA_TMP_DIR = '/mnt/local/Baselines_Bugs/PatchFinder/TF-IDF/tmp_0830' # to save the evaluation results for three metrics, i.e., recall, MRR, ME.
 os.makedirs(DATA_TMP_DIR, exist_ok=True)
     
 ### calculate the Top@K recall by using the rank info
