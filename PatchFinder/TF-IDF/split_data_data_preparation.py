@@ -1,3 +1,14 @@
+'''
+This script is used to split the data for training and testing. (8:1:1)
+
+The only thing you need to care about is the format of the data.
+
+You can refer to the samples from 
+https://github.com/MarkLee131/PatchFinder/tree/main/data/samples
+to check it.
+'''
+
+
 # import nltk
 # import numpy as np
 import os
@@ -13,9 +24,9 @@ import numpy as np
 ##### 2023.07.18
 ##### Used to split the data for training and testing
 
-DATA_DIR = '/data/kaixuan/ramdisk/data'
-DATA_TMP_DIR = '/data/kaixuan/data_tmp'
-SPLIT_DATA_DIR = '/data/kaixuan/data_tmp/split_data'
+DATA_DIR = '/data/kaixuan/ramdisk/data' ### do not care about these three folders, since they were used to save the splitted data only and was deprecated already.
+DATA_TMP_DIR = '/data/kaixuan/data_tmp' ### for tmp usage, do not care.
+SPLIT_DATA_DIR = '/data/kaixuan/data_tmp/split_data' ### save the splitted data temporarily, and then I copied it to my `data` folder. 
 os.makedirs(SPLIT_DATA_DIR, exist_ok=True)
 
 if __name__ == '__main__':
