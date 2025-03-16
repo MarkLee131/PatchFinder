@@ -1,4 +1,4 @@
-### This script needs to use the results of `TF-IDF_Calculate_Similarity.py`, and use them to rank the commits.
+### This script needs to use the results of `tf-idf_calculate_similarity.py`, and use them to rank the commits.
 
 ### This script is used as the Lexical-based retriever.
 ### It aims to rank commits by using TF-IDF similarity only. (So it can also be used to conduct the ablation study (to show the effectiveness of using Lexical-based similarity)
