@@ -1,3 +1,11 @@
+'''
+This script is used for Ablation study only:
+
+- use msg only, then calculate the TF-IDF scores.
+- use diff only, then calculate the TF-IDF scores.
+'''
+
+
 # import nltk
 import numpy as np
 import os
