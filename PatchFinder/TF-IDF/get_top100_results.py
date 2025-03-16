@@ -3,9 +3,11 @@ import os
 from tqdm import tqdm
 
 '''
+For RQ2: Ablation study usage only. 
+
 Date: 24/08/2023
-Purpose: Filter the commits by using TF-IDF score.
-we try to filter only top 100 commits for each CVE according to the TF-IDF score.
+Purpose: Filter the commits by using TF-IDF score only.
+we try to filter only top 100 commits for each CVE according to the TF-IDF score. For ablation study usage.
 '''
 
 DATA_DIR = '/mnt/local/Baselines_Bugs/PatchFinder/data'
@@ -14,7 +16,7 @@ DATA_DIR = '/mnt/local/Baselines_Bugs/PatchFinder/data'
 # #  84G   train_data.csv
 # #  11G   validate_data.csv
 
-tf_idf_df = pd.read_csv('/mnt/local/Baselines_Bugs/PatchFinder/TF-IDF/similarity_data_TFIDF.csv')
+tf_idf_df = pd.read_csv('/mnt/local/Baselines_Bugs/PatchFinder/TF-IDF/similarity_data_TFIDF.csv') ## you can prepare this data by using `TF-IDF_Calculate_Similarity.py`
 # cve,owner,repo,commit_id,similarity,label
 # 2.0G Aug 24 12:18 similarity_data_TFIDF.csv
 
