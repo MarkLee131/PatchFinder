@@ -17,7 +17,7 @@ In this paper, we propose PatchFinder, a two-phase framework with end-to-end cor
 When applying PatchFinder in practice, we initially identified 533 patch commits (average rank at 1.65) and submitted them to the official, 482 of which have been confirmed by CVE Numbering Authorities.
 
 
-![overview of out approach](./overview-github.png)
+![overview of our approach](./overview-github.png)
 
 ## Structure of this repository
 
